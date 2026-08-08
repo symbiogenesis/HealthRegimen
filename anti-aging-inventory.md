@@ -217,15 +217,17 @@ Berberine's AVOID is pharmacokinetic — a potent CYP3A4 and P-gp inhibitor that
 |---:|:---:|---|---|:---:|:---:|
 | **6** | 2×3 | Rapamycin 5–6 mg weekly | mTORC1 | monitor | low |
 | **4** | 2×2 | Time-restricted feeding / periodic FMD | AAR, FGF21, autophagy | ok | low |
-| **4** | 2×2 | Methionine reduction via food choice *(protein constant)* | SAM/SAH, FGF21, IGF-1 | ok | low |
+| **4** | 2×2 | Methionine source shifting *(protein constant)* | amino acid composition — SAM/SAH, FGF21, IGF-1 | ok | low |
 | **1** | 1×1 | Methionine restriction <1 g/day, 5 days/week | SAM/SAH, FGF21, IGF-1 | **AVOID as specified** | moderate |
 | **1** | 1×1 | Methioninase (oral rMETase) | methionine degradation | **AVOID** | moderate |
 
 Everything here pushes the same direction: down-regulate mTORC1 and IGF-1 signalling, favour autophagy and catabolic housekeeping, reduce the substrate available for anabolic error. This is the arm your hypothesis calls the pruning phase, and the framing is fair.
 
-Two things are worth flagging inside the family. **Rapamycin's ~62 h half-life is an argument for block scheduling rather than weekly dosing** — five half-lives is about 13 days, so weekly dosing never cleanly separates from a 3×/week lifting schedule, while a block structure separates them completely. Bitto 2016 (*eLife*) found transient 3-month rapamycin in middle-aged mice produced persistent lifespan benefit, which is the pharmacological precedent for pulsed use.
+Three things are worth flagging inside the family. **Rapamycin's ~62 h half-life is an argument for block scheduling rather than weekly dosing** — five half-lives is about 13 days, so weekly dosing never cleanly separates from a 3×/week lifting schedule, while a block structure separates them completely. Bitto 2016 (*eLife*) found transient 3-month rapamycin in middle-aged mice produced persistent lifespan benefit, which is the pharmacological precedent for pulsed use.
 
 And **FMD is already a cycle protocol** — 5 days on, then refeeding, a few times a year. Its score of 4 understates its relevance to Part 4, because it is the only item in this family with human trial infrastructure built around alternation rather than continuous administration.
+
+**The methionine rows are graded on sufficiency, not on depth of cut.** The spread from 4 to 1 across them is not a dose-response where more restriction earns a worse flag for being aggressive — it is the shape of Longo's own curve, where too little methionine causes frailty and too much abolishes the benefit. Source shifting scores 4 because it lands inside that window; the sub-gram protocol and methioninase score 1 because they aim past it. Two practical consequences follow. Methionine work is **not** a substitute for the fasting cycles — the FGF21 and IGF-1 mechanisms overlap, but nothing in the dietary-composition literature touches the hematopoietic and immune reconstitution that fasting/refeeding produces, which is the specific reason FMD earns its place in Part 4. But it **is** compatible with an SGLT2 inhibitor, because composition at constant calories and carbohydrate is not a ketoacidosis precipitant. Methionine work runs in the anti-growth block either way; it is not the variable in the choice below.
 
 ### 2.5 GH / IGF-1 and anabolism — the pro-growth arm
 
@@ -484,7 +486,7 @@ Offered as a starting structure, not a protocol — nobody has tested this, and 
 |---|---|---|---|---|
 | 1–6 | **Pro-growth** | Resistance 3–4×/wk, progressive; cardio maintained at 2×/wk | Protein 1.6 g/kg/day distributed; adequate methionine; energy at or slightly above maintenance | Creatine 5 g/day. Nothing anti-growth. No antioxidant supplements near training. |
 | 7–8 | Transition down | Taper resistance volume to maintenance | Protein holds at 1.2–1.6 | IGF-1 normalizing; nothing new started |
-| 9–20 | **Anti-growth** | Resistance 1–2×/wk at maintenance volume; cardio 3×/wk | Protein holds ≥1.2 g/kg while on tirzepatide; shift methionine *sources* (legumes, soy, dairy) rather than cutting protein; 1–2 FMD cycles | Rapamycin only if you decide it's worth 6 points; last dose ≥2 wk before week 21. **An SGLT2 inhibitor and the FMD cycles are mutually exclusive — pick one for this block.** |
+| 9–20 | **Anti-growth** | Resistance 1–2×/wk at maintenance volume; cardio 3×/wk | Protein holds ≥1.2 g/kg while on tirzepatide; shift methionine *sources* (legumes, soy, dairy) with methionine kept sufficient, rather than cutting protein; 1–2 FMD cycles | Rapamycin only if you decide it's worth 6 points; last dose ≥2 wk before week 21. **An SGLT2 inhibitor and the FMD cycles are mutually exclusive — pick one for this block.** |
 | 21–22 | Transition up | Volume ramps | Protein to 1.6 | Rapamycin fully cleared before resistance volume rises |
 | 23–28 | **Pro-growth** | repeat | repeat | repeat |
 

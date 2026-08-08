@@ -271,15 +271,19 @@ Score stays at 6 because the human evidence is what it is. If you run growth cyc
 **2 × 2 = 4** · OK · low · free
 **Target:** amino acid response, FGF21, autophagy · **Measure:** FGF21; IGF-1; weight
 **Cautions:** **do not run while on an SGLT2 inhibitor — this is the precipitant that makes that combination dangerous**
-**Why:** E2 — human trials exist but measure surrogates over short horizons. B2 — modest. Listed mainly because it is the human-data version of the FGF21 signal you are chasing with methionine restriction, at a fraction of the risk.
+**Why:** E2 — human trials exist but measure surrogates over short horizons. B2 — modest. Listed mainly because it reaches the FGF21 signal by a route that never pushes an amino acid below requirement, and because the fasting/refeeding cycle carries regenerative data that no dietary composition change does.
 
 **This is the item that most directly supports your cycling hypothesis**, and it is worth more attention than its score implies. FMD is *already* a cycle protocol: Longo's design is 5 days on, then refeeding, a few times a year. The refeeding phase is not downtime — in mice, fasting/refeeding cycles drove hematopoietic stem cell self-renewal and immune reconstitution (Cheng et al., *Cell Stem Cell*, 2014), which is the same regenerative endpoint TRIIM-X targets by a much more expensive and much less evidenced route. If you want a pro/anti-growth alternation with actual human trial infrastructure behind it, this is the cheap version.
 
-#### Methionine reduction via food choice (protein held constant)
+#### Methionine source shifting (protein held constant)
 **2 × 2 = 4** · OK · low · food
-**Target:** SAM/SAH, FGF21, IGF-1 · **Measure:** DEXA lean mass; plasma methionine; homocysteine
+**Target:** amino acid composition — SAM/SAH, FGF21, IGF-1 · **Measure:** DEXA lean mass; plasma methionine; homocysteine
 **Cautions:** cancelled by NAC/GlyNAC; do not combine with total protein restriction on a GLP-1
-**Why:** E2 — rodent lifespan data is solid, human data is short-term and surrogate-only. B2 — plausible but unproven. This is the **safe version** of the proposed protocol: shift sources toward legumes, soy and dairy, which cut methionine 25–40% while total protein stays flat.
+**Why:** E2 — rodent lifespan data is solid, human data is short-term and surrogate-only: the best-controlled trial ran 7 days in 20 women with overweight and reported FGF21 up with adipose gene expression shifted (*J Transl Med*, 2020), and Plaisance 2011 found increased fat oxidation in obese adults with metabolic syndrome. B2 — plausible but unproven.
+
+**The target is sufficiency, not depth.** Fanti's LDMM result puts the optimum at low total amino acids with methionine *kept adequate* — too little caused frailty, too much abolished the benefit. Shifting sources toward legumes, soy and dairy cuts methionine 25–40% off a Western baseline while total protein stays flat, which lands inside that window rather than short of it. That is the whole intervention, not a cautious first step toward a deeper cut. The rodent phenotype everyone quotes comes from an ~80% cut sustained continuously; a source shift is not a diluted version of that experiment, it is a different and better-aimed one.
+
+**This is the one anti-growth dietary lever compatible with an SGLT2 inhibitor.** Euglycemic ketoacidosis requires insulinopenia plus volume depletion, and its precipitants are carbohydrate deficit, fasting and reduced intake. Amino acid composition at constant calories and carbohydrate is none of those. Methionine work therefore stays on the calendar whichever side of the fasting/SGLT2i choice in Part 3 you land on.
 
 #### Methionine restriction <1 g/day, 5 days/week
 **1 × 1 = 1** · **AVOID as specified** · moderate · food + supplement
