@@ -1,6 +1,6 @@
 # Therapeutic Detail Rows — grouped by mechanism
 
-Companion to [anti-aging-inventory-revised.md](anti-aging-inventory-revised.md). This file holds the row-level reasoning for every scored item. Replaces the former `therapeutics-revised.csv`.
+Companion to [anti-aging-inventory-revised.md](anti-aging-inventory-revised.md). This file holds the row-level reasoning for every scored item.
 
 **Format:** `E × B = score` · safety flag · effort tag · access
 `E` = evidence (1–5) · `B` = benefit to a healthy 39-year-old US male (1–5) · safety is a veto flag, not a score · effort sits outside the score.
@@ -165,12 +165,12 @@ All four block PCSK9-mediated degradation of the LDL receptor, so LDL receptors 
 #### Inclisiran
 **4 × 5 = 20** · OK · high · Rx, ~$500–600/mo equivalent
 **Measure:** ApoB; Lp(a) · **Cautions:** none known; additive with statin by design
-**Why:** E4 — **corrected this revision.** Inclisiran was previously bundled into the evolocumab/alirocumab row at E5, on a justification ("FOURIER and ODYSSEY established hard-outcome benefit") that does not apply to it. Inclisiran was approved on LDL-C lowering alone; ORION-4 and VICTORION-2P have not reported. It sits in the same evidence position as enlicitide, not the same position as the monoclonals. B5 — unchanged. Note that two injections a year is arguably the *lowest* administration burden in this family, oral included; what keeps it at `high` effort is cost and prior authorisation, not logistics.
+**Why:** E4 — the monoclonals' justification ("FOURIER and ODYSSEY established hard-outcome benefit") does not apply here. Inclisiran was approved on LDL-C lowering alone; ORION-4 and VICTORION-2P have not reported. It sits in the same evidence position as enlicitide, not the same position as the monoclonals. B5 — same target, same depth of LDL receptor recycling. Note that two injections a year is arguably the *lowest* administration burden in this family, oral included; what keeps it at `high` effort is cost and prior authorisation, not logistics.
 
 #### Enlicitide decanoate (Lipfendra), oral
 **4 × 5 = 20** · OK · high · Rx, approved 15–16 Jul 2026
 **Measure:** ApoB; Lp(a) · **Cautions:** none known
-**Why:** E4 — **raised from E3 this revision.** CORALreef Lipids gave 55.8% placebo-adjusted LDL-C reduction (n=2,904) and ~50% ApoB reduction; CORALreef HeFH gave 59.4%; CORALreef AddOn beat ezetimibe, bempedoic acid and their combination on background statin. These are surrogate endpoints and CORALreef Outcomes (>14,500 enrolled) has not reported — but the class prior here is unusually strong. PCSK9-mediated LDL lowering is one of the best-validated surrogates in medicine, and CTT plus Mendelian randomisation show benefit tracking absolute LDL-C reduction largely independent of the mechanism used to achieve it. A two-point penalty against the monoclonals overstated the uncertainty; one point is right. B5 — removes the injection barrier for the best non-statin target in the family.
+**Why:** E4 — CORALreef Lipids gave 55.8% placebo-adjusted LDL-C reduction (n=2,904) and ~50% ApoB reduction; CORALreef HeFH gave 59.4%; CORALreef AddOn beat ezetimibe, bempedoic acid and their combination on background statin. These are surrogate endpoints and CORALreef Outcomes (>14,500 enrolled) has not reported — but the class prior here is unusually strong. PCSK9-mediated LDL lowering is one of the best-validated surrogates in medicine, and CTT plus Mendelian randomisation show benefit tracking absolute LDL-C reduction largely independent of the mechanism used to achieve it. A two-point penalty against the monoclonals would overstate the uncertainty; one point is right. B5 — removes the injection barrier for the best non-statin target in the family.
 
 ### 2f. apo(a) / Lp(a)
 
@@ -237,7 +237,7 @@ Worth stating up front: **exercise is the best-evidenced AMPK activator on this 
 **Cautions:** blunts exercise VO₂max and mitochondrial adaptation — see §Interactions, phase conflicts
 **Why:** E2 — TAME remains unfunded; diabetes RCTs do not transfer to a normoglycemic 39-year-old. B2 — speculative. It competes with cardiorespiratory training, which scores 20 against its 4, for the same adaptation.
 
-The training interaction is a **timing** problem rather than a permanent exclusion — see [growth cycling](anti-aging-inventory-revised.md#part-4--growth-cycling). Metformin's short half-life (~6 h) makes it the easiest item on the entire list to phase cleanly. That improves its schedulability without improving its evidence, so the score is unchanged.
+The training interaction is a **timing** problem rather than a permanent exclusion — see [growth cycling](anti-aging-inventory-revised.md#part-4--growth-cycling). Metformin's short half-life (~6 h) makes it the easiest item on the entire list to phase cleanly. That improves its schedulability without improving its evidence, so it still scores 4.
 
 #### Berberine
 **2 × 1 = 2** · **AVOID** · trivial · OTC · **SKIP**
@@ -299,7 +299,7 @@ The **scheduling** objection to the original design — restriction landing on t
 
 The counterweight to §5. Muscle and bone maintenance, tissue repair, immune reconstitution, and wound healing all require anabolic signalling, and a protocol that suppresses it continuously is buying protection from one set of failure modes with exposure to another.
 
-**Framing note, revised:** earlier versions of this document treated this section as being in permanent opposition to §5. That framing is too strong. The opposition is real *at any given moment* and dissolves when the two are separated in time — which is how several of these interventions were designed to be used in the first place. What follows scores each item on its own merits; the scheduling argument lives in [Part 4](anti-aging-inventory-revised.md#part-4--growth-cycling).
+**Framing note:** this section is not in permanent opposition to §5. The opposition is real *at any given moment* and dissolves when the two are separated in time — which is how several of these interventions were designed to be used in the first place. What follows scores each item on its own merits; the scheduling argument lives in [Part 4](anti-aging-inventory-revised.md#part-4--growth-cycling).
 
 #### Resistance training 2–3×/week
 **3 × 5 = 15** · OK · moderate · free
@@ -321,7 +321,7 @@ The counterweight to §5. Muscle and bone maintenance, tissue repair, immune rec
 **Why:** E3 — hundreds of RCTs, but on strength and lean mass rather than hard outcomes. B3 — modest alone, more valuable here because it directly counteracts GLP-1 lean-mass loss. The most conspicuous omission from the 128-row source list. Unflavored monohydrate only.
 
 #### Block-periodized growth cycling (training-led, no rhGH)
-**2 × 3 = 6** · OK · moderate · free · **NEW ROW this revision**
+**2 × 3 = 6** · OK · moderate · free
 **Target:** phase separation of mTORC1/IGF-1 signalling · **Measure:** DEXA at each phase boundary; grip weekly; IGF-1; fasting insulin; ApoB
 **Cautions:** SGLT2i AVOID does not relax in either phase; do not compress the washout between blocks
 **Why:** E2 — no human trial has tested block alternation of pro- and anti-growth interventions against either arm run continuously. The supporting logic is mechanistic plus indirect: FMD is already a cycle protocol with human trial infrastructure; fasting/refeeding cycles drove HSC self-renewal in mice (Cheng 2014); transient rapamycin produced persistent benefit in mice (Bitto 2016); and exercise periodization is the same idea in a domain where it is uncontroversial. B3 — the realistic benefit is not additive lifespan but **avoided cost**: it recovers the muscle, bone and repair capacity that a continuously anti-growth protocol gives up, at no drug expense.
@@ -335,7 +335,7 @@ Scored at 6 rather than higher because it is a *scheduling structure*, not a the
 **Cautions:** raises IGF-1 supraphysiologically; the metformin in the cocktail exists to offset GH-induced insulin resistance the protocol itself creates
 **Why:** E1 — original TRIIM was n=9, single-arm, **uncontrolled**, with ~2.5 years of epigenetic age reversal measured by clocks that are not validated mortality surrogates. Seven years on, no peer-reviewed TRIIM-X results exist; the only public data is a preliminary "sneak peek" from a Foresight Institute talk in May 2026. The trial is participant-funded and sponsor-run, which is a structurally weak evidence generator regardless of the underlying biology. B2 — thymic involution at 39 is modest and the immunosenescence rationale is built on 65-year-olds.
 
-**Flag changed from AVOID to MONITOR this revision.** The previous AVOID rested substantially on "directly opposes rapamycin, methionine restriction and every CR mimetic on this list" — which is a *simultaneity* argument, and block cycling answers it. Removing that leaves two concerns, both real and both MONITOR-grade rather than AVOID-grade: the evidence base is a single uncontrolled n=9 study, and exogenous rhGH raises IGF-1 into a range that training and protein do not, where the epidemiology associates elevated IGF-1 with increased prostate, colorectal and breast cancer risk.
+**MONITOR rather than AVOID.** The strongest case for an AVOID would rest on "directly opposes rapamycin, methionine restriction and every CR mimetic on this list" — which is a *simultaneity* argument, and block cycling answers it. Setting that aside leaves two concerns, both real and both MONITOR-grade rather than AVOID-grade: the evidence base is a single uncontrolled n=9 study, and exogenous rhGH raises IGF-1 into a range that training and protein do not, where the epidemiology associates elevated IGF-1 with increased prostate, colorectal and breast cancer risk.
 
 That second point is worth stating precisely, because it is the crux of your hypothesis. **The cumulative-exposure argument cuts in your favour here.** If IGF-1 risk is a function of the integral of exposure over time, then two six-week blocks a year is roughly a 23% duty cycle, and the lifetime integral is far below continuous administration. That is a genuine and correct softening of the objection. What it does not do is create evidence that the protocol works — the pruning-then-rebuilding logic is attractive, and it is still a hypothesis.
 
@@ -410,7 +410,7 @@ The methionine interaction is a genuine cancellation rather than a timing issue:
 #### Blood pressure to <120 systolic
 **5 × 4 = 20** · MONITOR · trivial · lifestyle; Rx generics if needed
 **Target:** vascular load · **Measure:** home BP series; potassium and creatinine if on a drug · **Cautions:** none
-**Why:** E5 — SPRINT plus dozens of RCTs with hard outcomes. B4 — enormous if you are hypertensive, near-zero if you are not, which is why the home cuff comes first. Restored after being dropped in the previous revision; its absence was a genuine regression.
+**Why:** E5 — SPRINT plus dozens of RCTs with hard outcomes. B4 — enormous if you are hypertensive, near-zero if you are not, which is why the home cuff comes first. Absent from the source table entirely, which is its largest single omission.
 
 #### Cardiorespiratory fitness training
 **4 × 5 = 20** · OK · moderate · free
@@ -572,7 +572,7 @@ Note that this is the item the pharmacological AMPK activators (§4) are competi
 **1 × 1 = 1** · **AVOID** · trivial · Rx
 **Target:** mitochondrial electron carrier
 **Cautions:** **potent MAO-A inhibitor — serotonin syndrome with any SSRI, SNRI or triptan**
-**Why:** E1 — no human aging data. B1 — none. AVOID for the interaction alone: this is a hospitalisation-grade risk, not a caution. Under the previous averaged scoring this danger was diluted by the drug being cheap, which is the clearest illustration of why safety became a veto flag.
+**Why:** E1 — no human aging data. B1 — none. AVOID for the interaction alone: this is a hospitalisation-grade risk, not a caution. It is also the clearest illustration of why safety is a veto flag rather than an averaged term — the drug is cheap and quick to take, so any scoring that averages safety against cost dilutes a hospitalisation risk into a middling number.
 
 #### Bisphosphonates, acipimox, pentoxifylline, azithromycin, piperlongumine, ACE-i/ARB, beta blockers
 **1 × 1 = 1** · MONITOR · low · Rx · **change the trigger from "aging" to "diagnosis"**
