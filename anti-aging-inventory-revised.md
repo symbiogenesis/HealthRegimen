@@ -1,12 +1,21 @@
 # Anti-Aging Therapeutic Inventory — Revised
 
 **Target:** healthy male, age 39, US, currently on tirzepatide
-**Revision date:** 8 August 2026
+**Revision 3 — 8 August 2026**
 **Source:** AgingBiotech.info "Available Therapeutics" survey table (128 rows)
+**Detail rows:** [therapeutics-revised.md](therapeutics-revised.md)
+
+**What changed in revision 3**
+
+1. **Everything is markdown.** The companion spreadsheet is gone; its row-level reasoning now lives in [therapeutics-revised.md](therapeutics-revised.md) in readable form rather than in CSV cells.
+2. **The inventory is grouped by mechanism, not by verdict.** Every way of hitting a given target now sits side by side — all four PCSK9 modalities in one place, both SGLT2 inhibitors in one place, both AMPK activators in one place. A flat score-ordered list is preserved at the end of Part 2 for anyone who wants the old view.
+3. **The PCSK9 family is corrected.** Inclisiran was wrongly bundled with the monoclonals at E5; it has no reported outcomes trial and drops to E4 (20). Enlicitide rises from E3 to E4 (20) — a two-point penalty against the monoclonals overstated the uncertainty for a same-target agent with an unusually strong class prior.
+4. **The pro-growth / anti-growth framing is substantially revised.** The previous version treated these as permanently opposed. That was too strong: most of the opposition is *simultaneity*, and separating the two in time dissolves it. Part 3 now distinguishes hard pharmacological conflicts from phase conflicts, and **Part 4 is new** — it works through the block-cycling hypothesis directly, including what supports it, what it would cost, and how to run and measure it.
+5. **TRIIM-X moves from AVOID to MONITOR.** The AVOID rested substantially on permanent opposition to the rest of the stack, which is the argument cycling answers. What remains — a single uncontrolled n=9 study, and supraphysiologic IGF-1 — is real but MONITOR-grade.
 
 ---
 
-## Part 0 — The core problem with the current document
+## Part 0 — The core problem with the source document
 
 The source table is a good **survey**. It is not a **decision tool**, and it can't be turned into one by re-sorting the rows, because none of its scoring columns measure what you said you want to optimize.
 
@@ -51,6 +60,8 @@ The decisive asymmetry at your age is **exposure-time leverage**. Mendelian rand
 
 The same logic runs the other way for the speculative agents: at 39 you have the *most* time for an unrecognized harm to compound. Risk tolerance should be lower now, not higher.
 
+**Exposure-time leverage also cuts a third way, and this is new to revision 3.** If risk is an integral of exposure over time, then *duty cycle* is a lever, not just dose. An intervention run six weeks a year carries roughly a quarter of the cumulative exposure of the same intervention run continuously — for benefit and for harm alike. That observation is what makes Part 4 worth taking seriously rather than dismissing.
+
 ### The scoring model
 
 Two questions, multiplied. Everything else is a flag, not a number.
@@ -60,9 +71,9 @@ Two questions, multiplied. Everything else is a flag, not a number.
 | | |
 |---|---|
 | **5** | Multiple RCTs, hard clinical outcomes, in populations that include healthy adults |
-| **4** | RCTs with hard outcomes but in older or diseased populations; or one strong RCT plus concordant Mendelian randomization |
+| **4** | RCTs with hard outcomes but in older or diseased populations; or one strong RCT plus concordant Mendelian randomization; or a surrogate endpoint whose causal link to outcomes is itself established by RCT and MR |
 | **3** | RCTs with surrogate endpoints only (ApoB, BP, VO₂max, lean mass); or large consistent cohorts plus MR |
-| **2** | Replicated animal lifespan data (ITP); or human observational only |
+| **2** | Replicated animal lifespan data (ITP); or human observational only; or mechanism plus indirect human trial support |
 | **1** | Mechanism, single-arm studies, case reports, unreplicated animal data |
 
 **BENEFIT (1–5) — if the evidence is right, how much does it change *your* outcome at 39?**
@@ -81,6 +92,8 @@ Two questions, multiplied. Everything else is a flag, not a number.
 
 **EFFORT is a tag, not a score:** `trivial` (<$100/yr and <5 min/wk) · `low` · `moderate` · `high` (>$2,000/yr or >4 h/wk).
 
+The E4 tier was extended slightly this revision to cover the enlicitide case: a surrogate endpoint is not automatically E3 when the surrogate itself has been causally validated to the outcome by both RCT and Mendelian randomization. LDL-C lowering via the PCSK9 pathway is the clearest example in medicine of a surrogate that has earned that status.
+
 ### Why this replaced the four-axis version
 
 The previous model scored EV, safety, cost and time and averaged the last three. Three things were wrong with it.
@@ -91,155 +104,276 @@ The previous model scored EV, safety, cost and time and averaged the last three.
 
 **Cost and time weren't discriminating.** Across the whole inventory they scored 4 or 5 on nearly every row — two columns of near-constants, adding width without adding information. They now sit outside the score as a single `effort` tag, which is where they actually belong: they don't change whether something *works*, they change whether it's worth the queue position. The clearest illustration is evolocumab, which scores a full 25 on the merits and is still gated behind a generic statin — not because the drug is worse, but because it's `high` effort and access-restricted, which is a scheduling fact rather than an efficacy one.
 
-**And no more decimals.** 23.3 versus 20.0 implied a precision that doesn't exist. Integer products in a 1–25 grid, with the reasoning for both factors written out in the `why this score` column so any row can be challenged on its inputs rather than its arithmetic.
+**And no more decimals.** 23.3 versus 20.0 implied a precision that doesn't exist. Integer products in a 1–25 grid, with the reasoning for both factors written out per row so any item can be challenged on its inputs rather than its arithmetic.
 
-## Part 2 — The ranked inventory
+---
 
-Grouped by what to do, sorted by score within each group. Full reasoning for every score sits in the `why this score` column of the accompanying spreadsheet.
+## Part 2 — The inventory, grouped by mechanism
+
+Grouped by **what the intervention acts on**, sorted by score within each family. Full reasoning for every score is in [therapeutics-revised.md](therapeutics-revised.md).
+
+Why mechanism rather than verdict: the previous arrangement scattered four PCSK9 inhibitors across three sections, so the fact that inclisiran had been graded on evidence belonging to a different drug was invisible. Grouping by target makes that class of error visible immediately, and it makes the actual decision — *which* member of a family, at which rung — the thing you are looking at.
 
 `E` = evidence · `B` = benefit · **score = E × B** · safety flag overrides score.
 
-### Measure first — these gate the decisions below
+### 2.0 Measurement and diagnostics — these gate everything below
 
-| Score | E×B | Intervention | Safety | Effort | Note |
+| Score | E×B | Item | Safety | Effort | Note |
 |---:|:---:|---|:---:|:---:|---|
 | **25** | 5×5 | ApoB | ok | trivial | the input to the single best-evidenced intervention available to you |
-| **20** | 5×4 | Home blood pressure series | ok | trivial | SPRINT and dozens of RCTs, hard outcomes |
-| **16** | 4×4 | DEXA body composition | ok | trivial | the reference method for lean mass |
-| **16** | 4×4 | Lp(a), once, lifetime | ok | trivial | each Lp(a) particle carries one apoB-100, so a high Lp(a) sets a floor under achievable ApoB |
-| **16** | 4×4 | Home sleep apnea test | ok | low | diagnostic accuracy is solid; CPAP RCTs (SAVE, RICCADSA) were neutral for MACE though clearly positive for symptoms and BP |
-| **12** | 4×3 | Radon test (home) | ok | trivial | consistent dose-response across miner cohorts and pooled residential analyses; no RCT is possible |
-| **12** | 3×4 | VO2max | ok | low | observational only - nobody randomises people to fitness |
-| **6** | 3×2 | Vitamin D (25-OH) | ok | trivial | VITAL was largely null for supplementation; correcting frank deficiency has better support |
+| **20** | 5×4 | Home blood pressure series | ok | trivial | a test before it is a therapy; office readings are noise |
+| **16** | 4×4 | DEXA body composition | ok | trivial | reference method for lean mass; also the instrument for evaluating Part 4 |
+| **16** | 4×4 | Lp(a), once, lifetime | ok | trivial | each Lp(a) particle carries one apoB-100, so it sets a floor under achievable ApoB |
+| **16** | 4×4 | Home sleep apnea test | ok | low | diagnostic accuracy solid; CPAP RCTs neutral for MACE, positive for symptoms and BP |
+| **12** | 3×4 | VO₂max | ok | low | observational only — nobody randomises people to fitness |
+| **6** | 3×2 | Vitamin D (25-OH) | ok | trivial | VITAL largely null; correcting frank deficiency has better support |
+| **6** | 3×2 | hsCRP | ok | trivial | gates the residual-inflammation question |
+| **6** | 3×2 | Baseline audiogram | ok | trivial | a baseline to detect drift against |
+| **6** | 3×2 | Grip dynamometer | ok | trivial | cheapest weekly readout during any restriction phase |
+| **6** | 3×2 | APOE genotype / CAD PRS | ok | low | **GINA covers health insurance but NOT life, disability or LTC** — insure first |
+| **4** | 2×2 | Homocysteine, B12, folate | ok | trivial | only the correct readout if you pursue methionine work |
+| **5** | 5×1 | Coronary artery calcium | ok | low | *defer to 45–50* — most 39-year-olds score zero and zero doesn't exclude soft plaque |
 
-### Do now
+### 2.1 ApoB and the lipoprotein pathway
 
-| Score | E×B | Intervention | Safety | Effort | Note |
-|---:|:---:|---|:---:|:---:|---|
-| **25** | 5×5 | ApoB to <60 mg/dL - statin (rosuvastatin or atorvastatin, generic) | monitor | trivial | do not stack with red yeast rice (same molecule); berberine raises exposure via CYP3A4 |
-| **25** | 5×5 | Nicotine and tobacco: none | ok | trivial | *CONFIRM* — the single highest-value item in all of preventive medicine, conditional on being a user. Listed for completeness - a competing-risk inventory that om |
-| **20** | 5×4 | Blood pressure to <120 systolic | monitor | trivial | SPRINT plus dozens of RCTs with hard outcomes |
-| **20** | 5×4 | Cancer screening on schedule | ok | low | sigmoidoscopy and FIT RCTs show mortality reduction; NordICC was intention-to-treat disappointing but per-protocol positive |
-| **20** | 4×5 | Cardiorespiratory fitness training | ok | moderate | rapamycin and metformin both blunt training adaptation; high-dose antioxidants blunt the hormetic signal |
-| **16** | 4×4 | Depression screening and treatment access | ok | trivial | screening plus access to treatment reduces morbidity, and treatment RCTs are solid |
-| **16** | 4×4 | Injury prevention | ok | trivial | natural-experiment and case-control evidence for seatbelts, helmets and safe storage is overwhelming even without RCTs |
-| **15** | 3×5 | Sleep 7-9h | ok | trivial | strong and consistent observational plus Mendelian randomisation, but sleep-extension RCTs with hard outcomes do not exist |
-| **15** | 3×5 | Resistance training 2-3x/wk | ok | moderate | rapamycin blocks contraction-induced muscle protein synthesis; methionine restriction removes the substrate |
-| **12** | 4×3 | Alcohol minimal or none | ok | trivial | Mendelian randomisation has essentially dismantled the J-curve; the apparent benefit of moderate drinking was confounding |
-| **12** | 3×4 | Protein 1.2-1.6 g/kg/day, distributed | ok | trivial | DIRECT CONFLICT with the proposed methionine restriction protocol |
-| **9** | 3×3 | Creatine monohydrate 5 g/day | ok | trivial | hundreds of RCTs, but on strength and lean mass rather than hard outcomes |
-| **9** | 3×3 | Fiber 35-40 g/day | ok | trivial | large consistent cohorts plus RCTs on surrogates |
-| **9** | 3×3 | Hearing protection | ok | trivial | rests on the hearing-loss-to-dementia cohort literature |
-| **9** | 3×3 | Social connection | ok | low | observational only, but the meta-analytic effect sizes for social isolation are in the same range as major behavioural risk factors |
-| **8** | 4×2 | H. pylori stool antigen | ok | trivial | test-and-treat RCTs reduce gastric cancer incidence, though mostly in high-incidence populations |
-| **8** | 4×2 | Hepatitis C: one-time screening | ok | trivial | USPSTF recommends one-time screening for all adults 18-79; direct-acting antivirals are curative in >95% |
-| **8** | 4×2 | Influenza vaccination, annual | ok | trivial | efficacy RCTs are solid, and post-MI trials (IAMI) showed reduced all-cause death, hinting at a cardiovascular benefit beyond infection itself |
-| **8** | 4×2 | Sun protection / UV avoidance | ok | trivial | RCTs show reduced melanoma and squamous cell carcinoma incidence with regular sunscreen use |
-| **8** | 4×2 | HPV vaccination | ok | low | RCTs on cancer-precursor endpoints plus registry data on cancer incidence |
-| **6** | 3×2 | Baseline audiogram | ok | trivial | hearing loss is the largest single modifiable dementia risk factor in the Lancet Commission model, but the causal chain rests on cohort data |
-| **6** | 3×2 | Bedroom HEPA / PM2.5 awareness | ok | trivial | air pollution epidemiology is strong; the specific benefit of consumer HEPA is inferred |
-| **6** | 3×2 | Grip dynamometer | ok | trivial | observational |
-| **4** | 2×2 | Dental / periodontal care | ok | low | the CVD and dementia links are observational; intervention trials show surrogate improvement only |
+The highest-yield family on the list. Four molecular targets, one coherent ladder: **HMG-CoA reductase → NPC1L1 → PCSK9 → apo(a)**. ACL is a lateral move for statin intolerance, not a rung.
 
-### Continue — already in your stack
+| Score | E×B | Item | Target | Safety | Effort |
+|---:|:---:|---|---|:---:|:---:|
+| **25** | 5×5 | ApoB to <60 mg/dL *(the target)* | — | monitor | trivial |
+| **25** | 5×5 | Rosuvastatin / atorvastatin, generic | HMG-CoA reductase | monitor | trivial |
+| **25** | 5×5 | Evolocumab / alirocumab | PCSK9 (mAb) | ok | high |
+| **20** | 4×5 | Inclisiran | PCSK9 (siRNA) | ok | high |
+| **20** | 4×5 | Enlicitide (Lipfendra), oral | PCSK9 (macrocyclic peptide) | ok | high |
+| **16** | 4×4 | Ezetimibe, generic | NPC1L1 | ok | trivial |
+| **16** | 4×4 | Bempedoic acid | ATP citrate lyase | monitor | moderate |
+| **16** | 4×4 | ApoB to <30 mg/dL *(the increment)* | — | monitor | high |
+| **8** | 2×4 | Lp(a) agents — pelacarsen, olpasiran, lepodisiran, muvalaplin | apo(a) | ok | high |
+| **6** | 3×2 | Red yeast rice / monacolins | HMG-CoA reductase | **AVOID** | trivial |
 
-| Score | E×B | Intervention | Safety | Effort | Note |
-|---:|:---:|---|:---:|:---:|---|
-| **16** | 4×4 | GLP-1 / GIP agonist (tirzepatide) | monitor | moderate | ** euglycemic ketoacidosis if combined with an SGLT2i **; hold before anesthesia; conflicts with low-protein protocols |
-| **6** | 3×2 | Omega-3 (EPA/DHA) | ok | trivial | additive bleeding with aspirin or nattokinase; AF signal at high dose |
+**Within the PCSK9 subfamily**, all four agents block PCSK9-mediated LDL-receptor degradation. Same target, same downstream effect, four delivery routes. They separate on exactly one axis:
 
-### Conditional, calendar, and watch items
+| Agent | Modality | Dosing | E×B | Outcomes trial |
+|---|---|---|:---:|---|
+| Evolocumab / alirocumab | monoclonal antibody | SC q2wk–q4wk | **25** | **Reported** — FOURIER, ODYSSEY |
+| Inclisiran | siRNA | SC q6mo after loading | **20** | Pending — ORION-4, VICTORION-2P |
+| Enlicitide | oral macrocyclic peptide | 20 mg daily | **20** | Pending — CORALreef Outcomes |
 
-| Score | E×B | Intervention | Safety | Effort | Note |
-|---:|:---:|---|:---:|:---:|---|
-| **25** | 5×5 | PCSK9i - evolocumab / alirocumab / inclisiran | ok | high | *DO IF off target* — none known; additive with statin by design |
-| **16** | 4×4 | Ezetimibe (generic) | ok | trivial | *DO IF off target* — IMPROVE-IT showed a real but modest hard-outcome benefit on top of statin |
-| **16** | 4×4 | Bempedoic acid | monitor | moderate | *DO IF statin-intolerant* — raises uric acid; tendon rupture signal |
-| **16** | 4×4 | ApoB to <30 mg/dL (the increment beyond <60) | monitor | high | *DO IF affordable* — requires a PCSK9i, which insurance will not cover without ASCVD or FH; Lp(a) sets a hard ApoB floor |
-| **15** | 3×5 | PCSK9i - enlicitide (Lipfendra), oral | ok | high | *DO IF off target* — none known |
-| **12** | 3×4 | Shingrix (recombinant zoster vaccine) | ok | low | *DO AT 50* — the zoster efficacy RCTs are excellent, but the dementia finding rests on natural experiments (Wales, Australia, Canada) and cohort data, not an RCT |
-| **9** | 3×3 | Pasteurized A. muciniphila (MucT) - weight-regain prevention | ok | moderate | *WATCH (act if you come off tirzepatide)* — different preparation from Pendulum's - pasteurized single strain, not a live multi-strain blend |
-| **8** | 2×4 | Lp(a)-lowering therapy (pelacarsen, olpasiran, lepodisiran, muvalap… | ok | high | *WATCH* — no outcomes data yet for any agent in the class |
-| **6** | 3×2 | APOE genotype / CAD polygenic risk score | ok | low | *THINK FIRST* — ** GINA covers health insurance but NOT life, disability or long-term-care insurance ** |
-| **5** | 5×1 | Coronary artery calcium | ok | low | *DEFER TO 45-50* — E5 for risk stratification |
+Two corrections were needed here, and grouping is what exposed them.
 
-### Optional — defensible, low stakes either way
+**Inclisiran was over-graded.** It sat in the E5 row with evolocumab and alirocumab under a justification — "FOURIER and ODYSSEY established hard-outcome benefit" — that is not about inclisiran. It was approved on LDL-C lowering alone and its outcomes trials have not reported. It belongs at E4, in the same position as enlicitide.
 
-| Score | E×B | Intervention | Safety | Effort | Note |
-|---:|:---:|---|:---:|:---:|---|
-| **6** | 3×2 | hsCRP | ok | trivial | consistently predictive, but interventions targeting it have a mixed record |
-| **4** | 2×2 | Homocysteine, B12, folate | ok | trivial | homocysteine-lowering RCTs have not reduced cardiovascular events |
-| **4** | 2×2 | Blood donation 2-3x/yr | ok | low | observational only |
-| **4** | 2×2 | Methionine reduction via food choice (protein held constant) | ok | low | cancelled by NAC/GlyNAC; do not combine with total protein restriction on a GLP-1 |
-| **4** | 2×2 | Time-restricted feeding / periodic FMD | ok | low | ** ketoacidosis risk if combined with an SGLT2i ** |
-| **4** | 2×2 | Sauna 3-4x/wk | ok | moderate | the Finnish cohort data is suggestive and heavily confounded by who uses saunas; no RCT |
+**Enlicitide was under-graded.** CORALreef Lipids gave 55.8% placebo-adjusted LDL-C reduction and ~50% ApoB reduction, and CORALreef AddOn beat ezetimibe, bempedoic acid and their combination on background statin. Those are surrogate endpoints — but PCSK9-mediated LDL lowering is a surrogate that has been causally validated to outcomes by both RCT and Mendelian randomization, with benefit tracking absolute LDL-C reduction largely independent of the mechanism used to achieve it. A two-point penalty overstated the residual uncertainty. One point is right.
 
-### Skip
+**On the effort tag,** which the previous version left undifferentiated: the binding constraint for every member of this family is prior authorization and cash price, not administration. All four stay at `high` for that reason. But note the ranking that follows if you strip cost out: inclisiran is **two injections a year**, which is a lighter administration burden than a daily pill. The oral advantage over the monoclonals is real; the oral advantage over inclisiran is not.
 
-| Score | E×B | Intervention | Safety | Effort | Note |
-|---:|:---:|---|:---:|:---:|---|
-| **6** | 3×2 | Red yeast rice / monacolins | **AVOID** | trivial | ** unstandardised lovastatin at an unknown dose - do not stack with a statin ** |
-| **6** | 2×3 | Rapamycin 5-6 mg weekly | monitor | low | ** blocks contraction-induced muscle protein synthesis; t-half ~62h so weekly dosing does not clear a 3x/wk lifting schedule **; berberine and quercetin raise exposure |
-| **4** | 2×2 | Metformin | monitor | trivial | ** blunts exercise VO2max and mitochondrial adaptation ** |
-| **4** | 2×2 | Pendulum Glucose Control (WBF-011: A. muciniphila, C. butyricum, C.… | ok | moderate | *SKIP (for its stated indication)* — the chicory-root inulin is a fermentable prebiotic - stacked on tirzepatide's delayed gastric emptying it will likely worsen bloating and gas |
-| **4** | 4×1 | Testosterone (absent hypogonadism) | monitor | moderate | raises hematocrit; suppresses fertility |
-| **2** | 2×1 | Astaxanthin | ok | trivial | blunts exercise adaptation |
-| **2** | 2×1 | Berberine | **AVOID** | trivial | ** potent CYP3A4 / P-gp inhibitor - raises statin, rapamycin and tadalafil exposure unpredictably ** |
-| **2** | 2×1 | 17-alpha estradiol | monitor | low | a male-specific ITP hit (+19%) - genuinely one of the more interesting results in the field |
-| **2** | 2×1 | Low-dose colchicine (Lodoco 0.5 mg) | monitor | low | interacts with CYP3A4 and P-gp inhibitors, including berberine and grapefruit |
-| **2** | 2×1 | NAC / GlyNAC / glutathione | ok | low | ** cysteine reverses essentially all metabolic effects of methionine restriction (Elshorbagy) **; blunts exercise adaptation |
-| **2** | 2×1 | NMN / NR | ok | moderate | redundant with niacin |
-| **1** | 1×1 | Fisetin | ok | trivial | ITP result was null (-5 to +7%) |
-| **1** | 1×1 | Resveratrol | ok | trivial | failed ITP, poor bioavailability, and the sirtuin mechanism itself is disputed |
-| **1** | 1×1 | Taurine | ok | trivial | PREMISE RETRACTED. Fernandez et al., Science 2025 - longitudinal data across three human cohorts, rhesus monkeys and mice show taurine RISES or holds  |
-| **1** | 1×1 | Bisphosphonates, acipimox, pentoxifylline, azithromycin, piperlongu… | monitor | low | *SKIP (change trigger to diagnosis)* — various |
-| **1** | 1×1 | Dasatinib + quercetin (D+Q) | monitor | moderate | quercetin inhibits CYP3A4 and raises dasatinib exposure |
-| **1** | 1×1 | Supplement bundle: AKG, spermidine, urolithin A, ergothioneine, api… | ok | moderate | several blunt exercise adaptation; several are CYP inhibitors; nattokinase adds bleeding risk |
+**Sequence, unchanged:** ApoB + Lp(a) → generic statin → add ezetimibe → reassess ApoB at 8 weeks → escalate within the PCSK9 family only if off target or Lp(a) is high. Generic rosuvastatin plus generic ezetimibe costs under $25/month and gets most people to target. Reaching for a $6,000/year drug before trying a $300/year one is the definition of a poor bang-for-buck decision.
 
-### Avoid
+**Where Lp(a) changes it:** if Lp(a) comes back >125 nmol/L, and especially >200, the case strengthens considerably, because statins slightly *raise* Lp(a) while PCSK9 inhibitors lower it ~20–25%. Lp(a)HORIZON (pelacarsen, n=8,323) is the first CV outcomes trial for any Lp(a)-lowering therapy and is expected to report before the end of 2026. **Measuring Lp(a) now costs $30 and tells you whether to care.**
 
-| Score | E×B | Intervention | Safety | Effort | Note |
-|---:|:---:|---|:---:|:---:|---|
-| **5** | 5×1 | Aspirin | **AVOID** | trivial | additive bleeding with fish oil or nattokinase |
-| **4** | 2×2 | SGLT2 inhibitors (canagliflozin, empagliflozin) | **AVOID** | low | *AVOID (revisit if T2D/CKD/HF)* — ** SEVERE: with a GLP-1 plus any carb restriction or fasting -> EUGLYCEMIC KETOACIDOSIS, documented in non-diabetics; glucose reads normal so it is routinely missed ** |
-| **1** | 1×1 | Methylene blue | **AVOID** | trivial | ** potent MAO-A inhibitor: SEROTONIN SYNDROME with any SSRI, SNRI or triptan ** |
-| **1** | 1×1 | Methioninase (oral rMETase) | **AVOID** | moderate | cancels with NAC/GlyNAC; compounds GLP-1 lean-mass loss |
-| **1** | 1×1 | Methionine restriction <1g/day, 5 days/week | **AVOID** | moderate | ** compounds GLP-1 lean-mass loss; cancelled by NAC/GlyNAC; training and restriction are scheduled out of phase ** |
-| **1** | 1×1 | EDTA chelation, HBOT, mitochondrial transfusion, stem cells / exoso… | **AVOID** | high | various |
-| **1** | 1×1 | TRIIM / TRIIM-X protocol (rhGH + DHEA + metformin) | **AVOID** | high | ** raises IGF-1 - directly opposes rapamycin, methionine restriction and every CR mimetic on this list ** |
+### 2.2 Incretin and glucose handling
 
-## Part 3 — Incompatibilities
+| Score | E×B | Item | Target | Safety | Effort |
+|---:|:---:|---|---|:---:|:---:|
+| **16** | 4×4 | Tirzepatide *(continue)* | GLP-1 / GIP receptor | monitor | moderate |
+| **9** | 3×3 | Pasteurized *A. muciniphila* (MucT) *(watch)* | Amuc_1100 / gut barrier | ok | moderate |
+| **4** | 2×2 | Pendulum Glucose Control (WBF-011) | live multi-strain / SCFA → endogenous GLP-1 | ok | moderate |
+| **4** | 2×2 | Canagliflozin / empagliflozin | SGLT2 | **AVOID** | low |
 
-### Hard conflicts — do not combine
+**The SGLT2 subfamily, in one place.** The source table ranked this #1 on a 12/12 gerotherapeutics score with the note "top scoring candidate for TAME-like trial." That note is doing more work than it appears: **the score means "most deserving of a trial," which entails that the human aging evidence does not yet exist.**
+
+What the evidence actually supports: ITP canagliflozin gave **+14% median lifespan in males only**, no effect in females — real, replicated within ITP, and it happens to be your sex. The human outcome trials (EMPA-REG, CANVAS, DECLARE, DAPA-HF, EMPEROR, DAPA-CKD, EMPA-KIDNEY) are uniformly excellent and uniformly in **type 2 diabetes, heart failure, or chronic kidney disease**, where much of the benefit is hemodynamic and renal. There is no trial in metabolically healthy non-diabetics.
+
+What it costs: genital mycotic infection in roughly 1 in 10 men, volume depletion and orthostasis, 20–40 g/day glucosuria, Fournier's gangrene (rare but labeled), and euglycemic ketoacidosis.
+
+**The AVOID is driven by the tirzepatide interaction, not by the drug.** GLP-1/GIP agonists substantially reduce caloric intake, can cause vomiting and dehydration, and shift substrate use toward fat oxidation — precisely the precipitant profile for euglycemic ketoacidosis, which is documented in non-diabetics and routinely missed because glucose reads normal. There is also a redundancy argument: the metabolic benefit you'd be reaching for, tirzepatide already delivers with human hard-outcome data behind it.
+
+**This flag does not relax under growth cycling** — see Part 4. An anti-growth block is a carbohydrate-restricted, calorie-restricted, sometimes fasted state, which is the *worst* setting for an SGLT2 inhibitor, not a neutral one.
+
+**When it flips:** if you ever develop type 2 diabetes, CKD, or heart failure, SGLT2 inhibitors become first-line and genuinely excellent. Keep the row, change the trigger from "aging" to "diagnosis."
+
+**On the microbiome pair:** these were correctly split into two rows, because the product and its headline ingredient are on different trajectories. Pendulum is a 0.6% HbA1c agent tested in T2D on metformin, whose mechanism — SCFA-driven *endogenous* GLP-1 secretion — is the pathway tirzepatide already saturates pharmacologically, and its trial was authored end to end by seventeen company employees with no independent replication six years on. Pasteurized MucT is a different preparation with three independent RCTs behind it, including Mount et al. (*Nature Medicine*, June 2026, n=90, academic-led), which is the only positive RCT anywhere on this inventory aimed at **post-weight-loss regain** — the one problem GLP-1 users actually face. Buying Pendulum does not get you the trial you just read about. Skip it now; put pasteurized MucT on the taper plan.
+
+### 2.3 AMPK and energy sensing
+
+| Score | E×B | Item | Target | Safety | Effort |
+|---:|:---:|---|---|:---:|:---:|
+| **20** | 4×5 | Cardiorespiratory fitness training | endogenous AMPK, mitochondrial biogenesis | ok | moderate |
+| **4** | 2×2 | Metformin | AMPK, complex I | monitor | trivial |
+| **2** | 2×1 | Berberine | AMPK | **AVOID** | trivial |
+
+Putting these three in one family makes the point immediately: **the best-evidenced AMPK activator on this list is exercise, and it is free.** Both pharmacological entries are competing against training and losing on every axis — evidence, effect size, cost, interaction profile.
+
+Metformin's specific problem is that it blunts the VO₂max and mitochondrial adaptation that the intervention scoring 20 exists to produce. That is a *timing* conflict rather than a permanent exclusion (Part 3), and metformin's ~6 h half-life makes it the easiest item in the whole document to phase cleanly. Better schedulability does not improve its evidence, so the score is unchanged.
+
+Berberine's AVOID is pharmacokinetic — a potent CYP3A4 and P-gp inhibitor that raises statin, rapamycin and tadalafil exposure unpredictably — and does not relax in any phase.
+
+### 2.4 mTOR and nutrient sensing — the anti-growth arm
+
+| Score | E×B | Item | Target | Safety | Effort |
+|---:|:---:|---|---|:---:|:---:|
+| **6** | 2×3 | Rapamycin 5–6 mg weekly | mTORC1 | monitor | low |
+| **4** | 2×2 | Time-restricted feeding / periodic FMD | AAR, FGF21, autophagy | ok | low |
+| **4** | 2×2 | Methionine reduction via food choice *(protein constant)* | SAM/SAH, FGF21, IGF-1 | ok | low |
+| **1** | 1×1 | Methionine restriction <1 g/day, 5 days/week | SAM/SAH, FGF21, IGF-1 | **AVOID as specified** | moderate |
+| **1** | 1×1 | Methioninase (oral rMETase) | methionine degradation | **AVOID** | moderate |
+
+Everything here pushes the same direction: down-regulate mTORC1 and IGF-1 signalling, favour autophagy and catabolic housekeeping, reduce the substrate available for anabolic error. This is the arm your hypothesis calls the pruning phase, and the framing is fair.
+
+Two things are worth flagging inside the family. **Rapamycin's ~62 h half-life is an argument for block scheduling rather than weekly dosing** — five half-lives is about 13 days, so weekly dosing never cleanly separates from a 3×/week lifting schedule, while a block structure separates them completely. Bitto 2016 (*eLife*) found transient 3-month rapamycin in middle-aged mice produced persistent lifespan benefit, which is the pharmacological precedent for pulsed use.
+
+And **FMD is already a cycle protocol** — 5 days on, then refeeding, a few times a year. Its score of 4 understates its relevance to Part 4, because it is the only item in this family with human trial infrastructure built around alternation rather than continuous administration.
+
+### 2.5 GH / IGF-1 and anabolism — the pro-growth arm
+
+| Score | E×B | Item | Target | Safety | Effort |
+|---:|:---:|---|---|:---:|:---:|
+| **15** | 3×5 | Resistance training 2–3×/wk | mTORC1, myonuclear addition, bone loading | ok | moderate |
+| **12** | 3×4 | Protein 1.2–1.6 g/kg/day, distributed | muscle protein synthesis | ok | trivial |
+| **9** | 3×3 | Creatine monohydrate 5 g/day | phosphocreatine, cell hydration | ok | trivial |
+| **6** | 2×3 | **Block-periodized growth cycling** *(training-led, no rhGH)* — new | phase separation of mTORC1/IGF-1 | ok | moderate |
+| **4** | 4×1 | Testosterone (absent hypogonadism) | androgen receptor | monitor | moderate |
+| **2** | 1×2 | rhGH-containing pro-growth block (TRIIM/TRIIM-X style) | thymus regeneration; GH/IGF-1 axis | monitor | high |
+
+This section is the counterweight to 2.4, and revision 3 rewrote its framing. Muscle and bone maintenance, tissue repair, immune reconstitution and wound healing all require anabolic signalling. A protocol that suppresses it continuously is buying protection from one set of failure modes by accepting exposure to another — sarcopenia, osteopenia, impaired repair, blunted immune reconstitution. That is a real cost, and the previous version of this document did not price it.
+
+Note the internal ranking. **The best pro-growth intervention here is resistance training at 15, and the second is protein at 12.** Both are free, both are better evidenced than anything else in the family, and both are already on your do-now list. Any pro-growth phase you construct should be built on those two; the pharmacology is optional garnish on top of a foundation that carries the actual evidence.
+
+Two items are worth reading in full in the detail file: [block-periodized growth cycling](therapeutics-revised.md#block-periodized-growth-cycling-training-led-no-rhgh), which is new, and [the rhGH block](therapeutics-revised.md#rhgh-containing-pro-growth-block-triim--triim-x-style), whose flag changed. Both are argued out in Part 4.
+
+### 2.6 Everything else, by family
+
+**Senescence** — D+Q (1, monitor, skip) · fisetin (1, ok, skip). Senescent-cell burden at 39 is low; there is little to clear. Right idea, wrong decade. Note that senolytics are *already* designed as intermittent hit-and-run agents, and if you ever run growth cycling they belong at the end of an anti-growth block, immediately before the regenerative phase.
+
+**NAD+** — NMN / NR (2, ok, skip). Human trials raise NAD+ without downstream functional benefit. Three source rows for one pathway.
+
+**Redox and hormesis** — omega-3 (6, continue) · sauna (4, optional) · astaxanthin (2, skip — an ITP hit that failed to replicate) · NAC/GlyNAC/glutathione (2, skip). Organizing principle: the ROS burst after training is signal, not damage. Every item here is a timing question rather than a yes/no question — except NAC with methionine work, which is a genuine cancellation rather than a timing issue.
+
+**Hemodynamic and vascular** — blood pressure to <120 systolic (20, monitor) · cardiorespiratory training (20, also listed under 2.3) · aspirin (5, **AVOID** — a high evidence score attached to a finding of no benefit; ASPREE showed net harm in healthy older adults).
+
+**Inflammation** — low-dose colchicine (2, skip — CLEAR SYNERGY/OASIS-9 was neutral at n=7,062) · dental/periodontal care (4, do anyway).
+
+**Immune and infectious** — Shingrix (12, **calendar item at 50**) · H. pylori test-and-treat (8) · hepatitis C one-time screening (8) · influenza vaccination (8) · HPV vaccination (8, **window shuts at 45**).
+
+**Neurological, sensory, mental health** — depression screening and access (16 — suicide is among the leading causes of death for US males 35–44, and its absence from every longevity list is the same blind spot that omits seatbelts) · sleep 7–9 h (15) · hearing protection (9) · social connection (9).
+
+**Diet composition** — alcohol minimal or none (12 — MR has dismantled the J-curve) · fiber 35–40 g/day (9).
+
+**Environmental and external-cause** — nicotine and tobacco: none (25, confirm) · injury prevention (16) · radon test (12) · sun protection (8) · bedroom HEPA (6).
+
+**Early detection** — cancer screening on schedule (20).
+
+**No credible mechanism** — taurine (1, premise retracted by Fernandez 2025) · resveratrol (1) · 17α-estradiol (2, watch, do not take) · blood donation (4, optional) · methylene blue (1, **AVOID** — MAO-A inhibitor) · disease-indication drugs with no aging indication (1, change trigger to diagnosis) · the ~35-row supplement bundle (1) · EDTA/HBOT/stem cells/gene therapy (1, **AVOID**).
+
+### 2.7 Flat ranked list
+
+For the old view. Score-ordered, all families collapsed.
+
+| Score | Item | Family | Safety | Effort |
+|---:|---|---|:---:|:---:|
+| 25 | ApoB *(measure)* | diagnostics | ok | trivial |
+| 25 | ApoB to <60 mg/dL | lipoprotein | monitor | trivial |
+| 25 | Rosuvastatin / atorvastatin | lipoprotein | monitor | trivial |
+| 25 | Evolocumab / alirocumab | lipoprotein (PCSK9) | ok | high |
+| 25 | Nicotine and tobacco: none | environmental | ok | trivial |
+| 20 | Blood pressure to <120 | vascular | monitor | trivial |
+| 20 | Home BP series *(measure)* | diagnostics | ok | trivial |
+| 20 | Cancer screening on schedule | early detection | ok | low |
+| 20 | Cardiorespiratory fitness training | AMPK / vascular | ok | moderate |
+| 20 | Inclisiran | lipoprotein (PCSK9) | ok | high |
+| 20 | Enlicitide (Lipfendra), oral | lipoprotein (PCSK9) | ok | high |
+| 16 | DEXA body composition | diagnostics | ok | trivial |
+| 16 | Lp(a), once | diagnostics | ok | trivial |
+| 16 | Home sleep apnea test | diagnostics | ok | low |
+| 16 | Depression screening and access | mental health | ok | trivial |
+| 16 | Injury prevention | environmental | ok | trivial |
+| 16 | Ezetimibe | lipoprotein | ok | trivial |
+| 16 | Bempedoic acid *(if statin-intolerant)* | lipoprotein | monitor | moderate |
+| 16 | ApoB to <30 mg/dL | lipoprotein | monitor | high |
+| 16 | Tirzepatide *(continue)* | incretin | monitor | moderate |
+| 15 | Sleep 7–9 h | neurological | ok | trivial |
+| 15 | Resistance training 2–3×/wk | anabolic | ok | moderate |
+| 12 | Alcohol minimal or none | diet | ok | trivial |
+| 12 | Protein 1.2–1.6 g/kg/day | anabolic | ok | trivial |
+| 12 | Radon test | environmental | ok | trivial |
+| 12 | Shingrix *(at 50)* | immune | ok | low |
+| 12 | VO₂max *(measure)* | diagnostics | ok | low |
+| 9 | Creatine 5 g/day | anabolic | ok | trivial |
+| 9 | Fiber 35–40 g/day | diet | ok | trivial |
+| 9 | Hearing protection | neurological | ok | trivial |
+| 9 | Social connection | neurological | ok | low |
+| 9 | Pasteurized *A. muciniphila* *(watch)* | incretin | ok | moderate |
+| 8 | H. pylori · hepatitis C · influenza · sun protection · HPV | immune / environmental | ok | trivial–low |
+| 8 | Lp(a)-lowering therapy *(watch)* | lipoprotein | ok | high |
+| 6 | hsCRP · vitamin D · audiogram · grip · HEPA · APOE/PRS | diagnostics / environmental | ok | trivial–low |
+| 6 | Omega-3 *(continue)* | redox | ok | trivial |
+| 6 | Rapamycin | mTOR | monitor | low |
+| 6 | **Block-periodized growth cycling** | anabolic | ok | moderate |
+| 6 | Red yeast rice | lipoprotein | **AVOID** | trivial |
+| 5 | Coronary artery calcium *(defer)* | diagnostics | ok | low |
+| 5 | Aspirin | vascular | **AVOID** | trivial |
+| 4 | Metformin · TRF/FMD · methionine via food · sauna · blood donation · dental · homocysteine panel | various | ok–monitor | trivial–moderate |
+| 4 | Pendulum Glucose Control | incretin | ok | moderate |
+| 4 | Testosterone (absent hypogonadism) | anabolic | monitor | moderate |
+| 4 | SGLT2 inhibitors | incretin | **AVOID** *(while on a GLP-1)* | low |
+| 2 | Astaxanthin · NAC/GlyNAC · NMN/NR · 17α-estradiol · colchicine | various | ok–monitor | trivial–moderate |
+| 2 | rhGH-containing pro-growth block | anabolic | monitor | high |
+| 2 | Berberine | AMPK | **AVOID** | trivial |
+| 1 | Fisetin · resveratrol · taurine · D+Q · supplement bundle · disease-indication drugs | various | ok–monitor | trivial–moderate |
+| 1 | Methionine restriction <1 g/day · methioninase · methylene blue · EDTA/HBOT/stem cells | various | **AVOID** | moderate–high |
+
+---
+
+## Part 3 — Interactions
+
+Revision 3 splits this into two categories that the previous version ran together. The distinction matters, because it determines whether an item is *excluded* or merely *scheduled*.
+
+- **Hard conflicts** are pharmacological. They do not resolve with timing, and none of them are affected by Part 4.
+- **Phase conflicts** are conflicts of simultaneity. Two interventions pull the same lever in opposite directions *at the same moment*. Separating them in time resolves the conflict, and in several cases the separated version is how the intervention was designed to be used.
+
+### Hard conflicts — these do not resolve with scheduling
 
 **1. SGLT2 inhibitor + GLP-1 agonist + any carbohydrate restriction or fasting → euglycemic ketoacidosis.**
-This is the most dangerous combination available to you, and you're already holding one of the three pieces.
+The most dangerous combination available to you, and you already hold one of the three pieces. Euglycemic ketoacidosis is documented in **non-diabetic** patients on SGLT2 inhibitors. The precipitant profile is reduced carbohydrate intake, volume depletion, relative insulin deficiency and acute illness — a fair description of what a GLP-1 agonist does on a bad week. Because glucose reads normal, it is routinely missed until severe decompensation.
 
-Euglycemic ketoacidosis is documented in **non-diabetic** patients on SGLT2 inhibitors. The precipitant profile is reduced carbohydrate intake, volume depletion, relative insulin deficiency, and acute illness — which is a fair description of what a GLP-1 agonist does on a bad week. Because glucose reads normal, it is routinely missed until severe decompensation. Adding fasting, low-carb, or a GI-upset week to that stack is the documented recipe.
+**This one gets worse under growth cycling, not better.** An anti-growth block is exactly the carbohydrate-restricted, calorie-restricted state that precipitates it. If you adopt Part 4, this row stays AVOID in both phases.
 
-**2. NAC or GlyNAC + methionine restriction → mutually cancelling.**
-Cysteine supplementation reverses essentially the entire metabolic phenotype of methionine restriction in rodents — adiposity, hepatic SCD1 expression, insulin, leptin, triglycerides, adiponectin all revert to control. Elshorbagy's conclusion was that the anti-obesity effects of MR are driven by **low cysteine**, not low methionine per se. Running both is funding opposite sides of the same experiment.
+**2. Methylene blue + any serotonergic agent** (SSRI, SNRI, triptan, MAOI) → serotonin syndrome. Methylene blue is a potent MAO-A inhibitor. Hospitalization-grade, not a caution.
 
-**3. Rapamycin + resistance training → blocks the adaptation you're training for.**
-A single oral dose of rapamycin before resistance exercise **completely blocked** the contraction-induced rise in human muscle protein synthesis (~40% in controls), with S6K1 phosphorylation flat versus a 6-fold rise in controls. Notably, rapamycin did *not* affect post-absorptive protein metabolism — it specifically kills the *response to a stimulus*.
+**3. Berberine + rapamycin / statins / tadalafil** → berberine inhibits CYP3A4 and P-glycoprotein, raising exposure to all three unpredictably.
 
-Rapamycin's half-life is roughly 62 hours. Weekly dosing does not cleanly separate from a 3×/week lifting schedule. If you use it: dose immediately after your last hard session of the week, take the longest possible gap before the next one, and accept that you're trading some hypertrophy for a speculative benefit. Given that resistance training scores 15 and rapamycin scores 6, that trade is backwards.
+**4. Quercetin + dasatinib** → quercetin is itself a CYP3A4 inhibitor and raises dasatinib exposure. The senolytic protocol pairs them deliberately; the interaction is real regardless.
 
-**4. Metformin + exercise training → blunts VO₂max and mitochondrial adaptation.**
-Same structure as #3, same conclusion. The intervention with an EV of 5 loses to accommodate the one with an EV of 2.
+**5. Aspirin + fish oil + nattokinase** → additive bleeding risk with no offsetting indication at your age.
 
-**5. High-dose antioxidants + exercise training → blunt hormetic adaptation.**
-NAC, high-dose vitamin C/E, MitoQ, astaxanthin. The ROS burst after training is signal, not damage. Suppressing it suppresses the adaptation. Keep antioxidants away from the post-training window, or drop them.
+**6. GLP-1 agonist + procedures under anesthesia** → retained gastric contents and aspiration risk. Current anesthesia guidance calls for holding GLP-1s before elective procedures. Tell any surgeon, dentist or endoscopist.
 
-**6. Methylene blue + any serotonergic agent** (SSRI, SNRI, triptan, MAOI) → serotonin syndrome. Methylene blue is a potent MAO-A inhibitor. This is a hospitalization-grade interaction, not a caution.
+**7. NAC or GlyNAC + methionine restriction → mutually cancelling.**
+Cysteine supplementation reverses essentially the entire metabolic phenotype of methionine restriction in rodents — adiposity, hepatic SCD1 expression, insulin, leptin, triglycerides, adiponectin all revert to control. Elshorbagy's conclusion was that the anti-obesity effects of MR are driven by **low cysteine**, not low methionine per se.
 
-**7. Berberine + rapamycin / statins / tadalafil** → berberine inhibits CYP3A4 and P-glycoprotein, raising exposure to all three unpredictably.
+This one is listed as hard rather than phase-based deliberately. You could in principle alternate them, but there is no reason to: the cancellation is complete, neither has outcome evidence, and running both in alternation would be funding opposite sides of the same experiment on a schedule instead of simultaneously.
 
-**8. Quercetin + dasatinib** → quercetin is itself a CYP3A4 inhibitor and raises dasatinib exposure. The senolytic protocol pairs them deliberately; the interaction is real regardless.
+### Phase conflicts — real, but scheduling problems rather than exclusions
 
-**9. Aspirin + fish oil + nattokinase** → additive bleeding risk with no offsetting indication at your age.
+Each of these was previously written as a reason not to combine two interventions. That framing was too strong. What each actually says is *do not run these in the same window*.
 
-**10. GLP-1 agonist + procedures under anesthesia** → retained gastric contents and aspiration risk. Current anesthesia guidance calls for holding GLP-1s before elective procedures. Tell any surgeon, dentist, or endoscopist.
+**8. Rapamycin + resistance training.**
+A single oral dose of rapamycin before resistance exercise **completely blocked** the contraction-induced rise in human muscle protein synthesis (~40% in controls), with S6K1 phosphorylation flat versus a 6-fold rise in controls. Notably, rapamycin did *not* affect post-absorptive protein metabolism — it specifically suppresses the *response to a stimulus*.
+
+The half-life is roughly 62 hours, so five half-lives is about 13 days. **Weekly dosing cannot separate from a 3×/week lifting schedule — but a block structure separates them completely.** The correct conclusion is not "don't use rapamycin," it is "weekly dosing is the wrong administration pattern if you also lift." If you run it, run it inside an anti-growth block with the last dose ≥2 weeks before training volume comes back up.
+
+What has not changed: resistance training scores 15 and rapamycin scores 6, so on the merits training still wins any contest for the same window. Cycling means you don't have to hold that contest.
+
+**9. Metformin + exercise training.**
+Same structure, easier fix. Metformin blunts VO₂max and mitochondrial adaptation, and the intervention with the evidence (cardiorespiratory training, 20) loses to accommodate the one without it (metformin, 4). Metformin's half-life is ~6 hours, making it the most cleanly phaseable item in the document. It still scores 4 — good schedulability is not evidence.
+
+**10. High-dose antioxidants + exercise training.**
+NAC, high-dose vitamin C/E, MitoQ, astaxanthin. The ROS burst after training is signal, not damage; suppressing it suppresses the adaptation. This is a *window* problem at the scale of hours, not a block problem — keep antioxidants away from the post-training window, or drop them. Given that none of them have outcome evidence, dropping them is simpler.
+
+**11. IGF-1-raising agents + mTOR/IGF-1-lowering agents.**
+The general case, and the one your hypothesis is aimed at. rhGH raises IGF-1; rapamycin, methionine restriction and the CR mimetics exist to lower it and to lower mTOR signalling. Run simultaneously, you are paying two premium prices to push one dial in opposite directions, and then measuring the result with an epigenetic clock that cannot tell you which one won.
+
+Run in **alternating blocks**, that objection largely dissolves, and what remains is a real question about whether the alternation itself is beneficial. That question is Part 4.
 
 ### Redundancies — you're paying twice for one mechanism
 
@@ -249,12 +383,14 @@ NAC, high-dose vitamin C/E, MitoQ, astaxanthin. The ROS burst after training is 
 - MitoQ + astaxanthin + CoQ10 + ergothioneine + green tea extract (one antioxidant thesis, five invoices)
 - Glucosamine + chondroitin (weak individually, not additive)
 - Multiple simultaneous senolytics
+- Pendulum + separately-purchased *Akkermansia* (different preparations, overlapping intent — pick the one with the trial you actually want)
 
 ### Synergies worth noting
 
 - **Statin + ezetimibe** — different mechanisms, additive ApoB reduction, both generic. Best value pairing in the document.
-- **Resistance training + adequate protein + creatine** — the only combination that reliably protects lean mass during GLP-1 weight loss.
+- **Resistance training + adequate protein + creatine** — the only combination that reliably protects lean mass during GLP-1 weight loss, and the foundation of any pro-growth phase.
 - **PCSK9 inhibitor + statin** — statins slightly *raise* Lp(a); PCSK9 inhibitors lower it ~20–25%. Complementary if Lp(a) is elevated.
+- **Senolytic at the end of an anti-growth block, immediately before a regenerative phase** — clear, then rebuild, which is the sequence the underlying biology suggests. Sensible design; does not make either senolytic worth taking at 39.
 - **TRT + blood donation** (if TRT ever applies) — donation is the standard management for TRT-induced erythrocytosis.
 
 ### Monitoring requirements
@@ -266,155 +402,104 @@ NAC, high-dose vitamin C/E, MitoQ, astaxanthin. The ROS burst after training is 
 | GLP-1/GIP | **Lean mass by DEXA**, gallbladder symptoms, hold before anesthesia |
 | SGLT2i (if ever) | Ketones, genital mycotic infection, volume status, hold 3 days pre-procedure |
 | Statin | ALT at baseline and once; CK only if symptomatic |
-| Boron / T-boosting stack | Free and total testosterone, SHBG, hematocrit, PSA baseline |
+| rhGH (if ever) | IGF-1, fasting glucose and insulin, PSA, carpal tunnel symptoms, joint swelling |
+| Any growth-cycling protocol | DEXA at every phase boundary; grip weekly; IGF-1 and fasting insulin at phase midpoints |
 
 ---
 
-## Part 4 — The items you asked about
+## Part 4 — Growth cycling
 
-### TRIIM-X — skip, and not just because you're ineligible
+**Your hypothesis, as stated:** the anti-growth interventions — rapamycin, fasting, calorie and protein restriction, senolytics — are about pruning senescent cells, avoiding cancer, and getting into an efficient metabolic state that limits byproducts. But growth also matters, for muscle and bone preservation, tissue repair, and thymic regeneration. So rather than running one arm continuously, alternate: a ~6-week pro-growth block (TRIIM-X, heavy strength training, high protein, all anti-growth items suspended), then return to a mostly anti-growth lifestyle with reduced-volume training.
 
-**Status as of August 2026:** NCT04375657 remains open, ages **40–80**. You are 39, so it is not available to you regardless. Seven years after the original TRIIM publication, **no peer-reviewed TRIIM-X results exist.** The only public data is a "sneak peek" of preliminary findings presented in a Foresight Institute talk in May 2026.
+**This is a better idea than the version of this document it is arguing with.** Revision 2 treated pro- and anti-growth as permanently opposed and used that opposition to justify an AVOID flag on TRIIM-X and to reject your methionine plan on scheduling grounds. Both of those arguments were about *simultaneity*, and both weaken considerably once the two arms are separated in time. Revision 3 concedes the point and reprices accordingly.
 
-**Four structural problems, in ascending order of importance:**
+What follows separates the hypothesis into three parts, because they have different evidence and deserve different answers: **the cycling structure**, **the pro-growth phase content**, and **the rhGH question specifically**.
 
-1. **The original trial was n=9, single-arm, uncontrolled.** Epigenetic age reversal of ~2.5 years, measured by clocks that are not validated surrogates for mortality benefit. No control group means no way to separate treatment from regression to the mean, measurement drift, or the behavioral changes that accompany enrolling in a longevity study.
+### 4.1 What supports the cycling structure
 
-2. **TRIIM-X is participant-funded and sponsor-run.** Intervene Immune markets it alongside a diagnostics program: "Access cutting-edge thymus regeneration treatment through our TRIIM-X clinical trial." A paid, single-arm, sponsor-analyzed study is a structurally weak evidence generator no matter how good the underlying biology is.
+Nothing here is a trial of block alternation itself — that trial does not exist. What exists is a set of adjacent results that make the structure mechanistically credible rather than merely appealing.
 
-3. **The protocol contains its own tell.** Growth hormone causes insulin resistance. Metformin is in the cocktail specifically to mitigate a harm the protocol creates. When a therapy needs a second drug to offset its own primary side effect, that's a signal about the risk-benefit ratio, not a sign of sophistication.
+**Pulsed mTOR inhibition already has a precedent.** Bitto et al. (*eLife*, 2016) gave middle-aged mice rapamycin for three months and found lifespan benefit that persisted after withdrawal. Weekly rapamycin dosing in humans is itself a pulse strategy, adopted specifically to get mTORC1 inhibition without continuous immunosuppression. The field's own dosing convention concedes that continuous is not obviously better.
 
-4. **The biology doesn't apply to you.** Thymic involution at 39 is modest; the immunosenescence rationale is built on 65-year-olds. And recombinant GH in a man with an intact GH axis raises IGF-1 — where the evidence points the *other* way. Elevated IGF-1 associates with increased prostate, colorectal, and breast cancer risk, and reduced IGF-1/insulin signaling is the most conserved life-extension pathway across every model organism tested.
+**Fasting protocols are already cycle protocols, and the refeeding phase does work.** Longo's FMD design is 5 days on, then refeeding, a few times a year — the alternation is the intervention, not a compromise. And the refeeding phase is not downtime: Cheng et al. (*Cell Stem Cell*, 2014) found that fasting/refeeding cycles drove hematopoietic stem cell self-renewal and immune reconstitution in mice. That is regeneration triggered by the *transition*, which is precisely the mechanism your hypothesis proposes.
 
-**The sharpest objection:** TRIIM raises IGF-1. Methionine restriction, rapamycin, and every CR-mimetic on your list exist to *lower* IGF-1 and mTOR signaling. If you ran both, you would be paying two premium prices to push the same dial in opposite directions, and then measuring the result with an epigenetic clock that can't tell you which one won.
+Note what this means for your thymus goal specifically. **The regenerative endpoint you want from TRIIM-X has adjacent support from a protocol that is free, has human trial infrastructure, and does not require rhGH.** If you only take one thing from this section, take that one.
 
-**Score: evidence 1 × benefit 1 = 1, safety AVOID, effort high.** Revisit at 60, if by then there is a controlled trial with clinical endpoints.
+**Exercise periodization is the same idea in a field where it is uncontroversial.** Nobody trains at maximum volume continuously; accumulation and deload blocks alternate because the adaptation happens in the trough. Applying that logic to metabolic signalling is an analogy, not evidence — but it is a reasonable analogy, and the burden of proof that continuous is better has never been discharged either.
 
----
+**The duty-cycle argument is arithmetically correct.** Two six-week pro-growth blocks a year is a ~23% duty cycle. If the risk of elevated IGF-1 is a function of cumulative exposure — which is the standard framing, and the same framing this document uses in your favour for ApoB — then the lifetime IGF-1 integral under cycling is roughly a quarter of continuous administration, while the anabolic stimulus during the block is undiminished. That is a genuine and material softening of the objection revision 2 made, and it is your strongest argument.
 
-### PCSK9 inhibitors — the real upgrade, but fourth in line
+**It solves your own scheduling problem.** The single sharpest criticism of your original methionine plan was that 5-on/2-off put restriction directly on top of the 48–72 h remodelling window after weekend training — stimulus delivered, then substrate withdrawn. Block cycling fixes that completely: weeks of restriction, then weeks of building, with no interleaving. Whatever else is true, the block version is a strictly better design than the weekly version.
 
-This is the item on your list with the largest genuine upside, **conditional on your ApoB and Lp(a) numbers**, which you haven't measured.
+### 4.2 What is not established
 
-**What changed since your document was last updated:** On 15–16 July 2026 the FDA approved **enlicitide decanoate (Lipfendra)** — the first **oral** PCSK9 inhibitor, a macrocyclic peptide, 20 mg once daily. Placebo-adjusted LDL-C reduction was **55.8%** in CORALreef Lipids (n=2,904) and **59.4%** in CORALreef HeFH, with roughly **50% ApoB reduction** and adverse events comparable to placebo. In CORALreef AddOn it beat ezetimibe, bempedoic acid, and their combination on top of background statins.
+**No human trial has tested block alternation against either arm run continuously.** Everything above is mechanism plus adjacent results. Evidence tier 2. That is why the row scores 6 and not 15.
 
-That removes the injection barrier that kept this class from wider use — the field has long attributed poor real-world uptake of injectable PCSK9 inhibitors to prior-authorization burden and injection logistics rather than to the drug's efficacy.
+**The optimal block length is guesswork.** Six weeks is a reasonable guess for a hypertrophy accumulation block, which is probably where the number came from, and it is defensible for that reason. But the timescales that matter for the anti-growth arm are different and mostly unmeasured in humans — autophagic flux, senescent-cell clearance, FGF21 kinetics. Nobody knows whether six weeks off rapamycin loses the benefit or preserves it.
 
-**Three things that should temper the enthusiasm:**
+**Washout is a real constraint on the transitions, and it is asymmetric.** Rapamycin needs ~2 weeks to clear five half-lives; a pro-growth block that starts 3 days after the last dose is not a clean pro-growth block. Metformin clears in a day. IGF-1 takes 1–2 weeks to normalize after rhGH withdrawal, so the anti-growth block does not truly begin the day the injections stop. Budget roughly two weeks of transition at each boundary, which means a 6-week pro-growth block occupies about 8 weeks of calendar.
 
-1. **No cardiovascular outcomes data for enlicitide yet.** Approval rests on LDL-C alone. CORALreef Outcomes (>14,500 enrolled) is still running. The class prior is good — FOURIER and ODYSSEY established outcome benefit for the monoclonals — but "this specific agent reduces events" remains unproven.
+**There is a plausible failure mode where you get the costs of both arms and the benefits of neither** — never sustaining restriction long enough to establish the metabolic phenotype, never sustaining training volume long enough to accumulate tissue. This is the same criticism that sank the 5-on/2-off methionine design, applied at a longer timescale. Longer blocks make it less likely, which argues for 6–12 weeks rather than 2–3.
 
-2. **Coverage will be the binding constraint.** Prior authorization for PCSK9 inhibitors generally requires established ASCVD or heterozygous FH *plus* maximally tolerated statin therapy. A healthy 39-year-old with no event history meets none of that. Cash price for the injectable class runs ~$500–600/month; enlicitide's pricing and coverage pathway are not yet established.
+**Cancer risk is the asymmetry that does not average out.** The pruning logic — clear damaged cells during restriction, then rebuild — assumes the clearing happens first and completely. If a pro-growth block instead supplies substrate and signalling to a lesion that the anti-growth block did not clear, the two phases are not symmetric in their consequences. This is speculative in both directions and there is no data to resolve it, but it is the reason to keep the pro-growth blocks anabolic rather than pharmacologically supraphysiologic, and the reason to keep cancer screening (which scores 20) on schedule regardless.
 
-3. **You have not exhausted the cheap options.** Generic rosuvastatin plus generic ezetimibe costs under $25/month and gets most people to an ApoB target. Reaching for a $6,000/year drug before trying a $300/year one is the definition of a poor bang-for-buck decision.
+### 4.3 The pro-growth phase content
 
-**Where Lp(a) changes the calculus:** if your Lp(a) comes back elevated (>125 nmol/L, and especially >200), the case strengthens considerably, because statins slightly *raise* Lp(a) while PCSK9 inhibitors lower it ~20–25%. The dedicated Lp(a) agents are close but not here: **Lp(a)HORIZON** (pelacarsen, n=8,323) is the first cardiovascular outcomes trial for any Lp(a)-lowering therapy and is expected to report before the end of 2026, with olpasiran, lepodisiran, and oral muvalaplin behind it. That readout will define the field. **Measuring Lp(a) now costs $30 and tells you whether to care.**
+Here is the part where the analysis is unambiguous.
 
-**Recommended sequence:** ApoB + Lp(a) → generic statin → add ezetimibe → reassess ApoB at 8 weeks → escalate to PCSK9 inhibitor only if off target or Lp(a) is high.
+**Resistance training scores 15. Protein scores 12. Creatine scores 9. rhGH scores 2.** The pro-growth block that carries almost all of the available benefit is *training plus protein plus creatine plus sleep*, and it is free. Adding rhGH to that adds a poorly evidenced drug on top of a well-evidenced foundation, and the marginal contribution is unmeasured.
 
-**Scores — generic statin: evidence 5 × benefit 5 = 25, effort trivial. Ezetimibe: 4 × 4 = 16, effort trivial. Evolocumab/alirocumab/inclisiran: 5 × 5 = 25, effort high. Enlicitide: 3 × 5 = 15, effort high.**
+Two practical findings support running it hard:
 
-Note what the model is telling you here. The injectable PCSK9 inhibitors score a full 25 — identical to the generic statin — because on the merits they are that good. Enlicitide scores lower *only* because its outcomes trial hasn't reported, not because it's expensive. What actually keeps all of them behind the statin is the `effort` tag and the coverage gate, which are scheduling facts rather than efficacy ones. That separation is the point of the revised scoring.
+**Maintenance is much cheaper than accumulation.** Trained individuals hold strength and lean mass on roughly one-third of accumulation volume for months (Bickel 2011 and the broader minimal-dose literature). Your instinct that weekend-only lifting during the anti-growth phase is sufficient to *hold* what you built is physiologically sound — that is maintenance volume, not detraining. What it will not do is build, which is the point of the structure.
 
----
+**Protein cannot be banked, but it can be phased.** Muscle protein synthesis has a per-meal ceiling and a refractory period, which is why compressing a week's intake into a weekend fails. Compressing a *year's* anabolic emphasis into two six-week blocks does not have that problem, because you are not trying to make one meal do a week's work — you are running weeks of adequate intake back to back. The per-meal ceiling argument kills the weekend plan and does not touch the block plan.
 
-### How low should ApoB go? — the case for and against a sub-30 target
+**One constraint that does not relax:** you are on tirzepatide, and protein at 1.2–1.6 g/kg/day plus resistance training is the mitigation for drug-induced lean-mass loss. That mitigation cannot be suspended during anti-growth blocks. So the anti-growth phase is "reduced volume and reduced anabolic emphasis," not "restriction plus detraining." If the anti-growth block includes genuine protein restriction while you remain on a GLP-1, the lean-mass arithmetic goes the wrong way regardless of how good the cycling structure is.
 
-Worth splitting into two line items, because the two moves have different evidence, different economics, and different answers.
+### 4.4 The rhGH question
 
-| | ApoB 100 → 60 | ApoB 60 → 30 |
-|---|---|---|
-| **How** | Generic statin, ± generic ezetimibe | Statin + ezetimibe + PCSK9 inhibitor |
-| **Evidence** | 5 | 4 |
-| **Benefit** | 5 | 4 |
-| **Score** | **25** | **16** |
-| **Cost** | ~$60/yr | ~$6,000/yr |
-| **Insurance** | Covered | Not without ASCVD or FH |
+Scored separately at **1 × 2 = 2, MONITOR, high effort** — down from AVOID.
 
-**What supports going very low.** FOURIER-OLE followed patients for a median of five years beyond the parent trial and found a *monotonic* relationship: lower achieved LDL-C, down to under 20 mg/dL, tracked with lower cardiovascular risk, with no significant safety concerns. Roughly a quarter of that cohort was living below 20 mg/dL. The earlier prespecified FOURIER analysis found the same monotonic pattern with no signal for new-onset diabetes, cataracts, neurocognitive events, malignancy, or hemorrhagic stroke across achieved-LDL strata. No threshold of diminishing return has been found.
+**Why the flag changed.** The previous AVOID rested substantially on "raises IGF-1, directly opposes rapamycin, methionine restriction and every CR mimetic on this list." That is a simultaneity argument and your hypothesis answers it. Removing it leaves two objections, both real and both MONITOR-grade rather than AVOID-grade.
 
-The genetic evidence is the closest thing we have to a fifty-year experiment. People carrying loss-of-function variants in *PCSK9* or *ANGPTL3* live their entire lives with LDL-C in the teens and are healthy, fertile, and markedly protected from coronary disease. That is reassuring in a way no trial can be, because it covers the duration a trial never will.
+**What remains, honestly.** First, the evidence base: TRIIM was n=9, single-arm, uncontrolled, with ~2.5 years of epigenetic age reversal measured by clocks that are not validated mortality surrogates, and seven years on there are no peer-reviewed TRIIM-X results — only a preliminary presentation at a Foresight talk in May 2026. The trial is participant-funded and sponsor-analyzed, which is a structurally weak evidence generator regardless of the underlying biology. Second, exogenous rhGH raises IGF-1 into a range that training and protein do not; elevated IGF-1 associates with increased prostate, colorectal and breast cancer risk, and reduced IGF-1/insulin signalling is the most conserved life-extension pathway across model organisms. The duty-cycle argument reduces that exposure substantially; it does not eliminate it, and it does not supply the missing efficacy data.
 
-And the cumulative-exposure argument cuts in favor of you specifically. If risk is a function of the integral of ApoB over time, then a 39-year-old has fifty years over which a deeper reduction compounds. **The sub-30 target is more defensible at your age than at 65**, which is the opposite of how these decisions usually get made.
+Third, a smaller point that the protocol makes about itself: metformin is in the cocktail specifically to offset GH-induced insulin resistance that the protocol creates. When a therapy needs a second drug to counteract its own primary side effect, that is information about the risk-benefit ratio.
 
-**What argues against it.** Four things, none fatal, cumulatively enough to score it 16 rather than 25.
+**Eligibility.** NCT04375657 is ages 40–80. You are 39, so it is unavailable this year and available next year. If you want it, the honest reason to enroll at 40 is contributing data to a study that badly needs participants — not receiving a treatment whose effect size is unknown.
 
-1. **Nobody has ever been randomized to this target.** Every supporting analysis is post-hoc, comparing people who *happened* to achieve very low levels. Those people differ systematically from those who didn't — better adherence, different baseline, different metabolism. The multivariable adjustment helps; it doesn't make it a randomized comparison. This is the single reason evidence is 4 rather than 5.
+**The recommendation that follows.** Run the cycling structure. Build the pro-growth blocks out of training, protein, creatine and sleep, which is where the evidence is. Leave rhGH out of the first several cycles, because adding an unevidenced drug to an unevidenced schedule makes the result uninterpretable — if something improves, you will not know which change did it. If you still want the rhGH arm after two or three clean cycles, you will at least have a personal baseline to compare against, which is more than TRIIM-X itself has.
 
-2. **The second increment is a smaller slice of a shrinking pie.** Proportional risk reduction per unit of ApoB lowered is roughly constant, but *absolute* benefit scales with the baseline risk you're operating on — and you've already cut that with the first move. So you pay roughly 100× more per year for a smaller absolute return. That's not an argument that it doesn't work. It's an argument that it's an ordinary purchase where the first increment was an extraordinary one.
+### 4.5 A concrete calendar, if you run it
 
-3. **Duration mismatch.** The longest data at LDL under 20 is about seven years, in older secondary-prevention patients. Pharmacologic suppression starting at 39 is not identical to germline-low levels from conception — different tissue exposure history, different developmental window. The genetic evidence is reassuring by analogy, not by demonstration.
+Offered as a starting structure, not a protocol — nobody has tested this, and the parameters below are reasoned guesses.
 
-4. **Lp(a) may put a floor under it.** Every Lp(a) particle carries one apoB-100, so measured ApoB includes an Lp(a)-derived component you cannot remove with LDL-directed therapy. If your Lp(a) is high, a sub-30 ApoB may be arithmetically unreachable — another reason the $30 test comes first.
+| Weeks | Phase | Training | Diet | Pharmacology |
+|---|---|---|---|---|
+| 1–6 | **Pro-growth** | Resistance 3–4×/wk, progressive; cardio maintained at 2×/wk | Protein 1.6 g/kg/day distributed; adequate methionine; energy at or slightly above maintenance | Creatine 5 g/day. Nothing anti-growth. No antioxidant supplements near training. |
+| 7–8 | Transition down | Taper resistance volume to maintenance | Protein holds at 1.2–1.6 | IGF-1 normalizing; nothing new started |
+| 9–20 | **Anti-growth** | Resistance 1–2×/wk at maintenance volume; cardio 3×/wk | Protein holds ≥1.2 g/kg while on tirzepatide; shift methionine *sources* (legumes, soy, dairy) rather than cutting protein; 1–2 FMD cycles | Rapamycin only if you decide it's worth 6 points; last dose ≥2 wk before week 21. **No SGLT2 inhibitor, in either phase.** |
+| 21–22 | Transition up | Volume ramps | Protein to 1.6 | Rapamycin fully cleared before resistance volume rises |
+| 23–28 | **Pro-growth** | repeat | repeat | repeat |
 
-**On your hormone stack specifically**, since cholesterol is the steroidogenesis substrate and this is the obvious worry: the 2024 systematic review (21 studies, 9,879 patients) found statins lower *total* testosterone by about 13 ng/dL in randomized trials — real, but not enough to drop anyone below the normal range — with **no difference in free testosterone, LH, estradiol, or SHBG.** Free testosterone is the fraction that matters for symptoms. This is not a reason to hold back.
+That is roughly two pro-growth blocks per year at a ~23% duty cycle, with 12 weeks of anti-growth emphasis between them and clean two-week transitions at every boundary.
 
-**Practical answer.** Get to ApoB 60 with the $60/year generic — that decision is close to unambiguous. Then measure Lp(a). If it's elevated, the sub-30 target becomes both more valuable and possibly unreachable, and the PCSK9 inhibitor earns its price on the Lp(a) reduction alone. If Lp(a) is low and you hit 60 easily, going to 30 is a defensible six-thousand-dollar-a-year bet on an extrapolation — reasonable, not obligatory, and the kind of thing to revisit when CORALreef Outcomes reads out and puts a hard number on the oral option.
+### 4.6 How you would know if it's working
 
+This is the part that separates a hypothesis from a belief, and it is worth more than the protocol design.
 
----
+**Pre-specify these before starting:**
 
-### SGLT2 inhibitors — I'd reverse your ranking entirely
+- **DEXA at every phase boundary** — not the Withings BIA, which will not resolve the 1–2 kg changes at stake. The pro-growth block should show lean mass up; the anti-growth block should show it flat, not falling. Lean mass falling during anti-growth blocks means the structure is failing at its main job.
+- **Grip strength weekly** — cheapest early warning, and it moves before DEXA does.
+- **IGF-1 and fasting insulin at each phase midpoint** — this is the readout that tells you the phases are actually different. If IGF-1 doesn't separate between blocks, you are not running two phases, you are running one phase with a varying training schedule.
+- **ApoB every 8 weeks through the first cycle** — rapamycin raises lipids and a pro-growth block changes intake; the item scoring 25 should not drift while you experiment with items scoring 6.
+- **A stopping rule.** If lean mass falls >1 kg across a full anti-growth block despite maintained protein and maintenance-volume training, the anti-growth phase is too aggressive. Shorten it or lighten it.
 
-Your sheet gives this a gerotherapeutics score of 12/12, the highest in the table, with the note "top scoring candidate for TAME-like trial." That note is doing more work than you may realize: **the score means "most deserving of a trial," which entails that the human aging evidence does not yet exist.**
+**And the honest caveat about clocks:** if you evaluate this with an epigenetic age test, you will get a number, and it will not mean what you want it to mean. The clocks are not validated mortality surrogates, they drift with assay batch and cell composition, and the effect sizes you are looking for are inside their noise. DEXA, grip, IGF-1 and ApoB are boring and they will actually tell you something.
 
-**What the evidence actually supports:**
-- ITP canagliflozin: **+14% median lifespan in males only**, no effect in females. Real, replicated within ITP, and it happens to be your sex.
-- Human outcome trials — EMPA-REG, CANVAS, DECLARE, DAPA-HF, EMPEROR, DAPA-CKD, EMPA-KIDNEY — are uniformly excellent, and uniformly in **type 2 diabetes, heart failure, or chronic kidney disease.** Much of the benefit is hemodynamic and renal. There is **no trial in metabolically healthy non-diabetics**, and no strong reason to assume the mechanism transfers to someone with normal kidneys and no heart failure.
-
-**What it costs you:**
-- Genital mycotic infection in roughly 1 in 10 men
-- Volume depletion and orthostasis
-- 20–40 g/day glucosuria — a persistent urinary glucose substrate
-- Fournier's gangrene (rare, but a labeled concern)
-- **Euglycemic ketoacidosis**
-
-**And the specific reason it's wrong for you right now:** you are on tirzepatide. GLP-1/GIP agonists substantially reduce caloric intake, can cause vomiting and dehydration, and shift substrate use toward fat oxidation. That is precisely the precipitant profile for euglycemic ketoacidosis. Layer in any carb restriction, fasting protocol, or gastroenteritis week and you have assembled every documented risk factor at once. The presentation is subtle because glucose reads normal — which is exactly why it gets missed.
-
-There is also a redundancy argument: the metabolic benefits you'd be reaching for, tirzepatide already delivers, with human hard-outcome data behind it.
-
-**Score: evidence 2 × benefit 2 = 4, safety AVOID, effort low.** The AVOID flag here is driven by the tirzepatide interaction, not by the drug in isolation — which is exactly the distinction a flag can make and an averaged safety score cannot.
-
-**When this flips:** if you ever develop type 2 diabetes, CKD, or heart failure, SGLT2 inhibitors become first-line and genuinely excellent. Keep the row, change the trigger condition from "aging" to "diagnosis."
-
----
-
-### Pendulum Glucose Control — right to separate it out, wrong indication for you
-
-You're correct that this shouldn't sit inside a generic "probiotics" row. Evidence in this field attaches to **named strains at named doses**, not to the category, and collapsing a clinically-tested five-strain formulation into the same bucket as store-brand acidophilus was too coarse. Fixed. But separating it out produces two rows, not one, because the product and its headline ingredient are now on different evidence trajectories.
-
-**The Pendulum trial is real and it is thin.** Perraudeau et al., *BMJ Open Diabetes Research & Care*, 2020 (NCT03893422): randomized, double-blind, placebo-controlled, 12 weeks, T2D subjects on metformin ± sulfonylurea. WBF-011 produced HbA1c −0.6% and a 33% reduction in postprandial glucose AUC against placebo. That is a genuine, properly-designed trial and better than what backs almost anything else in your source table's supplement section.
-
-The problems are structural rather than methodological:
-
-- **The active arm was n=23** against n=26 placebo, out of 76 randomized across three arms.
-- **All seventeen authors were Pendulum employees.** Not "industry-funded" — industry-authored, end to end.
-- The paper describes itself as a **proof-of-concept study**.
-- **Six years on, there is still no independent replication.** The one planned academic study (USC, NCT04228003) was withdrawn before enrolling anyone: *"the funding and project never started."*
-- The 2022 *BMC Microbiology* follow-up showing circulating butyrate and ursodeoxycholate rose is mechanistically supportive but comes from the same group.
-
-**The indication mismatch is the bigger problem.** The studied population was type 2 diabetics on metformin. You are on tirzepatide, which lowers HbA1c by roughly 2.0–2.4%. This is a 0.6% agent, and its proposed mechanism — short-chain fatty acids driving *endogenous* GLP-1 secretion — is precisely the pathway your drug already saturates pharmacologically. Nobody has tested it on top of a GLP-1. Adding it is paying roughly $2,000/year to nudge a lever that is already pinned.
-
-**One concrete caution:** the formulation includes chicory-root inulin, a fermentable prebiotic. Stacked on tirzepatide-delayed gastric emptying, expect more bloating and gas, not less.
-
-**Score: evidence 2 × benefit 2 = 4.** Same band as metformin and time-restricted feeding — not absurd, not justified.
-
-### But the ingredient is having a much better year than the product
-
-Here is the part worth your attention, and it points somewhere other than glucose control.
-
-**Mount et al., *Nature Medicine*, June 2026** (n=90, Maastricht and Copenhagen, academic-led): participants completed an 8-week low-energy diet for ≥8% weight loss, then spent 24 weeks eating *ad libitum* with daily pasteurized *A. muciniphila* MucT or placebo. Weight regain was **1.2 ± 0.7 kg on MucT versus 3.2 ± 0.4 kg on placebo** (P = 0.012). Net weight loss from baseline was 3.1 kg greater (P = 0.009). Roughly **40% of the MucT group kept losing weight** during maintenance, against about 5% on placebo. No serious treatment-related adverse events. Depommier 2019 (*Nature Medicine*, n=32) and Zhang 2025 (*Cell Metabolism*) point the same direction.
-
-That is a positive randomized trial aimed squarely at **the one problem GLP-1 users actually face** — regain after stopping. It is the only supplement anywhere on this inventory with an RCT targeting that question.
-
-Three things keep it at 9 rather than higher:
-
-1. **It's a different preparation.** Mount used *pasteurized* single-strain MucT. Pendulum sells *live* multi-strain. This is not a pedantic distinction — the activity is attributed to the heat-stable surface protein Amuc_1100, and there is an open argument that pasteurized preparations outperform live ones partly because live *Akkermansia* may not survive gastric transit in standard capsules. Buying Pendulum does not get you the trial you just read about.
-2. **The weight loss was diet-induced, not GLP-1-induced.** Post-tirzepatide regain is a different physiological setting, and applying the result there is an extrapolation.
-3. **Both Zhang and Mount found the benefit concentrates in people with low baseline *Akkermansia*.** So it is responder-dependent, and there is no validated consumer test to tell you whether you're a responder. An effect of ~2 kg over 24 weeks, averaged across responders and non-responders, is what you'd be buying blind.
-
-**Practical read:** skip it now — it does nothing your tirzepatide isn't already doing harder. Put pasteurized MucT on the watch list and revisit it as part of the taper plan, which is when regain becomes the live question. That is also the moment to have resistance training, protein at 1.2–1.6 g/kg, and creatine already established, since those carry better evidence for the same goal and cost a fraction as much.
-
+**Score for the structure: evidence 2 × benefit 3 = 6, safety OK, effort moderate.** Scored at 6 rather than higher because it is a scheduling structure rather than a therapy — most of its value is already counted in the rows it schedules. Scored at 6 rather than lower because it converts three phase conflicts from exclusions into calendar entries, and because it recovers muscle, bone and repair capacity that a continuously anti-growth protocol gives away for free.
 
 ---
 
@@ -422,7 +507,7 @@ Three things keep it at 9 rather than higher:
 
 You proposed: **<1 g methionine/day, five days a week, plus methioninase, with high protein and intense strength training on weekends.**
 
-I think the underlying instinct is right and the implementation is likely to cost you muscle without delivering the mechanism. Eight problems, roughly in order of severity.
+The underlying instinct is right. The implementation is likely to cost you muscle without delivering the mechanism. Eight problems, roughly in order of severity — and note that **problem 5 is the one your block-cycling hypothesis solves**, which is a real point in its favour.
 
 ### 1. The newest data says to keep methionine adequate, not cut it
 
@@ -442,35 +527,43 @@ Rodent MR uses roughly 0.17% methionine against 0.86% controls — about an 80% 
 
 The costs, meanwhile, accrue immediately: reduced muscle protein synthesis and negative nitrogen balance start on day one of restriction. You'd be collecting the debit reliably and the credit unreliably.
 
+This is a **timescale** objection, not an objection to cycling as such. It says the cycle you chose is too short for the biology, which is an argument for the block structure in Part 4 and against the weekly one.
+
 ### 4. You can't bank a week's anabolism into a weekend
 
 Muscle protein synthesis has a per-meal ceiling and a refractory period. The distribution literature consistently shows even protein spread across the day beats bolus loading for net synthesis. Compressing five days of missed intake into two doesn't recover it.
 
-### 5. Your training and your restriction are scheduled exactly out of phase
+Note that this objection is specific to the weekend design and does not transfer to block cycling, where you are running weeks of adequate intake consecutively rather than asking two days to do a week's work.
+
+### 5. Your training and your restriction are scheduled out of phase — and block cycling fixes this
 
 Hard weekend lifting is fine while methionine-replete. But adaptation, remodeling and repair continue for 48–72 hours afterward — which lands on Monday and Tuesday, your restricted days. You'd deliver the stimulus and then withdraw the substrate precisely during the window when it's being used.
 
+**This is the objection your hypothesis answers directly, and it answers it completely.** Multi-week blocks never interleave stimulus with withdrawal. If you are going to combine training with restriction at all, the block structure is the correct way to do it, and the weekly structure is not. Credit where it's due.
+
 ### 6. Drop the methioninase entirely
 
-This is the part I'd remove without hesitation.
+This is the part I'd remove without hesitation, and it is unaffected by any scheduling change.
 
 - It's a **bacterial enzyme** from *Pseudomonas putida*, developed almost entirely by one laboratory (Hoffman / AntiCancer Inc.) over three decades.
 - The injectable form **elicited strong immune reactions in primates**, requiring PEGylation to control antigenicity. Primate safety work also showed reduced food intake, weight loss, and transient declines in red cell values and hemoglobin.
-- The oral form is sold as a **dietary supplement** — that is a regulatory classification, not a safety finding. It means no FDA review of either efficacy or safety.
+- The oral form is sold as a **dietary supplement** — a regulatory classification, not a safety finding. It means no FDA review of either efficacy or safety.
 - The clinical evidence is roughly **eight published studies across thirty years**, nearly all from the originating lab, all in advanced cancer. The oral human data is essentially **two case reports**: a 50% drop in circulating methionine within four hours in one ovarian cancer patient, and a ~70% PSA decline over three months in one prostate cancer patient. That is not a safety database.
 - **Mechanistically it produces methanethiol, α-ketobutyrate, and ammonia.** Methanethiol is the principal compound behind severe oral and body malodor. Chronic gut-lumen generation of it is not a trivial cosmetic footnote. The enzyme also requires co-administered pyridoxal-5′-phosphate as cofactor.
 - **Functionally it's redundant.** An oral enzyme acting in the gut lumen is a less controllable way of eating less methionine. Food selection achieves the same exposure reduction with a titration dial, a food log, an off switch, and no immunogenic bacterial protein.
 - Long-term safety data in healthy people is not weak. It is **absent**.
 
-### 7. The tirzepatide interaction is the practical dealbreaker
+### 7. The tirzepatide interaction is the practical constraint
 
 GLP-1/GIP agonists produce substantial weight loss, and a meaningful fraction is lean mass unless protein intake and resistance training are aggressive. The evidence-based mitigation is **1.2–1.6 g/kg/day protein distributed across the day, plus 2–3 resistance sessions per week.**
 
-Your protocol moves against both: it restricts protein quality five days a week and concentrates training into two. Stacked on drug-induced loss, the predictable result is accelerated sarcopenia — measured as a number you'd see on a DEXA before you'd feel it in the gym.
+The original protocol moves against both: it restricts protein quality five days a week and concentrates training into two. Stacked on drug-induced loss, the predictable result is accelerated sarcopenia — measured as a number you'd see on a DEXA before you'd feel it in the gym.
+
+Block cycling improves this but does not remove it. As long as you are on tirzepatide, the protein floor holds in **both** phases; an anti-growth block that includes genuine protein restriction while the drug is running has the lean-mass arithmetic going the wrong way regardless of how well the blocks are designed.
 
 ### 8. Your own list contains the antidote
 
-GlyNAC is row 18. Cysteine supplementation reverses essentially all metabolic effects of methionine restriction. Running both cancels the experiment.
+Cysteine supplementation reverses essentially all metabolic effects of methionine restriction. Running NAC or GlyNAC alongside cancels the experiment. This is a genuine cancellation rather than a timing problem — see Part 3, hard conflict 7.
 
 ### What <1 g/day actually means
 
@@ -478,14 +571,14 @@ Adult requirement for total sulfur amino acids (methionine + cysteine) is roughl
 
 ### The version I'd actually run
 
-1. **Hold total protein at 1.2–1.6 g/kg/day, distributed across meals.** Non-negotiable while on tirzepatide.
+1. **Hold total protein at 1.2–1.6 g/kg/day, distributed across meals, in both phases.** Non-negotiable while on tirzepatide.
 2. **Shift protein *sources*, don't cut protein *amount*.** Legumes, soy, and dairy carry substantially less methionine per gram of protein than beef, eggs, poultry, and especially fish. That drops methionine 25–40% while total protein stays flat. This is the LDMM pattern — largely plant-based, some fish.
-3. **Get the FGF21 signal from time-restricted feeding or periodic fasting-mimicking cycles** — a few 5-day cycles a year — which have human trial data behind them rather than a chronic deficiency state.
+3. **Get the FGF21 signal from time-restricted feeding or periodic fasting-mimicking cycles** — a few 5-day cycles a year — which have human trial data behind them rather than a chronic deficiency state. These slot naturally into the anti-growth blocks in Part 4.
 4. **Drop methioninase.**
-5. **Drop NAC/GlyNAC if you're pursuing methionine restriction at all** — pick one.
-6. **Move resistance training to 3×/week spread across the week**, not compressed into two weekend days. This matters more than the methionine question.
-7. **Measure properly.** DEXA at baseline and 12 weeks — not the Withings BIA, which will not resolve the changes at stake. Grip strength weekly. Plasma methionine and homocysteine if you want the biochemical readout.
-8. **Pre-specify a stopping rule.** If DEXA shows >1 kg lean mass loss at 12 weeks, stop.
+5. **Drop NAC/GlyNAC if you're pursuing methionine work at all** — pick one.
+6. **Use block cycling rather than weekly cycling.** Resistance training 3×/week during pro-growth blocks, 1–2×/week at maintenance volume during anti-growth blocks. This is the change that resolves the phase problem, and it is your idea rather than mine.
+7. **Measure properly.** DEXA at baseline and at every phase boundary — not the Withings BIA, which will not resolve the changes at stake. Grip strength weekly. Plasma methionine and homocysteine if you want the biochemical readout.
+8. **Pre-specify a stopping rule.** If DEXA shows >1 kg lean mass loss across a full anti-growth block, the block is too aggressive.
 
 ### The thing you're actually reaching for
 
@@ -493,22 +586,32 @@ Halofuginone — a prolyl-tRNA synthetase inhibitor that triggers the amino acid
 
 ---
 
-## Part 6 — Summary of changes from your original
+## Part 6 — Summary of changes from the original
+
+**Format:** spreadsheet + narrative → markdown throughout. Row-level reasoning now lives in [therapeutics-revised.md](therapeutics-revised.md).
+
+**Organization:** grouped by verdict → **grouped by mechanism**, with a flat score-ordered list retained at [§2.7](#27-flat-ranked-list). Grouping is what surfaced the inclisiran error.
 
 **Scoring model:** four averaged axes → two multiplied axes (evidence × benefit), with safety as a veto flag and effort as a tag outside the score.
 
-**Promoted:** ApoB and the statin ladder (unranked → 25, top of list) · blood pressure (absent → 20) · cancer screening (absent → 20) · resistance training (undifferentiated "exercise" → 15) · GLP-1 (unranked → 16)
+**Promoted:** ApoB and the statin ladder (unranked → 25, top of list) · blood pressure (absent → 20) · cancer screening (absent → 20) · resistance training (undifferentiated "exercise" → 15) · GLP-1 (unranked → 16) · enlicitide (15 → 20, evidence tier corrected)
 
-**Demoted:** SGLT2 inhibitors (top-ranked → 4, AVOID while on a GLP-1) · rapamycin (top-ranked → 6, SKIP) · metformin (→ 4, SKIP) · aspirin (listed → 5, AVOID) · taurine (listed → 1, premise retracted) · TRIIM (listed → 1, AVOID)
+**Demoted:** SGLT2 inhibitors (top-ranked → 4, AVOID while on a GLP-1) · rapamycin (top-ranked → 6, skip) · metformin (→ 4, skip) · aspirin (listed → 5, AVOID) · taurine (listed → 1, premise retracted) · inclisiran (25 → 20, was graded on another drug's trials)
 
-**Added:** Lp(a) · ApoB (both targets, split) · blood pressure · VO₂max · sleep apnea screening · radon · creatine · fiber · ezetimibe · bempedoic acid · enlicitide · Shingrix · HPV vaccination · hearing protection · injury prevention · alcohol · H. pylori · periodontal care · air quality · nicotine · depression screening · sun protection · hepatitis C · influenza vaccination · social connection · Lp(a)-lowering watch list · hsCRP · APOE/PRS · homocysteine · colchicine (as a documented skip) · Pendulum Glucose Control and pasteurized A. muciniphila (split into separate rows)
+**Reflagged:** TRIIM-X / rhGH block (AVOID → MONITOR, 1 → 2). The AVOID rested on permanent opposition to the rest of the stack; block cycling answers that argument. What remains — an uncontrolled n=9 study and supraphysiologic IGF-1 — is MONITOR-grade.
+
+**Added:** Lp(a) · ApoB (both targets, split) · blood pressure · VO₂max · sleep apnea screening · radon · creatine · fiber · ezetimibe · bempedoic acid · enlicitide · inclisiran (split from the monoclonals) · **block-periodized growth cycling** · Shingrix · HPV vaccination · hearing protection · injury prevention · alcohol · H. pylori · periodontal care · air quality · nicotine · depression screening · sun protection · hepatitis C · influenza vaccination · social connection · Lp(a)-lowering watch list · hsCRP · APOE/PRS · homocysteine · colchicine (as a documented skip) · Pendulum Glucose Control and pasteurized *A. muciniphila* (split into separate rows)
 
 **Cut:** ~35 supplement rows with no human outcome data, all offshore gene therapy, EDTA chelation, methylene blue, HBOT, Khavinson peptides, TA-65, methioninase
+
+**Reframed:** the pro-growth / anti-growth relationship, from permanent incompatibility to a distinction between hard pharmacological conflicts and schedulable phase conflicts. Part 3 splits accordingly; Part 4 is new.
 
 ---
 
 ## Caveats
 
-Rapamycin, statins, ezetimibe, PCSK9 inhibitors, SGLT2 inhibitors, metformin, and GLP-1 agonists are all prescription drugs requiring a physician. The interaction analysis above is a prompt for that conversation, not a substitute for it — bring the specific items (especially the SGLT2i + GLP-1 ketoacidosis risk and the rapamycin/training timing conflict) to whoever manages your tirzepatide.
+Rapamycin, statins, ezetimibe, PCSK9 inhibitors, SGLT2 inhibitors, metformin, rhGH, and GLP-1 agonists are all prescription drugs requiring a physician. The interaction analysis above is a prompt for that conversation, not a substitute for it — bring the specific items (especially the SGLT2i + GLP-1 ketoacidosis risk, and any growth-cycling plan involving rhGH) to whoever manages your tirzepatide.
 
 I'm not a physician and this isn't medical advice. The scoring model is a sorting heuristic, not a measurement — the numbers are there to make the ranking's assumptions legible and arguable, not to imply precision.
+
+Part 4 in particular describes a structure that **no human trial has tested**. It is scored at evidence tier 2 for that reason, and it is written as a hypothesis with a measurement plan attached rather than as a recommendation. The measurement plan is the part worth keeping if you discard everything else.
