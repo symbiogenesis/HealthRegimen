@@ -3,11 +3,11 @@
 **Target:** healthy male, age 39, US, currently on tirzepatide
 **8 August 2026**
 **Source:** AgingBiotech.info "Available Therapeutics" survey table (128 rows)
-**Detail rows:** [therapeutics-revised.md](therapeutics-revised.md)
+**Detail rows:** [therapeutics-by-mechanism.md](therapeutics-by-mechanism.md)
 
 **How this document is arranged**
 
-1. **Two files.** This one holds the framework, the grouped inventory, the interaction analysis and the two protocol write-ups; the row-level reasoning behind every score lives in [therapeutics-revised.md](therapeutics-revised.md).
+1. **Two files.** This one holds the framework, the grouped inventory, the interaction analysis and the two protocol write-ups; the row-level reasoning behind every score lives in [therapeutics-by-mechanism.md](therapeutics-by-mechanism.md).
 2. **The inventory is grouped by mechanism, not by verdict.** Every way of hitting a given target sits side by side — all four PCSK9 modalities in one place, both SGLT2 inhibitors in one place, both AMPK activators in one place. A flat score-ordered list sits at the end of Part 2 for anyone who wants the whole thing in one column.
 3. **Scoring is two axes multiplied** — evidence × benefit — with safety as a veto flag and effort as a tag outside the score. Part 1 sets out the model.
 4. **Pro-growth and anti-growth are treated as a scheduling problem, not a permanent opposition.** Most of the conflict between the two arms is *simultaneity*, and separating them in time dissolves it. Part 3 distinguishes hard pharmacological conflicts from phase conflicts; Part 4 works through the block-cycling hypothesis directly, including what supports it, what it would cost, and how to run and measure it.
@@ -107,7 +107,7 @@ The E4 tier covers the enlicitide case explicitly: a surrogate endpoint is not a
 
 ## Part 2 — The inventory, grouped by mechanism
 
-Grouped by **what the intervention acts on**, sorted by score within each family. Full reasoning for every score is in [therapeutics-revised.md](therapeutics-revised.md).
+Grouped by **what the intervention acts on**, sorted by score within each family. Full reasoning for every score is in [therapeutics-by-mechanism.md](therapeutics-by-mechanism.md).
 
 Why mechanism rather than verdict: grouping by verdict scatters the four PCSK9 inhibitors across three sections, which hides the fact that they share a target and differ only in how far each has been carried through outcomes trials — the exact place a grading error can go unnoticed. Grouping by target makes that class of error visible immediately, and it makes the actual decision — *which* member of a family, at which rung — the thing you are looking at.
 
@@ -242,7 +242,7 @@ This section is the counterweight to 2.4. Muscle and bone maintenance, tissue re
 
 Note the internal ranking. **The best pro-growth intervention here is resistance training at 15, and the second is protein at 12.** Both are free, both are better evidenced than anything else in the family, and both are already on your do-now list. Any pro-growth phase you construct should be built on those two; the pharmacology is optional garnish on top of a foundation that carries the actual evidence.
 
-Two items are worth reading in full in the detail file: [block-periodized growth cycling](therapeutics-revised.md#block-periodized-growth-cycling-training-led-no-rhgh) and [the rhGH block](therapeutics-revised.md#rhgh-containing-pro-growth-block-triim--triim-x-style). Both are argued out in Part 4.
+Two items are worth reading in full in the detail file: [block-periodized growth cycling](therapeutics-by-mechanism.md#block-periodized-growth-cycling-training-led-no-rhgh) and [the rhGH block](therapeutics-by-mechanism.md#rhgh-containing-pro-growth-block-triim--triim-x-style). Both are argued out in Part 4.
 
 ### 2.6 Everything else, by family
 

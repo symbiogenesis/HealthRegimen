@@ -1,6 +1,6 @@
 # Therapeutic Detail Rows — grouped by mechanism
 
-Companion to [anti-aging-inventory-revised.md](anti-aging-inventory-revised.md). This file holds the row-level reasoning for every scored item.
+Companion to [anti-aging-inventory.md](anti-aging-inventory.md). This file holds the row-level reasoning for every scored item.
 
 **Format:** `E × B = score` · safety flag · effort tag · access
 `E` = evidence (1–5) · `B` = benefit to a healthy 39-year-old US male (1–5) · safety is a veto flag, not a score · effort sits outside the score.
@@ -241,7 +241,7 @@ Worth stating up front: **exercise is the best-evidenced AMPK activator on this 
 **Cautions:** blunts exercise VO₂max and mitochondrial adaptation — see §Interactions, phase conflicts
 **Why:** E2 — TAME remains unfunded; diabetes RCTs do not transfer to a normoglycemic 39-year-old. B2 — speculative. It competes with cardiorespiratory training, which scores 20 against its 4, for the same adaptation.
 
-The training interaction is a **timing** problem rather than a permanent exclusion — see [growth cycling](anti-aging-inventory-revised.md#part-4--growth-cycling). Metformin's short half-life (~6 h) makes it the easiest item on the entire list to phase cleanly. That improves its schedulability without improving its evidence, so it still scores 4.
+The training interaction is a **timing** problem rather than a permanent exclusion — see [growth cycling](anti-aging-inventory.md#part-4--growth-cycling). Metformin's short half-life (~6 h) makes it the easiest item on the entire list to phase cleanly. That improves its schedulability without improving its evidence, so it still scores 4.
 
 #### Berberine
 **2 × 1 = 2** · **AVOID** · trivial · OTC · **SKIP**
@@ -255,7 +255,7 @@ The training interaction is a **timing** problem rather than a permanent exclusi
 
 Everything in this section pushes the same direction: down-regulate mTORC1 and IGF-1 signalling, favour autophagy and catabolic housekeeping, reduce the substrate available for anabolic error.
 
-**These items are not permanently incompatible with §6.** They are incompatible *simultaneously*. See [Part 4 of the main document](anti-aging-inventory-revised.md#part-4--growth-cycling) for the block-cycling structure that separates them in time; the scores below reflect each item on its own merits regardless of scheduling.
+**These items are not permanently incompatible with §6.** They are incompatible *simultaneously*. See [Part 4 of the main document](anti-aging-inventory.md#part-4--growth-cycling) for the block-cycling structure that separates them in time; the scores below reflect each item on its own merits regardless of scheduling.
 
 #### Rapamycin 5–6 mg weekly
 **2 × 3 = 6** · MONITOR · low · Rx · **SKIP for now**
@@ -303,7 +303,7 @@ The **scheduling** objection to the original design — restriction landing on t
 
 The counterweight to §5. Muscle and bone maintenance, tissue repair, immune reconstitution, and wound healing all require anabolic signalling, and a protocol that suppresses it continuously is buying protection from one set of failure modes with exposure to another.
 
-**Framing note:** this section is not in permanent opposition to §5. The opposition is real *at any given moment* and dissolves when the two are separated in time — which is how several of these interventions were designed to be used in the first place. What follows scores each item on its own merits; the scheduling argument lives in [Part 4](anti-aging-inventory-revised.md#part-4--growth-cycling).
+**Framing note:** this section is not in permanent opposition to §5. The opposition is real *at any given moment* and dissolves when the two are separated in time — which is how several of these interventions were designed to be used in the first place. What follows scores each item on its own merits; the scheduling argument lives in [Part 4](anti-aging-inventory.md#part-4--growth-cycling).
 
 #### Resistance training 2–3×/week
 **3 × 5 = 15** · OK · moderate · free

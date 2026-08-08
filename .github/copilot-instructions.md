@@ -16,4 +16,4 @@ Write "Why MONITOR rather than AVOID: …", not "flag changed from AVOID to MONI
 
 **Not revision history — keep it:** critique of the external AgingBiotech source table and its omissions; trial and field history (ITP replication failures, retracted premises, pending readouts); the single date line under the title; analysis of the user's proposed protocols.
 
-Keep [anti-aging-inventory-revised.md](../anti-aging-inventory-revised.md) and [therapeutics-revised.md](../therapeutics-revised.md) consistent — a score changed in one must change in the other and in the flat ranked list. Scoring convention: `E × B = score`, safety is a veto flag, effort is a tag outside the score.
+Keep [anti-aging-inventory.md](../anti-aging-inventory.md) and [therapeutics-by-mechanism.md](../therapeutics-by-mechanism.md) consistent — a score changed in one must change in the other and in the flat ranked list. Scoring convention: `E × B = score`, safety is a veto flag, effort is a tag outside the score.

@@ -34,6 +34,6 @@ The test: a reader seeing the file for the first time should never learn that a 
 
 ## Housekeeping
 
-- Keep the two files cross-linked: [anti-aging-inventory-revised.md](anti-aging-inventory-revised.md) holds framework, grouped inventory, interactions and protocols; [therapeutics-revised.md](therapeutics-revised.md) holds row-level reasoning. Scores must agree across both — change a score in one, change it in the other and in the flat list at §2.7.
-- Filenames still carry `-revised`; that is legacy naming, not a claim about the content. Do not add similar markers to new files.
+- Keep the two files cross-linked: [anti-aging-inventory.md](anti-aging-inventory.md) holds framework, grouped inventory, interactions and protocols; [therapeutics-by-mechanism.md](therapeutics-by-mechanism.md) holds row-level reasoning. Scores must agree across both — change a score in one, change it in the other and in the flat list at §2.7.
+- Filenames describe content, never status. No `-revised`, `-v2`, `-final` or similar markers on new files.
 - Scoring convention: `E × B = score`, safety is a veto flag (`ok` / `monitor` / `AVOID`), effort is a tag outside the score.
