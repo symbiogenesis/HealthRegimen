@@ -188,20 +188,24 @@ All four block PCSK9-mediated degradation of the LDL receptor, so LDL receptors 
 #### Tirzepatide
 **4 × 4 = 16** · MONITOR · moderate · Rx · **CONTINUE**
 **Measure:** DEXA lean mass; HbA1c; ApoB
-**Cautions:** **euglycemic ketoacidosis if combined with an SGLT2 inhibitor**; hold before anesthesia; interacts with low-protein protocols
+**Cautions:** **with an SGLT2 inhibitor, any week of vomiting or minimal intake becomes a euglycemic ketoacidosis risk**; hold before anesthesia; interacts with low-protein protocols
 **Why:** E4 — SELECT showed ~20% MACE reduction with semaglutide in non-diabetic overweight adults; for tirzepatide specifically the hard-outcome trial (SURMOUNT-MMO) has not reported. B4 — the best-evidenced pharmacological item in your stack. Pair with protein and lifting or the lean-mass cost is real. This is the item that most constrains everything else on the list.
 
 ### 3b. SGLT2 inhibition
 
-#### Canagliflozin / empagliflozin
-**2 × 2 = 4** · **AVOID** while on a GLP-1 · low · Rx · **revisit if T2D / CKD / HF**
-**Measure:** ketones; volume status; genital exam
-**Cautions:** **SEVERE — with a GLP-1 plus any carbohydrate restriction or fasting → euglycemic ketoacidosis, documented in non-diabetics; glucose reads normal so it is routinely missed**
-**Why:** E2 — ITP gave +14% median lifespan in **males only** for canagliflozin, and every human outcome trial (EMPA-REG, CANVAS, DECLARE, DAPA-HF, EMPEROR, DAPA-CKD, EMPA-KIDNEY) is in T2D, HF or CKD where much of the benefit is hemodynamic and renal. B2 — no trial exists in metabolically healthy non-diabetics. The source table ranked this #1 on a 12/12 gerotherapeutics score, but that score means "most deserves a trial," which entails that the human aging evidence does not exist.
+#### Empagliflozin / canagliflozin
+**3 × 2 = 6** · MONITOR · low · Rx · **optional; incompatible with fasting cycles**
+**Measure:** ketones (home β-hydroxybutyrate meter); volume status; genital exam
+**Cautions:** **euglycemic ketoacidosis — precipitated by fasting, carbohydrate restriction, vomiting, dehydration or surgery, not by the GLP-1 alone; glucose reads normal so it is routinely missed.** Hold for any FMD cycle, any illness with poor oral intake, and 3 days pre-procedure
+**Why:** E3 — ITP canagliflozin gave **+14% median lifespan in males only**, the largest male effect in ITP history, concordant across all three test sites, with 90th-percentile survival up 9%. On the human side the decisive fact is that **DAPA-HF, DAPA-CKD and EMPA-KIDNEY enrolled non-diabetics and the benefit held in that subgroup** — so this is not a glucose-lowering effect riding on baseline hyperglycemia. Large cohorts also show ~30% lower dementia incidence versus DPP-4 inhibitors, consistent across meta-analyses but observational. What still caps it at E3: every trial is in T2D, HF or CKD, where much of the benefit is hemodynamic and renal, and none is in metabolically healthy adults. B2 — for a 39-year-old with no HF, CKD or T2D and ApoB already controlled by a statin, the absolute benefit is speculative and substantially redundant with tirzepatide, which delivers the metabolic effect with hard-outcome data behind it. The source table ranked this #1 on a 12/12 gerotherapeutics score; that score means "most deserves a trial," which entails that the human aging evidence does not yet exist.
 
-**The AVOID flag is driven by the tirzepatide interaction, not by the drug.** That distinction is exactly what a flag can express and an averaged safety score cannot. Costs in isolation: genital mycotic infection in roughly 1 in 10 men, volume depletion and orthostasis, 20–40 g/day glucosuria, Fournier's gangrene (rare, labeled), and euglycemic ketoacidosis. There is also a redundancy argument — the metabolic benefit you would be reaching for, tirzepatide already delivers with human hard-outcome data behind it.
+**Why MONITOR rather than AVOID.** Ketoacidosis risk tracks insulin deficiency, not weight and not the GLP-1 per se. In DAPA-HF and DAPA-CKD, ketoacidosis events occurred **only** in participants with type 2 diabetes — none among the non-diabetic participants, over several thousand patient-years. The T2D trial base rate is 0.6–2.2 events per 1,000 patient-years. Euglycemic ketoacidosis in true non-diabetics is documented and has its own case literature, but it is rare and almost always precipitant-driven. Being lean does not by itself protect: the published SGLT2i-plus-tirzepatide case is a 35-year-old man with a BMI of 20.7.
 
-**This flag does not relax during an anti-growth block.** A fasting or carbohydrate-restricted phase is the *worst* time to add an SGLT2 inhibitor, not a neutral one. If growth cycling is adopted, this row stays AVOID throughout.
+**What the flag is actually about: fasting, not phase.** An SGLT2 inhibitor is a caloric-restriction mimetic and belongs conceptually in an anti-growth block. The incompatibility is narrower and sharper than the block — it is the **FMD cycles inside it**, plus any tirzepatide week with vomiting or minimal intake. Those are the states that produce relative insulin deficiency on top of a drug already driving lipolysis and ketogenesis. So the choice is between the two, not between the phases: run the FMD cycles, or run an SGLT2 inhibitor, not both in the same block.
+
+**Which agent.** The lifespan data is canagliflozin; the cleaner safety record is empagliflozin, which carries no CANVAS-style amputation signal. There is no way to have both, and the amputation signal is human while the lifespan signal is mouse.
+
+**When the calculus changes:** with type 2 diabetes, CKD or heart failure, SGLT2 inhibitors become first-line and genuinely excellent. Same row, trigger changes from "aging" to "diagnosis."
 
 ### 3c. Microbiome → SCFA → endogenous GLP-1
 
@@ -266,7 +270,7 @@ Score stays at 6 because the human evidence is what it is. If you run growth cyc
 #### Time-restricted feeding / periodic fasting-mimicking diet
 **2 × 2 = 4** · OK · low · free
 **Target:** amino acid response, FGF21, autophagy · **Measure:** FGF21; IGF-1; weight
-**Cautions:** **ketoacidosis risk if combined with an SGLT2 inhibitor**
+**Cautions:** **do not run while on an SGLT2 inhibitor — this is the precipitant that makes that combination dangerous**
 **Why:** E2 — human trials exist but measure surrogates over short horizons. B2 — modest. Listed mainly because it is the human-data version of the FGF21 signal you are chasing with methionine restriction, at a fraction of the risk.
 
 **This is the item that most directly supports your cycling hypothesis**, and it is worth more attention than its score implies. FMD is *already* a cycle protocol: Longo's design is 5 days on, then refeeding, a few times a year. The refeeding phase is not downtime — in mice, fasting/refeeding cycles drove hematopoietic stem cell self-renewal and immune reconstitution (Cheng et al., *Cell Stem Cell*, 2014), which is the same regenerative endpoint TRIIM-X targets by a much more expensive and much less evidenced route. If you want a pro/anti-growth alternation with actual human trial infrastructure behind it, this is the cheap version.
@@ -323,7 +327,7 @@ The counterweight to §5. Muscle and bone maintenance, tissue repair, immune rec
 #### Block-periodized growth cycling (training-led, no rhGH)
 **2 × 3 = 6** · OK · moderate · free
 **Target:** phase separation of mTORC1/IGF-1 signalling · **Measure:** DEXA at each phase boundary; grip weekly; IGF-1; fasting insulin; ApoB
-**Cautions:** SGLT2i AVOID does not relax in either phase; do not compress the washout between blocks
+**Cautions:** an SGLT2 inhibitor and the FMD cycles cannot occupy the same block; do not compress the washout between blocks
 **Why:** E2 — no human trial has tested block alternation of pro- and anti-growth interventions against either arm run continuously. The supporting logic is mechanistic plus indirect: FMD is already a cycle protocol with human trial infrastructure; fasting/refeeding cycles drove HSC self-renewal in mice (Cheng 2014); transient rapamycin produced persistent benefit in mice (Bitto 2016); and exercise periodization is the same idea in a domain where it is uncontroversial. B3 — the realistic benefit is not additive lifespan but **avoided cost**: it recovers the muscle, bone and repair capacity that a continuously anti-growth protocol gives up, at no drug expense.
 
 Scored at 6 rather than higher because it is a *scheduling structure*, not a therapy — most of its value is already counted in the rows it schedules. Scored at 6 rather than lower because it converts three of the phase conflicts in Part 3 from exclusions into calendar entries, which is a real gain.

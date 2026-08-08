@@ -14,7 +14,6 @@ Built on block-periodized growth cycling: alternating pro-growth and anti-growth
 - **Protein ≥1.2 g/kg/day**, spread across meals — the floor never drops while on a GLP-1
 - Creatine 5 g · omega-3 · fiber 35–40 g · sleep 7–9 h
 - No nicotine, no alcohol, sunscreen, hearing protection, seatbelt
-- **No SGLT2 inhibitor, in either phase** — the anti-growth block is the *worst* time for one
 - Cancer screening on schedule
 
 ## The cycle — 22 weeks, roughly twice a year
@@ -23,7 +22,7 @@ Built on block-periodized growth cycling: alternating pro-growth and anti-growth
 |---|---|---|---|
 | 1–6 | **Pro-growth** | Lift 3–4×, progressive · cardio 2× | Protein 1.6 g/kg · maintenance calories or slightly above |
 | 7–8 | Transition down | Taper to maintenance volume | Protein 1.2–1.6 |
-| 9–20 | **Anti-growth** | Lift 1–2× at maintenance volume · cardio 3× | Protein ≥1.2 · methionine-lower sources (legumes, soy, dairy) · 1–2 fasting-mimicking cycles |
+| 9–20 | **Anti-growth** | Lift 1–2× at maintenance volume · cardio 3× | Protein ≥1.2 · methionine-lower sources (legumes, soy, dairy) · 1–2 fasting-mimicking cycles, *or* an SGLT2 inhibitor, not both |
 | 21–22 | Transition up | Volume ramps back | Protein to 1.6 |
 
 Maintenance takes about a third of accumulation volume, so the anti-growth block holds what you built — it isn't detraining.
@@ -49,6 +48,7 @@ Starting ApoB control at 39 rather than 55 is worth ~3× the risk reduction. Hig
 - Sauna 3–4×/week
 - Bedroom HEPA filter
 - Blood donation 2–3×/year
+- **Empagliflozin** — scores 6, the best-evidenced item you aren't taking: the largest male lifespan effect in ITP history, and the human trials keep working in their non-diabetic arms. It is optional rather than default because every one of those trials is in people who already have heart failure, CKD or diabetes, and you have none of them. **If you take it, drop the FMD cycles** — an SGLT2 inhibitor plus a fasting cycle is the euglycemic ketoacidosis setup. Home ketone meter; hold it for any illness with poor intake and 3 days before any procedure.
 
 ## Measure
 
@@ -66,7 +66,7 @@ Not an epigenetic clock. It will hand you a number that doesn't mean what you wa
 
 ## Never
 
-- **SGLT2 inhibitors while on a GLP-1** — euglycemic ketoacidosis; glucose reads normal so it gets missed
+- **SGLT2 inhibitor during a fasting or FMD cycle** — euglycemic ketoacidosis; glucose reads normal so it gets missed
 - **Methylene blue** — serotonin syndrome
 - **Berberine** — wrecks statin and rapamycin levels
 - **Red yeast rice** — an unlabeled statin at an unknown dose

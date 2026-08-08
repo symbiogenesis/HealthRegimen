@@ -175,19 +175,25 @@ Two grading points are worth stating explicitly, because grouping is what makes 
 | **16** | 4×4 | Tirzepatide *(continue)* | GLP-1 / GIP receptor | monitor | moderate |
 | **9** | 3×3 | Pasteurized *A. muciniphila* (MucT) *(watch)* | Amuc_1100 / gut barrier | ok | moderate |
 | **4** | 2×2 | Pendulum Glucose Control (WBF-011) | live multi-strain / SCFA → endogenous GLP-1 | ok | moderate |
-| **4** | 2×2 | Canagliflozin / empagliflozin | SGLT2 | **AVOID** | low |
+| **6** | 3×2 | Empagliflozin / canagliflozin | SGLT2 | monitor | low |
 
 **The SGLT2 subfamily, in one place.** The source table ranked this #1 on a 12/12 gerotherapeutics score with the note "top scoring candidate for TAME-like trial." That note is doing more work than it appears: **the score means "most deserving of a trial," which entails that the human aging evidence does not yet exist.**
 
-What the evidence actually supports: ITP canagliflozin gave **+14% median lifespan in males only**, no effect in females — real, replicated within ITP, and it happens to be your sex. The human outcome trials (EMPA-REG, CANVAS, DECLARE, DAPA-HF, EMPEROR, DAPA-CKD, EMPA-KIDNEY) are uniformly excellent and uniformly in **type 2 diabetes, heart failure, or chronic kidney disease**, where much of the benefit is hemodynamic and renal. There is no trial in metabolically healthy non-diabetics.
+What the evidence supports is nonetheless the strongest non-tirzepatide case in this section. ITP canagliflozin gave **+14% median lifespan in males only**, no effect in females — the largest male effect in ITP history, concordant across all three test sites, with 90th-percentile survival up 9%. It happens to be your sex. On the human side the decisive detail is easy to miss: **DAPA-HF, DAPA-CKD and EMPA-KIDNEY enrolled non-diabetics, and the benefit held in that subgroup.** Whatever SGLT2 inhibition is doing, it is not simply lowering glucose in the hyperglycemic. Large cohorts add a consistent ~30% reduction in dementia incidence versus DPP-4 inhibitors, replicated across several meta-analyses — observational, confounded by indication, but pointing the same direction.
+
+What still caps it at E3: every trial is in **type 2 diabetes, heart failure, or chronic kidney disease**, where a substantial part of the benefit is hemodynamic and renal, and none is in metabolically healthy adults.
+
+B2 is the binding constraint, not E. You have no heart failure, no CKD, no diabetes, and ApoB is being handled by a statin. The population where this drug has proven itself is the population you are trying not to join, and the metabolic benefit you'd be reaching for is largely what tirzepatide is already delivering with hard-outcome data behind it.
 
 What it costs: genital mycotic infection in roughly 1 in 10 men, volume depletion and orthostasis, 20–40 g/day glucosuria, Fournier's gangrene (rare but labeled), and euglycemic ketoacidosis.
 
-**The AVOID is driven by the tirzepatide interaction, not by the drug.** GLP-1/GIP agonists substantially reduce caloric intake, can cause vomiting and dehydration, and shift substrate use toward fat oxidation — precisely the precipitant profile for euglycemic ketoacidosis, which is documented in non-diabetics and routinely missed because glucose reads normal. There is also a redundancy argument: the metabolic benefit you'd be reaching for, tirzepatide already delivers with human hard-outcome data behind it.
+**Why MONITOR rather than AVOID.** Ketoacidosis risk tracks relative insulin deficiency, not body weight and not the GLP-1 by itself. In DAPA-HF and DAPA-CKD, ketoacidosis events occurred **only** among participants with type 2 diabetes — none among the non-diabetic participants, across several thousand patient-years — and the T2D trial base rate is 0.6–2.2 events per 1,000 patient-years. Euglycemic ketoacidosis in true non-diabetics is real and has its own case literature, but it is rare and nearly always precipitant-driven: fasting, ketogenic diet, surgery, dehydration, acute illness, impaired renal ketone clearance. Being lean is not itself protective — the published SGLT2i-plus-tirzepatide case is a 35-year-old man with a BMI of 20.7, five weeks into the combination, tipped over by nausea and poor intake.
 
-**This flag does not relax under growth cycling** — see Part 4. An anti-growth block is a carbohydrate-restricted, calorie-restricted, sometimes fasted state, which is the *worst* setting for an SGLT2 inhibitor, not a neutral one.
+**The real incompatibility is fasting, not the anti-growth block** — see Part 3. An SGLT2 inhibitor is a caloric-restriction mimetic and belongs conceptually in an anti-growth phase; what it cannot share a calendar with is the FMD cycles inside that phase, or any tirzepatide week with vomiting or minimal intake. Those are choices, so this is an either/or rather than a permanent exclusion: run the fasting cycles or run the drug.
 
-**When it flips:** if you ever develop type 2 diabetes, CKD, or heart failure, SGLT2 inhibitors become first-line and genuinely excellent. Keep the row, change the trigger from "aging" to "diagnosis."
+**Which agent.** The lifespan data is canagliflozin; the cleaner human safety record is empagliflozin, which carries no CANVAS-style amputation signal. You cannot have both, and the amputation signal is human evidence while the lifespan signal is mouse.
+
+**When the calculus changes:** if you ever develop type 2 diabetes, CKD, or heart failure, SGLT2 inhibitors become first-line and genuinely excellent. Keep the row, change the trigger from "aging" to "diagnosis."
 
 **On the microbiome pair:** these are two separate rows, because the product and its headline ingredient are on different trajectories. Pendulum is a 0.6% HbA1c agent tested in T2D on metformin, whose mechanism — SCFA-driven *endogenous* GLP-1 secretion — is the pathway tirzepatide already saturates pharmacologically, and its trial was authored end to end by seventeen company employees with no independent replication six years on. Pasteurized MucT is a different preparation with three independent RCTs behind it, including Mount et al. (*Nature Medicine*, June 2026, n=90, academic-led), which is the only positive RCT anywhere on this inventory aimed at **post-weight-loss regain** — the one problem GLP-1 users actually face. Buying Pendulum does not get you the trial you just read about. Skip it now; put pasteurized MucT on the taper plan.
 
@@ -306,13 +312,13 @@ Score-ordered, all families collapsed.
 | 6 | Omega-3 *(continue)* | redox | ok | trivial |
 | 6 | Rapamycin | mTOR | monitor | low |
 | 6 | **Block-periodized growth cycling** | anabolic | ok | moderate |
+| 6 | SGLT2 inhibitors | incretin | monitor *(not with fasting cycles)* | low |
 | 6 | Red yeast rice | lipoprotein | **AVOID** | trivial |
 | 5 | Coronary artery calcium *(defer)* | diagnostics | ok | low |
 | 5 | Aspirin | vascular | **AVOID** | trivial |
 | 4 | Metformin · TRF/FMD · methionine via food · sauna · blood donation · dental · homocysteine panel | various | ok–monitor | trivial–moderate |
 | 4 | Pendulum Glucose Control | incretin | ok | moderate |
 | 4 | Testosterone (absent hypogonadism) | anabolic | monitor | moderate |
-| 4 | SGLT2 inhibitors | incretin | **AVOID** *(while on a GLP-1)* | low |
 | 2 | Astaxanthin · NAC/GlyNAC · NMN/NR · 17α-estradiol · colchicine | various | ok–monitor | trivial–moderate |
 | 2 | rhGH-containing pro-growth block | anabolic | monitor | high |
 | 2 | Berberine | AMPK | **AVOID** | trivial |
@@ -330,10 +336,12 @@ Interactions split into two categories, and the distinction matters, because it 
 
 ### Hard conflicts — these do not resolve with scheduling
 
-**1. SGLT2 inhibitor + GLP-1 agonist + any carbohydrate restriction or fasting → euglycemic ketoacidosis.**
-The most dangerous combination available to you, and you already hold one of the three pieces. Euglycemic ketoacidosis is documented in **non-diabetic** patients on SGLT2 inhibitors. The precipitant profile is reduced carbohydrate intake, volume depletion, relative insulin deficiency and acute illness — a fair description of what a GLP-1 agonist does on a bad week. Because glucose reads normal, it is routinely missed until severe decompensation.
+**1. SGLT2 inhibitor + fasting or fasting-mimicking cycles → euglycemic ketoacidosis.**
+The most dangerous combination available to you, and it is an either/or rather than a sequencing problem. Euglycemic ketoacidosis is documented in **non-diabetic** patients on SGLT2 inhibitors: the drug drives lipolysis and hepatic ketogenesis, and a fasted or carbohydrate-restricted state supplies the relative insulin deficiency that lets ketones run. Because glucose reads normal, it is routinely missed until severe decompensation.
 
-**This one gets worse under growth cycling, not better.** An anti-growth block is exactly the carbohydrate-restricted, calorie-restricted state that precipitates it. If you adopt Part 4, this row stays AVOID in both phases.
+Tirzepatide is an amplifier here, not the second party. It doesn't create the risk on a stable maintenance dose at maintenance calories — the non-diabetic arms of DAPA-HF and DAPA-CKD recorded no ketoacidosis events at all — but it does convert any bad GI week into the same precipitant profile: poor oral intake, vomiting, volume depletion. That is why the mitigation is a hold rule rather than a phase rule.
+
+**Alternating blocks do not fix this one.** An FMD cycle inside an anti-growth block is precisely the state that precipitates it, so the anti-growth block cannot contain both. Run the FMD cycles, or run an SGLT2 inhibitor, and hold the drug for illness and for 3 days before any procedure either way.
 
 **2. Methylene blue + any serotonergic agent** (SSRI, SNRI, triptan, MAOI) → serotonin syndrome. Methylene blue is a potent MAO-A inhibitor. Hospitalization-grade, not a caution.
 
@@ -397,7 +405,7 @@ Run in **alternating blocks**, that objection largely dissolves, and what remain
 | Rapamycin | Lipids, fasting glucose, CBC, mouth ulcers, wound healing before any surgery |
 | Metformin | B12 annually |
 | GLP-1/GIP | **Lean mass by DEXA**, gallbladder symptoms, hold before anesthesia |
-| SGLT2i (if ever) | Ketones, genital mycotic infection, volume status, hold 3 days pre-procedure |
+| SGLT2i (if used) | Home β-hydroxybutyrate meter; genital mycotic infection; volume status. **Hold for any illness with poor oral intake, any fasting or FMD cycle, and 3 days pre-procedure** |
 | Statin | ALT at baseline and once; CK only if symptomatic |
 | rhGH (if ever) | IGF-1, fasting glucose and insulin, PSA, carpal tunnel symptoms, joint swelling |
 | Any growth-cycling protocol | DEXA at every phase boundary; grip weekly; IGF-1 and fasting insulin at phase midpoints |
@@ -476,7 +484,7 @@ Offered as a starting structure, not a protocol — nobody has tested this, and 
 |---|---|---|---|---|
 | 1–6 | **Pro-growth** | Resistance 3–4×/wk, progressive; cardio maintained at 2×/wk | Protein 1.6 g/kg/day distributed; adequate methionine; energy at or slightly above maintenance | Creatine 5 g/day. Nothing anti-growth. No antioxidant supplements near training. |
 | 7–8 | Transition down | Taper resistance volume to maintenance | Protein holds at 1.2–1.6 | IGF-1 normalizing; nothing new started |
-| 9–20 | **Anti-growth** | Resistance 1–2×/wk at maintenance volume; cardio 3×/wk | Protein holds ≥1.2 g/kg while on tirzepatide; shift methionine *sources* (legumes, soy, dairy) rather than cutting protein; 1–2 FMD cycles | Rapamycin only if you decide it's worth 6 points; last dose ≥2 wk before week 21. **No SGLT2 inhibitor, in either phase.** |
+| 9–20 | **Anti-growth** | Resistance 1–2×/wk at maintenance volume; cardio 3×/wk | Protein holds ≥1.2 g/kg while on tirzepatide; shift methionine *sources* (legumes, soy, dairy) rather than cutting protein; 1–2 FMD cycles | Rapamycin only if you decide it's worth 6 points; last dose ≥2 wk before week 21. **An SGLT2 inhibitor and the FMD cycles are mutually exclusive — pick one for this block.** |
 | 21–22 | Transition up | Volume ramps | Protein to 1.6 | Rapamycin fully cleared before resistance volume rises |
 | 23–28 | **Pro-growth** | repeat | repeat | repeat |
 
@@ -585,7 +593,7 @@ Halofuginone — a prolyl-tRNA synthetase inhibitor that triggers the amino acid
 
 ## Caveats
 
-Rapamycin, statins, ezetimibe, PCSK9 inhibitors, SGLT2 inhibitors, metformin, rhGH, and GLP-1 agonists are all prescription drugs requiring a physician. The interaction analysis above is a prompt for that conversation, not a substitute for it — bring the specific items (especially the SGLT2i + GLP-1 ketoacidosis risk, and any growth-cycling plan involving rhGH) to whoever manages your tirzepatide.
+Rapamycin, statins, ezetimibe, PCSK9 inhibitors, SGLT2 inhibitors, metformin, rhGH, and GLP-1 agonists are all prescription drugs requiring a physician. The interaction analysis above is a prompt for that conversation, not a substitute for it — bring the specific items (especially the SGLT2i ketoacidosis hold rules, and any growth-cycling plan involving rhGH) to whoever manages your tirzepatide.
 
 I'm not a physician and this isn't medical advice. The scoring model is a sorting heuristic, not a measurement — the numbers are there to make the ranking's assumptions legible and arguable, not to imply precision.
 
