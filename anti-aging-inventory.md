@@ -387,7 +387,7 @@ Run in **alternating blocks**, that objection largely dissolves, and what remain
 - NAC + glutathione + GlyNAC (NAC is the precursor; pick one)
 - NMN + NR + niacin (same pathway)
 - Statin + red yeast rice (same molecule)
-- MitoQ + astaxanthin + CoQ10 + ergothioneine + green tea extract (one antioxidant thesis, five invoices)
+- MitoQ + astaxanthin + CoQ10 (three lipid-phase scavengers; the chemistry differs — MitoQ is not an ETC carrier and is not a CoQ10 substitute — but they fail together if oxidative damage isn't rate-limiting, and they share the exercise-timing problem above). CoQ10's real case is statin depletion or a cardiac diagnosis, not aging: change the trigger rather than stacking it.
 - Glucosamine + chondroitin (weak individually, not additive)
 - Multiple simultaneous senolytics
 - Pendulum + separately-purchased *Akkermansia* (different preparations, overlapping intent — pick the one with the trial you actually want)

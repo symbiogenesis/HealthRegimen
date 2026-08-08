@@ -589,10 +589,12 @@ Note that this is the item the pharmacological AMPK activators (§4) are competi
 #### Supplement bundle
 **1 × 1 = 1** · OK · moderate · OTC · **SKIP**
 *(AKG, spermidine, urolithin A, ergothioneine, apigenin, carnosine, lithium, C15:0, MitoQ, CoQ10, green tea extract, curcumin, ginger, ashwagandha, melatonin, generic multi-strain probiotics, butyrate, nattokinase, glucosamine, chondroitin, TA-65, Khavinson peptides, plasmalogens, GLYLO)*
-**Cautions:** several blunt exercise adaptation; several are CYP inhibitors; nattokinase adds bleeding risk
+**Cautions:** several blunt exercise adaptation; several are CYP inhibitors; nattokinase adds bleeding risk; **high-dose green tea extract carries an idiosyncratic hepatotoxicity signal** — EFSA drew its line around 800 mg EGCG/day, and brewed tea is not the exposure at issue
 **Why:** E1 — mechanism-level evidence only, and where ITP has tested these it has mostly returned nulls. B1 — no route to a measurable outcome. Individually harmless, collectively a tax on attention, adherence, liver and wallet. Roughly 35 source rows collapse here.
 
 **Carve-out:** "probiotics" as a *category* belongs here at 1, but specific clinically-tested strain combinations do not. Evidence in this field attaches to named strains at named doses, not to the category — see §3c.
+
+**Three of these are here for an aging indication only, and would move on a different trigger.** CoQ10 is an electron-transport-chain carrier before it is an antioxidant; statins deplete its synthesis, and Q-SYMBIO found a mortality signal in heart failure with reduced ejection fraction. Ergothioneine's distinguishing feature is a dedicated transporter (OCTN1/SLC22A4) and tissue concentration under oxidative load — its case is conditional-deficiency, supported by observational associations between low plasma levels and cardiovascular mortality, not added scavenging capacity. Green tea extract is not usefully an antioxidant *in vivo* at all: catechins are poorly bioavailable and rapidly methylated and glucuronidated, and what survives is hormetic Nrf2 induction plus direct target binding. None of the three has a route to benefit in a healthy 39-year-old, so all three score 1 — but they fail for three different reasons, and only CoQ10 has a diagnosis that would change the answer.
 
 #### EDTA chelation, HBOT, mitochondrial transfusion, stem cells / exosomes / VSELs, follistatin and telomerase gene therapy, flagellin immunisation
 **1 × 1 = 1** · **AVOID** · high · medical tourism or unregulated clinics
