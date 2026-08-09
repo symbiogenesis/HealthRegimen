@@ -29,6 +29,7 @@ Nutritional adequacy, not anti-aging.
 - Algal EPA+DHA ~500 mg/day
 - Iodine 150 µg/day
 - Vitamin D, lichen-derived D3, to the lab value
+- Greens 2–3×/week, cooked and with fat in the meal — K1, potassium, nitrate, folate. Raw and undressed absorbs at a fraction of it
 
 ## The cycle — 22 weeks, roughly twice a year
 
@@ -106,6 +107,7 @@ No route to a measurable outcome at 39.
 - Astaxanthin
 - Colchicine
 - Pendulum Glucose Control
+- Vitamin K2, MK-7 or MK-4 — moves the calcification biomarker, not the calcification. If greens are light, the answer is K1 from food, not this
 - The whole ~35-item supplement shelf
 
 ## Watch

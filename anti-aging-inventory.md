@@ -266,7 +266,7 @@ Two items are worth reading in full in the detail file: [block-periodized growth
 
 **Redox and hormesis** — omega-3 (6, continue) · sauna (4, optional) · astaxanthin (2, skip — an ITP hit that failed to replicate) · NAC/GlyNAC/glutathione (2, skip). Organizing principle: the ROS burst after training is signal, not damage. Every item here is a timing question rather than a yes/no question — except NAC with methionine work, which is a genuine cancellation rather than a timing issue.
 
-**Hemodynamic and vascular** — blood pressure, aiming 105–115 systolic and adding a drug over 120 (20, monitor — the threshold is where the trials stopped, the aim is where the epidemiology and the unwesternised populations sit) · cardiorespiratory training (20, also listed under 2.3) · aspirin (5, **AVOID** — a high evidence score attached to a finding of no benefit; ASPREE showed net harm in healthy older adults).
+**Hemodynamic and vascular** — blood pressure, aiming 105–115 systolic and adding a drug over 120 (20, monitor — the threshold is where the trials stopped, the aim is where the epidemiology and the unwesternised populations sit) · cardiorespiratory training (20, also listed under 2.3) · aspirin (5, **AVOID** — a high evidence score attached to a finding of no benefit; ASPREE showed net harm in healthy older adults) · vitamin K1/K2 (2, skip — the best mechanism of any supplement here, and the clearest illustration that a mechanism is not a result: MK-7 carboxylates matrix Gla protein exactly as predicted, and the calcification endpoint does not move).
 
 **Inflammation** — low-dose colchicine (2, skip — CLEAR SYNERGY/OASIS-9 was neutral at n=7,062) · dental/periodontal care (4, do anyway).
 
@@ -274,7 +274,7 @@ Two items are worth reading in full in the detail file: [block-periodized growth
 
 **Neurological, sensory, mental health** — depression screening and access (16 — suicide is among the leading causes of death for US males 35–44, and its absence from every longevity list is the same blind spot that omits seatbelts) · sleep 7–9 h (15) · hearing protection (9) · social connection (9).
 
-**Diet composition** — alcohol minimal or none (12 — MR has dismantled the J-curve) · fiber 35–40 g/day (9) · vegan adequacy items: B12, algal EPA+DHA, iodine, taurine, and ferritin/zinc monitoring (unscored — these prevent deficits the diet creates rather than extending anything, and the scoring model does not apply to them).
+**Diet composition** — alcohol minimal or none (12 — MR has dismantled the J-curve) · fiber 35–40 g/day (9) · vegan adequacy items: B12, algal EPA+DHA, iodine, taurine, and ferritin/zinc monitoring (unscored — these prevent deficits the diet creates rather than extending anything, and the scoring model does not apply to them). **Vitamin K1 is conditional rather than automatic** — greens supply it, veganism does not, so a low-greens plant diet can sit under the AI without that constituting a deficiency.
 
 **Environmental and external-cause** — nicotine and tobacco: none (25, confirm) · injury prevention (16) · radon test (12) · sun protection (8) · bedroom HEPA (6).
 
@@ -333,7 +333,7 @@ Score-ordered, all families collapsed.
 | 4 | Metformin · TRF/FMD · methionine via food · sauna · blood donation · dental · homocysteine panel | various | ok–monitor | trivial–moderate |
 | 4 | Pendulum Glucose Control | incretin | ok | moderate |
 | 4 | Testosterone (absent hypogonadism) | anabolic | monitor | moderate |
-| 2 | Astaxanthin · NAC/GlyNAC · NMN/NR · 17α-estradiol · colchicine | various | ok–monitor | trivial–moderate |
+| 2 | Astaxanthin · NAC/GlyNAC · NMN/NR · 17α-estradiol · colchicine · vitamin K1/K2 | various | ok–monitor | trivial–moderate |
 | 2 | rhGH-containing pro-growth block | anabolic | monitor | high |
 | 2 | Berberine | AMPK | **AVOID** | trivial |
 | 1 | Fisetin · resveratrol · taurine · D+Q · supplement bundle · disease-indication drugs | various | ok–monitor | trivial–moderate |
