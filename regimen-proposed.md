@@ -10,9 +10,13 @@ Built on block-periodized growth cycling: alternating pro-growth and anti-growth
 
 ## Always on — both phases, no exceptions
 
-- **Statin ± ezetimibe**, ApoB <60 · **BP <120** · **tirzepatide**
+- **Statin ± ezetimibe**, ApoB <60
+- **BP <120**
+- **Tirzepatide**
 - **Protein ≥1.2 g/kg/day**, spread across meals — the floor never drops while on a GLP-1. Track it
-- Creatine 5 g · fiber 35–40 g · sleep 7–9 h
+- Creatine 5 g
+- Fiber 35–40 g
+- Sleep 7–9 h
 - No nicotine, no alcohol, sunscreen, hearing protection, seatbelt
 - Cancer screening on schedule
 
