@@ -2,7 +2,7 @@
 
 **Male, 39, US, vegan** · 9 August 2026
 
-Built on block-periodized growth cycling: alternating pro-growth and anti-growth phases instead of running either one continuously. Reasoning in [anti-aging-inventory.md](anti-aging-inventory.md) and [therapeutics-by-mechanism.md](therapeutics-by-mechanism.md). Not medical advice — prescription items go through medical professionals.
+Built on block-periodized growth cycling: alternating pro-growth and anti-growth phases instead of running either one continuously. Reasoning in [anti-aging-inventory.md](anti-aging-inventory.md), [therapeutics-by-mechanism.md](therapeutics-by-mechanism.md) and [genetic-pathways.md](genetic-pathways.md). Not medical advice — prescription items go through medical professionals.
 
 **In one line:** get ApoB under 60 and systolic into the 105–115 band, then cycle training and food between building and pruning. That's nearly all of it.
 
