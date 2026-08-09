@@ -37,12 +37,12 @@ Nutritional adequacy, not anti-aging.
 |---|---|---|---|
 | 1–6 | **Pro-growth** | Lift 3–4×, progressive · cardio 2× | Protein 1.6 g/kg · maintenance calories or slightly above |
 | 7–8 | Transition down | Taper to maintenance volume | Protein 1.2–1.6 |
-| 9–20 | **Anti-growth** | Lift 1–2× at maintenance volume · cardio 3× | Protein ≥1.2 · methionine-lower sources (legumes and pulses over seitan, oats, nuts and seeds) · 1–2 fasting-mimicking cycles, *or* an SGLT2 inhibitor, not both |
+| 9–20 | **Anti-growth** | Lift 1–2× at maintenance volume · cardio 3× | Protein ≥1.2 · 1–2 fasting-mimicking cycles, *or* an SGLT2 inhibitor, not both · methionine-lower sources at the margin (legumes and pulses over seitan, oats, nuts and seeds) |
 | 21–22 | Transition up | Volume ramps back | Protein to 1.6 |
 
 Anti-growth lifting is about a third of the pro-growth sets. That keeps the muscle you built.
 
-**The vegan diet already cuts most of the methionine**, so the block leans on the fasting cycles or the SGLT2 inhibitor. Keep sulfur amino acids (methionine plus cysteine) near ~15 mg/kg/day — no lower.
+**The vegan diet has already spent the methionine lever**, so the block runs on the fasting cycles or the SGLT2 inhibitor. Those are load-bearing; the source shift is not. Keep sulfur amino acids (methionine plus cysteine) near ~15 mg/kg/day — no lower. Don't order a plasma methionine; it won't move whatever you eat.
 
 **Pro-growth blocks are lifting, protein, creatine and sleep. No growth hormone** — untested drug, untested schedule, and you won't know what did what.
 

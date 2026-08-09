@@ -321,14 +321,18 @@ Score stays at 6 because the human evidence is what it is. If you run growth cyc
 **This is the item that most directly supports your cycling hypothesis**, and it is worth more attention than its score implies. FMD is *already* a cycle protocol: Longo's design is 5 days on, then refeeding, a few times a year. The refeeding phase is not downtime — in mice, fasting/refeeding cycles drove hematopoietic stem cell self-renewal and immune reconstitution (Cheng et al., *Cell Stem Cell*, 2014), which is the same regenerative endpoint TRIIM-X targets by a much more expensive and much less evidenced route. If you want a pro/anti-growth alternation with actual human trial infrastructure behind it, this is the cheap version.
 
 #### Methionine source shifting (protein held constant)
-**2 × 2 = 4** · OK · low · food
-**Target:** amino acid composition — SAM/SAH, FGF21, IGF-1 · **Measure:** DEXA lean mass; plasma methionine; homocysteine
+**2 × 1 = 2** · OK · low · food
+**Target:** amino acid composition — SAM/SAH, FGF21, IGF-1 · **Measure:** DEXA lean mass; homocysteine
 **Cautions:** cancelled by NAC/GlyNAC; do not combine with total protein restriction on a GLP-1
-**Why:** E2 — rodent lifespan data is solid, human data is short-term and surrogate-only: the best-controlled trial ran 7 days in 20 women with overweight and reported FGF21 up with adipose gene expression shifted (*J Transl Med*, 2020), and Plaisance 2011 found increased fat oxidation in obese adults with metabolic syndrome. B2 — plausible but unproven.
+**Why:** E2 — the rodent data is solid, and the intermittent form of it works: four days replete against three days restricted cut IGF-1 40–56% and raised FGF21 42–87 fold, matching continuous restriction, with more lean mass and more bone retained than the continuous arm (Plummer, *Aging Cell*, 2022). B1 — the human trial run at the depth a plant-based diet can actually reach is negative. In 59 adults with overweight over 8 weeks, both arms on plant-based whole foods at ~2 g/day sulfur amino acids against ~5.6 g/day, IGF-1 rose in both groups with no separation (p=0.46), FGF-21 did not move (p=0.66), fat mass did not differ (p=0.27), and the restricted arm lost *more* fat-free mass (−0.69 kg, p=0.013) for 1.14 kg more total weight (*J Transl Med*, 2024). Both mediators the intervention is supposed to run on failed to appear.
 
-**The target is sufficiency, not depth.** Fanti's LDMM result puts the optimum at low total amino acids with methionine *kept adequate* — too little caused frailty, too much abolished the benefit. Shifting sources toward legumes, soy and dairy cuts methionine 25–40% off a Western baseline while total protein stays flat, which lands inside that window rather than short of it. That is the whole intervention, not a cautious first step toward a deeper cut. The rodent phenotype everyone quotes comes from an ~80% cut sustained continuously; a source shift is not a diluted version of that experiment, it is a different and better-aimed one.
+**The gap between the rodent and human results is dose.** The mouse protocols that work use 0.12% methionine, or methionine-free days, against 0.86% controls — an 80–100% cut, with the methionine-free arm the stronger of the two. That is frank deficiency rather than composition. Plummer's mice still sat 11–22% below controls on lean body mass, and IGF-1 returned to control levels within four days of repletion. The signal is real and steeply dose-dependent, and the dose is not reachable at a sufficiency-respecting intake.
 
-**This is the one anti-growth dietary lever compatible with an SGLT2 inhibitor.** Euglycemic ketoacidosis requires insulinopenia plus volume depletion, and its precipitants are carbohydrate deficit, fasting and reduced intake. Amino acid composition at constant calories and carbohydrate is none of those. Methionine work therefore stays on the calendar whichever side of the fasting/SGLT2i choice in Part 3 you land on.
+**On a vegan diet the lever is already pulled.** EPIC-Oxford puts vegan methionine intake at 0.88 g/day against 1.67 for meat-eaters, and total sulfur amino acids at 2.3 g/day against 6.8 on a high-protein Western pattern. The 2024 trial's *restricted* arm was a whole-food plant-based diet; its control arm was constructed by adding methionine and cysteine capsules on top of the same base. A vegan eats the intervention year-round, in both phases — which is also why it cannot be the thing that distinguishes them.
+
+**Plasma methionine is not a usable readout.** Diet-group differences in EPIC-Oxford span −13% to +16%, and eight weeks of an 80% dietary cut in rats produced no plasma difference at all. Homeostatic buffering absorbs it. Homocysteine and DEXA are what this row is measured on.
+
+**It is the anti-growth dietary lever most compatible with an SGLT2 inhibitor, though not an inert one.** Euglycemic ketoacidosis requires insulinopenia plus volume depletion, and its precipitants are carbohydrate deficit, fasting and reduced intake — none of which is amino acid composition at constant calories and carbohydrate. But restriction raised β-hydroxybutyrate by 117 µmol/L against controls in the 2024 trial, so running both stacks a mild ketogenic pressure rather than none. Keep the ketone meter if you do.
 
 #### Methionine restriction <1 g/day, 5 days/week
 **1 × 1 = 1** · **AVOID as specified** · moderate · food + supplement
@@ -357,7 +361,7 @@ The counterweight to §5. Muscle and bone maintenance, tissue repair, immune rec
 #### Resistance training 2–3×/week
 **3 × 5 = 15** · OK · moderate · free
 **Target:** mTORC1, myonuclear addition, bone loading · **Measure:** DEXA lean mass; grip strength
-**Cautions:** rapamycin blocks contraction-induced MPS; methionine restriction removes the substrate
+**Cautions:** rapamycin blocks contraction-induced MPS
 **Why:** E3 — RCTs are consistent but measure surrogates (strength, lean mass, function) rather than mortality. B5 — non-negotiable on a GLP-1, because it is the only thing that reliably protects the lean mass the drug puts at risk.
 
 **This is the pro-growth phase.** Whatever else growth cycling includes, training plus protein is the component with real evidence behind it, and it is free. Note also that **maintenance requires far less volume than accumulation** — trained individuals hold strength and lean mass on roughly one-third of accumulation volume for months (Bickel 2011). A reduced-volume block during an anti-growth phase is physiologically defensible in a way that a full detraining block is not.

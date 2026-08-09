@@ -204,7 +204,7 @@ What it costs: genital mycotic infection in roughly 1 in 10 men, volume depletio
 
 **Why MONITOR rather than AVOID.** Ketoacidosis risk tracks relative insulin deficiency, not body weight and not the GLP-1 by itself. In DAPA-HF and DAPA-CKD, ketoacidosis events occurred **only** among participants with type 2 diabetes — none among the non-diabetic participants, across several thousand patient-years — and the T2D trial base rate is 0.6–2.2 events per 1,000 patient-years. Euglycemic ketoacidosis in true non-diabetics is real and has its own case literature, but it is rare and nearly always precipitant-driven: fasting, ketogenic diet, surgery, dehydration, acute illness, impaired renal ketone clearance. Being lean is not itself protective — the published SGLT2i-plus-tirzepatide case is a 35-year-old man with a BMI of 20.7, five weeks into the combination, tipped over by nausea and poor intake.
 
-**The real incompatibility is fasting, not the anti-growth block** — see Part 3. An SGLT2 inhibitor is a caloric-restriction mimetic and belongs conceptually in an anti-growth phase; what it cannot share a calendar with is the FMD cycles inside that phase, or any tirzepatide week with vomiting or minimal intake. Those are choices, so this is an either/or rather than a permanent exclusion: run the fasting cycles or run the drug.
+**The real incompatibility is fasting, not the anti-growth block** — see Part 3. An SGLT2 inhibitor is a caloric-restriction mimetic and belongs conceptually in an anti-growth phase; what it cannot share a calendar with is the FMD cycles inside that phase, or any tirzepatide week with vomiting or minimal intake. Those are choices, so this is an either/or rather than a permanent exclusion: run the fasting cycles or run the drug. The dietary methionine work can share the calendar with it, but is not quite neutral either: sulfur amino acid restriction raised β-hydroxybutyrate by 117 µmol/L against controls over 8 weeks in humans, which is a small push in the same direction rather than none.
 
 **Which agent.** The lifespan data is canagliflozin; the cleaner human safety record is empagliflozin, which carries no CANVAS-style amputation signal. You cannot have both, and the amputation signal is human evidence while the lifespan signal is mouse.
 
@@ -232,7 +232,7 @@ Berberine's AVOID is pharmacokinetic — a potent CYP3A4 and P-gp inhibitor that
 |---:|:---:|---|---|:---:|:---:|
 | **6** | 2×3 | Rapamycin 5–6 mg weekly | mTORC1 | monitor | low |
 | **4** | 2×2 | Time-restricted feeding / periodic FMD | AAR, FGF21, autophagy | ok | low |
-| **4** | 2×2 | Methionine source shifting *(protein constant)* | amino acid composition — SAM/SAH, FGF21, IGF-1 | ok | low |
+| **2** | 2×1 | Methionine source shifting *(protein constant)* | amino acid composition — SAM/SAH, FGF21, IGF-1 | ok | low |
 | **1** | 1×1 | Methionine restriction <1 g/day, 5 days/week | SAM/SAH, FGF21, IGF-1 | **AVOID as specified** | moderate |
 | **1** | 1×1 | Methioninase (oral rMETase) | methionine degradation | **AVOID** | moderate |
 
@@ -242,7 +242,9 @@ Three things are worth flagging inside the family. **Rapamycin's ~62 h half-life
 
 And **FMD is already a cycle protocol** — 5 days on, then refeeding, a few times a year. Its score of 4 understates its relevance to Part 4, because it is the only item in this family with human trial infrastructure built around alternation rather than continuous administration.
 
-**The methionine rows are graded on sufficiency, not on depth of cut.** The spread from 4 to 1 across them is not a dose-response where more restriction earns a worse flag for being aggressive — it is the shape of Longo's own curve, where too little methionine causes frailty and too much abolishes the benefit. Source shifting scores 4 because it lands inside that window; the sub-gram protocol and methioninase score 1 because they aim past it. Two practical consequences follow. Methionine work is **not** a substitute for the fasting cycles — the FGF21 and IGF-1 mechanisms overlap, but nothing in the dietary-composition literature touches the hematopoietic and immune reconstitution that fasting/refeeding produces, which is the specific reason FMD earns its place in Part 4. But it **is** compatible with an SGLT2 inhibitor, because composition at constant calories and carbohydrate is not a ketoacidosis precipitant. Methionine work runs in the anti-growth block either way; it is not the variable in the choice below.
+**The methionine rows all score low, for two different reasons.** The sub-gram protocol and methioninase score 1 because they aim past the far edge of Longo's curve, where too little methionine causes frailty. Source shifting scores 2 for the opposite reason: on a vegan baseline there is nothing left to shift. Vegan methionine intake already runs 0.88 g/day against 1.67 for meat-eaters, and the one adequately powered human trial — 8 weeks, n=59, both arms on plant-based whole foods — separated the arms by *adding* methionine and cysteine to the control and still found no IGF-1 effect, no FGF-21 effect, no fat-mass effect, and more fat-free mass lost in the restricted arm. The restricted arm of that trial is an ordinary vegan diet. You are eating it already, in both phases.
+
+Two practical consequences follow. Methionine work is **not** a substitute for the fasting cycles, and cannot carry an anti-growth block on its own: the FGF21 and IGF-1 mechanisms overlap in rodents at deficiency-grade doses, but at achievable intakes the human trial shows neither moving, and nothing in the dietary-composition literature touches the hematopoietic and immune reconstitution that fasting/refeeding produces. It is **largely** compatible with an SGLT2 inhibitor, since composition at constant calories and carbohydrate is not a ketoacidosis precipitant — though restriction did raise β-hydroxybutyrate 117 µmol/L in that trial, so the pairing is low-risk rather than no-risk. Methionine work runs in the anti-growth block either way; it is not the variable in the choice below, and it is not load-bearing.
 
 ### 2.5 GH / IGF-1 and anabolism — the pro-growth arm
 
@@ -334,10 +336,10 @@ Score-ordered, all families collapsed.
 | 6 | Red yeast rice | lipoprotein | **AVOID** | trivial |
 | 5 | Coronary artery calcium *(defer)* | diagnostics | ok | low |
 | 5 | Aspirin | vascular | **AVOID** | trivial |
-| 4 | Metformin · TRF/FMD · methionine via food · sauna · blood donation · dental · homocysteine panel | various | ok–monitor | trivial–moderate |
+| 4 | Metformin · TRF/FMD · sauna · blood donation · dental · homocysteine panel | various | ok–monitor | trivial–moderate |
 | 4 | Pendulum Glucose Control | incretin | ok | moderate |
 | 4 | Testosterone (absent hypogonadism) | anabolic | monitor | moderate |
-| 2 | Astaxanthin · NAC/GlyNAC · NMN/NR · 17α-estradiol · colchicine · vitamin K1/K2 | various | ok–monitor | trivial–moderate |
+| 2 | Astaxanthin · NAC/GlyNAC · NMN/NR · 17α-estradiol · colchicine · vitamin K1/K2 · methionine via food | various | ok–monitor | trivial–moderate |
 | 2 | rhGH-containing pro-growth block | anabolic | monitor | high |
 | 2 | Berberine | AMPK | **AVOID** | trivial |
 | 1 | Fisetin · resveratrol · taurine · D+Q · supplement bundle · disease-indication drugs | various | ok–monitor | trivial–moderate |
@@ -463,7 +465,7 @@ Note what this means for your thymus goal specifically. **The regenerative endpo
 
 **Washout is a real constraint on the transitions, and it is asymmetric.** Rapamycin needs ~2 weeks to clear five half-lives; a pro-growth block that starts 3 days after the last dose is not a clean pro-growth block. Metformin clears in a day. IGF-1 takes 1–2 weeks to normalize after rhGH withdrawal, so the anti-growth block does not truly begin the day the injections stop. Budget roughly two weeks of transition at each boundary, which means a 6-week pro-growth block occupies about 8 weeks of calendar.
 
-**There is a plausible failure mode where you get the costs of both arms and the benefits of neither** — never sustaining restriction long enough to establish the metabolic phenotype, never sustaining training volume long enough to accumulate tissue. This is the same criticism that sank the 5-on/2-off methionine design, applied at a longer timescale. Longer blocks make it less likely, which argues for 6–12 weeks rather than 2–3.
+**There is a plausible failure mode where you get the costs of both arms and the benefits of neither** — never sustaining training volume long enough to accumulate tissue, while the anti-growth arm delivers only what its weakest lever can. The restriction side of that worry is the smaller half: dietary restriction phenotypes establish within days, not weeks, and reverse just as fast, so a block is more than long enough. Tissue accretion is the slow variable, which is what argues for 6–12 week blocks rather than 2–3.
 
 **Cancer risk is the asymmetry that does not average out.** The pruning logic — clear damaged cells during restriction, then rebuild — assumes the clearing happens first and completely. If a pro-growth block instead supplies substrate and signalling to a lesion that the anti-growth block did not clear, the two phases are not symmetric in their consequences. This is speculative in both directions and there is no data to resolve it, but it is the reason to keep the pro-growth blocks anabolic rather than pharmacologically supraphysiologic, and the reason to keep cancer screening (which scores 20) on schedule regardless.
 
@@ -503,7 +505,7 @@ Offered as a starting structure, not a protocol — nobody has tested this, and 
 |---|---|---|---|---|
 | 1–6 | **Pro-growth** | Resistance 3–4×/wk, progressive; cardio maintained at 2×/wk | Protein 1.6 g/kg/day distributed; adequate methionine; energy at or slightly above maintenance | Creatine 5 g/day. Nothing anti-growth. No antioxidant supplements near training. |
 | 7–8 | Transition down | Taper resistance volume to maintenance | Protein holds at 1.2–1.6 | IGF-1 normalizing; nothing new started |
-| 9–20 | **Anti-growth** | Resistance 1–2×/wk at maintenance volume; cardio 3×/wk | Protein holds ≥1.2 g/kg while on tirzepatide; shift methionine *sources* (pulses and legumes over seitan, oats, nuts and seeds) with methionine kept sufficient, rather than cutting protein; 1–2 FMD cycles | Rapamycin only if you decide it's worth 6 points; last dose ≥2 wk before week 21. **An SGLT2 inhibitor and the FMD cycles are mutually exclusive — pick one for this block.** |
+| 9–20 | **Anti-growth** | Resistance 1–2×/wk at maintenance volume; cardio 3×/wk | Protein holds ≥1.2 g/kg while on tirzepatide; **1–2 FMD cycles carry the block**; methionine *sources* shifted at the margin (pulses and legumes over seitan, oats, nuts and seeds) with methionine kept sufficient, never by cutting protein | Rapamycin only if you decide it's worth 6 points; last dose ≥2 wk before week 21. **An SGLT2 inhibitor and the FMD cycles are mutually exclusive — pick one for this block.** |
 | 21–22 | Transition up | Volume ramps | Protein to 1.6 | Rapamycin fully cleared before resistance volume rises |
 | 23–28 | **Pro-growth** | repeat | repeat | repeat |
 
@@ -531,7 +533,7 @@ This is the part that separates a hypothesis from a belief, and it is worth more
 
 You proposed: **<1 g methionine/day, five days a week, plus methioninase, with high protein and intense strength training on weekends.**
 
-The underlying instinct is right. The implementation is likely to cost you muscle without delivering the mechanism. Eight problems, roughly in order of severity — and note that **problem 5 is the one your block-cycling hypothesis solves**, which is a real point in its favour.
+The underlying instinct is right. The implementation is likely to cost you muscle without delivering the mechanism. Eight problems, roughly in order of severity — and note that **the scheduling half of problem 3, and problem 5 entire, are the ones your block-cycling hypothesis solves.** Those are real points in its favour, and the evidence backs them.
 
 ### 1. The newest data says to keep methionine adequate, not cut it
 
@@ -541,17 +543,19 @@ Longo's own summary of the dose-response: **too little methionine caused frailty
 
 So the lever is **total amino acids down, methionine kept adequate.** Your protocol does close to the inverse: methionine specifically down, total protein potentially high. You'd be aiming at the frailty arm of their dose-response curve.
 
-### 2. Methionine is the initiator amino acid for every protein you make
+### 2. The cost lands on whole-body lean mass, not on your response to training
 
-Translation initiates with Met-tRNAi at every start codon. This isn't a substrate you can trade against leucine or adjust at the margin. Pushing it below requirement doesn't selectively throttle mTOR — it constrains protein synthesis globally, including the repair and remodeling you're training to stimulate.
+Methionine is the initiator amino acid — translation begins with Met-tRNAi at every start codon — which is the usual reason for expecting restriction to blunt the anabolic response to lifting. It does not appear to. Eight weeks of an 80% methionine cut in rats left resistance-exercise mTORC1 signalling fully intact, with muscle protein synthesis *higher* under restriction than in controls and catabolic markers lower; methionine restriction combined with mechanical overload improved muscle and metabolic outcomes in old mice on a high-fat diet. At the signalling level, restriction and training are not antagonists.
 
-### 3. The 5-on/2-off structure gets the costs without the benefits
+The debit shows up one level up, in body composition, which is where you are actually measuring. Intermittently restricted mice sat 11–22% below controls on lean body mass (Plummer, *Aging Cell*, 2022), and in the 8-week human trial the restricted arm lost 0.69 kg more fat-free mass than controls (p=0.013) — a difference that attenuated once total weight loss was accounted for, but pointed the wrong way throughout. The mechanism by which restriction costs muscle is not a blocked training response. It is a whole-body substrate deficit that lifting does not offset.
 
-Rodent MR uses roughly 0.17% methionine against 0.86% controls — about an 80% cut, **sustained continuously**, with the phenotype (FGF21 induction, hepatic SCD1 suppression, adiposity change) developing over days to weeks. Five-day cycles with full weekend refeeding are unlikely to establish that steady state.
+### 3. The cut you can reach is not the cut that does the work
 
-The costs, meanwhile, accrue immediately: reduced muscle protein synthesis and negative nitrogen balance start on day one of restriction. You'd be collecting the debit reliably and the credit unreliably.
+Rodent MR runs 0.12–0.17% methionine against 0.86% controls — an 80%+ cut, and in the best-performing intermittent arm, methionine-free days. That is frank deficiency, and the phenotype is steeply dose-dependent on it. At an intake that respects the sulfur amino acid requirement, the human result is flat: 8 weeks, 59 adults, ~2 g/day sulfur amino acids against ~5.6, and IGF-1 rose in both arms with no separation, FGF-21 did not move, and fat mass did not differ.
 
-This is a **timescale** objection, not an objection to cycling as such. It says the cycle you chose is too short for the biology, which is an argument for the block structure in Part 4 and against the weekly one.
+**The schedule is not the problem, and this is where your instinct was right.** Four days replete against three days restricted cut IGF-1 40–56% and raised FGF21 42–87 fold during the restricted periods — indistinguishable from continuous restriction, and with more lean mass and more bone retained than the continuous arm. Intermittent restriction establishes the phenotype perfectly well. What it does not do is install a state: IGF-1 returned to control levels within four days of repletion. The benefit exists only while restricted, which makes this an exposure-duration effect and a legitimate argument for cycling rather than against it.
+
+So the objection is depth and dietary context, not cycle length. You are already at the shallow end of the dose-response and cannot go deeper without aiming at problem 1.
 
 ### 4. You can't bank a week's anabolism into a weekend
 
@@ -563,7 +567,9 @@ Note that this objection is specific to the weekend design and does not transfer
 
 Hard weekend lifting is fine while methionine-replete. But adaptation, remodeling and repair continue for 48–72 hours afterward — which lands on Monday and Tuesday, your restricted days. You'd deliver the stimulus and then withdraw the substrate precisely during the window when it's being used.
 
-**This is the objection your hypothesis answers directly, and it answers it completely.** Multi-week blocks never interleave stimulus with withdrawal. If you are going to combine training with restriction at all, the block structure is the correct way to do it, and the weekly structure is not. Credit where it's due.
+The narrow version of this — that restriction blocks the acute anabolic response — is not supported, and problem 2 concedes it. What the rat work establishes is that mTORC1 signalling and muscle protein synthesis survive an 80% cut; the authors did not follow the animals long enough to measure hypertrophy, and said so. Accretion over weeks is a different question from signalling over hours, and it is the one a 5-on/2-off schedule puts at risk.
+
+**This is still the objection your hypothesis answers most directly.** Multi-week blocks never interleave stimulus with withdrawal, so the question does not arise. If you are going to combine training with restriction at all, the block structure is the correct way to do it, and the weekly structure is not. Credit where it's due.
 
 ### 6. Drop the methioninase entirely
 
@@ -596,12 +602,12 @@ Adult requirement for total sulfur amino acids (methionine + cysteine) is roughl
 ### The version I'd actually run
 
 1. **Hold total protein at 1.2–1.6 g/kg/day, distributed across meals, in both phases.** Non-negotiable while on tirzepatide.
-2. **Shift protein *sources*, don't cut protein *amount*.** Legumes, soy, and dairy carry substantially less methionine per gram of protein than beef, eggs, poultry, and especially fish — the 25–40% drop that defines the LDMM pattern comes from moving in that direction while total protein stays flat. **A vegan diet has already banked most of that drop**, so the remaining lever is only the spread within plant proteins: pulses and legumes at the low end, seitan, oats, nuts and seeds at the high end. It is real but small, which puts the weight of the anti-growth block on item 3. It also inverts the direction of risk — with methionine, cysteine and taurine all low at baseline, the live failure mode is inadequacy rather than excess, so hold total sulfur amino acids near the requirement in the section above and do not chase further restriction.
+2. **Shift protein *sources*, don't cut protein *amount* — and expect almost nothing from it.** Legumes, soy and dairy carry substantially less methionine per gram of protein than beef, eggs, poultry and especially fish, and the 25–40% drop that defines the LDMM pattern comes from moving in that direction while total protein stays flat. **A vegan diet has already banked that entire drop** — 0.88 g/day methionine against 1.67 for meat-eaters, and 2.3 g/day total sulfur amino acids against 6.8 on a high-protein Western pattern. The restricted arm of the one adequately powered human trial *was* a whole-food plant-based diet, and it moved neither IGF-1 nor FGF-21 over 8 weeks. What remains for you is the spread within plant proteins — pulses and legumes at the low end, seitan, oats, nuts and seeds at the high end — which is too small to carry a block. The weight of the anti-growth phase sits on item 3, and there is no version of this where it doesn't. It also inverts the direction of risk: with methionine, cysteine and taurine all low at baseline, the live failure mode is inadequacy rather than excess, so hold total sulfur amino acids near the requirement in the section above and do not chase further restriction.
 3. **Get the FGF21 signal from time-restricted feeding or periodic fasting-mimicking cycles** — a few 5-day cycles a year — which have human trial data behind them rather than a chronic deficiency state. These slot naturally into the anti-growth blocks in Part 4.
 4. **Drop methioninase.**
 5. **Drop NAC/GlyNAC if you're pursuing methionine work at all** — pick one.
 6. **Use block cycling rather than weekly cycling.** Resistance training 3×/week during pro-growth blocks, 1–2×/week at maintenance volume during anti-growth blocks. This is the change that resolves the phase problem, and it is your idea rather than mine.
-7. **Measure properly.** DEXA at baseline and at every phase boundary — not the Withings BIA, which will not resolve the changes at stake. Grip strength weekly. Plasma methionine and homocysteine if you want the biochemical readout.
+7. **Measure properly.** DEXA at baseline and at every phase boundary — not the Withings BIA, which will not resolve the changes at stake. Grip strength weekly. IGF-1 is the readout that tells you whether the block did anything. **Not plasma methionine** — it is buffered too tightly to report dietary change: intake differences across diet groups of 50% show up as −13% to +16% in plasma, and eight weeks of an 80% dietary cut in rats produced no plasma difference at all. Homocysteine if you want the one-carbon readout.
 8. **Pre-specify a stopping rule.** If DEXA shows >1 kg lean mass loss across a full anti-growth block, the block is too aggressive.
 
 ### The thing you're actually reaching for
