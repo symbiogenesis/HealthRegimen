@@ -254,7 +254,7 @@ Two items are worth reading in full in the detail file: [block-periodized growth
 
 **Redox and hormesis** — omega-3 (6, continue) · sauna (4, optional) · astaxanthin (2, skip — an ITP hit that failed to replicate) · NAC/GlyNAC/glutathione (2, skip). Organizing principle: the ROS burst after training is signal, not damage. Every item here is a timing question rather than a yes/no question — except NAC with methionine work, which is a genuine cancellation rather than a timing issue.
 
-**Hemodynamic and vascular** — blood pressure to <120 systolic (20, monitor) · cardiorespiratory training (20, also listed under 2.3) · aspirin (5, **AVOID** — a high evidence score attached to a finding of no benefit; ASPREE showed net harm in healthy older adults).
+**Hemodynamic and vascular** — blood pressure, aiming 105–115 systolic and adding a drug over 120 (20, monitor — the threshold is where the trials stopped, the aim is where the epidemiology and the unwesternised populations sit) · cardiorespiratory training (20, also listed under 2.3) · aspirin (5, **AVOID** — a high evidence score attached to a finding of no benefit; ASPREE showed net harm in healthy older adults).
 
 **Inflammation** — low-dose colchicine (2, skip — CLEAR SYNERGY/OASIS-9 was neutral at n=7,062) · dental/periodontal care (4, do anyway).
 
@@ -281,7 +281,7 @@ Score-ordered, all families collapsed.
 | 25 | Rosuvastatin / atorvastatin | lipoprotein | monitor | trivial |
 | 25 | Evolocumab / alirocumab | lipoprotein (PCSK9) | ok | high |
 | 25 | Nicotine and tobacco: none | environmental | ok | trivial |
-| 20 | Blood pressure to <120 | vascular | monitor | trivial |
+| 20 | Blood pressure to 105–115 | vascular | monitor | trivial |
 | 20 | Home BP series *(measure)* | diagnostics | ok | trivial |
 | 20 | Cancer screening on schedule | early detection | ok | low |
 | 20 | Cardiorespiratory fitness training | AMPK / vascular | ok | moderate |

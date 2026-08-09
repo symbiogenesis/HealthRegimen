@@ -4,14 +4,14 @@
 
 Built on block-periodized growth cycling: alternating pro-growth and anti-growth phases instead of running either one continuously. Reasoning in [anti-aging-inventory.md](anti-aging-inventory.md) and [therapeutics-by-mechanism.md](therapeutics-by-mechanism.md). Not medical advice — prescription items go through whoever manages the tirzepatide.
 
-**In one line:** get ApoB under 60 and BP under 120, then cycle training and food between building and pruning. That's nearly all of it.
+**In one line:** get ApoB under 60 and systolic into the 105–115 band, then cycle training and food between building and pruning. That's nearly all of it.
 
 ---
 
 ## Always on — both phases, no exceptions
 
 - **Statin ± ezetimibe**, ApoB <60
-- **BP <120**
+- **Cardio, sodium down, stay lean**, target sysBP 105–115 · **telmisartan 40–80 mg** if the home cuff series stays over 120
 - **Tirzepatide**
 - **Protein ≥1.2 g/kg/day**, spread across meals — the floor never drops while on a GLP-1. Track it
 - Creatine 5 g
