@@ -131,6 +131,7 @@ No route to a measurable outcome at 39.
 - Vitamin K2, MK-7 or MK-4 — moves the calcification biomarker, not the calcification. If greens are light, the answer is K1 from food, not this
 - **Galleri and other multi-cancer blood tests** — the randomised trial missed its primary endpoint, and it enrolled from 50. Revisit when the mortality readout lands *and* you're in the age band
 - **Whole-body MRI** — ~$2,500 to find something ambiguous you then have to chase
+- **Carnitine in any form, including acetyl-L-carnitine** — not part of the vegan set above, despite looking like taurine. About 90% of an oral dose comes back as TMAO, and ALCAR is worse on that than plain carnitine, not better
 - Cold plunge as a therapy — see the cycle rules if you do it for enjoyment
 - The whole ~35-item supplement shelf
 

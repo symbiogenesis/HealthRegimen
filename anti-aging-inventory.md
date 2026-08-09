@@ -31,7 +31,7 @@ The source table is a good **survey**. It is not a **decision tool**, and it can
 
 The NIA Interventions Testing Program is the only rigorous arbiter here — three sites, genetically heterogeneous UM-HET3 mice, blinded, adequately powered. Its track record against the compounds on your list:
 
-- **Failed to extend lifespan:** resveratrol, NR, fisetin (−5 to +7%), green tea extract, and eleven further compounds in the April 2026 report.
+- **Failed to extend lifespan:** resveratrol, NR, fisetin (−5 to +7%), green tea extract, and eleven further compounds in the April 2026 report — among them alpha-ketoglutarate, nulled at two different starting ages in both sexes.
 - **More damning:** that same 2026 report found that **astaxanthin, mitoglitazone, and meclizine — previous ITP *hits* — showed no benefit at different doses or later starting ages.** An ITP positive doesn't even reliably replicate against itself under protocol variation.
 - **Nearly every recent hit is male-only:** epicatechin (+5%), halofuginone (+9%), mitoglitazone (+9%), canagliflozin (+14%), 17α-estradiol (+19%), astaxanthin (+12%). This one quirk happens to favor you, and is worth stating explicitly rather than leaving buried.
 
@@ -309,7 +309,9 @@ Three items are worth reading in full in the detail file: [block-periodized grow
 
 **Early detection** — cancer screening on schedule (20) · multi-cancer early detection blood tests (3, skip) · whole-body MRI (1, skip). The two consumer screening products fail for the same reason and it is not assay quality: at 39 the base rate is low enough that positive predictive value collapses regardless of specificity. NHS-Galleri is now a real RCT — 142,250 participants, four-fold higher detection, fewer stage IV diagnoses — and it **missed its primary endpoint**, which is the distinction between finding more cancer and preventing death from it.
 
-**No credible mechanism, or not yet reachable** — taurine (1, premise retracted by Fernandez 2025; it stays in the regimen on a vegan diet as nutritional repletion, which is an adequacy argument rather than a gerotherapeutic one) · resveratrol (1) · 17α-estradiol (2, watch, do not take) · blood donation (4, optional) · **partial epigenetic reprogramming (4, watch — the field's largest bet, mouse-only for systemic use, and the clinics selling it now are an AVOID)** · methylene blue (1, **AVOID** — MAO-A inhibitor) · disease-indication drugs with no aging indication (1, change trigger to diagnosis) · the ~35-row supplement bundle (1) · EDTA/HBOT/stem cells/gene therapy (1, **AVOID**).
+**No credible mechanism, or not yet reachable** — **carnitine in every ester, including acetyl-L-carnitine (2, monitor, skip — and the one item here that fails the vegan-adequacy test taurine passes)** · taurine (1, premise retracted by Fernandez 2025; it stays in the regimen on a vegan diet as nutritional repletion, which is an adequacy argument rather than a gerotherapeutic one) · resveratrol (1) · **Ca-AKG (1, skip — the single positive mouse study was female-only in one inbred strain, and the ITP nulled it in both sexes at two starting ages; the human data is a 42-person single-arm survey of buyers of a multi-ingredient product)** · 17α-estradiol (2, watch, do not take) · blood donation (4, optional) · **partial epigenetic reprogramming (4, watch — the field's largest bet, mouse-only for systemic use, and the clinics selling it now are an AVOID)** · methylene blue (1, **AVOID** — MAO-A inhibitor) · disease-indication drugs with no aging indication (1, change trigger to diagnosis) · the ~35-row supplement bundle (1) · EDTA/HBOT/stem cells/gene therapy (1, **AVOID**).
+
+**Carnitine is the interesting one in that list, because the case for it is the best-argued of any supplement here and it still loses.** Ames's ALCAR-plus-lipoic-acid work restored mitochondrial function, activity and memory in old rats, which is more than resveratrol or NMN ever managed — but the endpoint was function, not lifespan, the lab held the patent and founded the company selling the combination, and an independent mouse cohort found no lifespan effect. Two facts then close it for you specifically. Acetyl-L-carnitine does not escape the TMAO pathway: its bioavailability is 7.7-fold *lower* than plain carnitine, so more of the dose reaches the microbes, and ~90% of either ester returns as TMAO. And the vegan microbiome's near-immunity to that conversion — a real 20-fold advantage on a single challenge — is exactly what chronic supplementation trains away. It sits at 2 rather than 1 because the human trials in depression and diabetic neuropathy are real; those are diagnoses, not an aging indication.
 
 ### 2.7 Flat ranked list
 
@@ -369,10 +371,10 @@ Score-ordered, all families collapsed.
 | 4 | Microplastic exposure reduction | environmental | ok | trivial |
 | 4 | Partial epigenetic reprogramming *(watch)* | no credible mechanism yet | **AVOID clinics** | high |
 | 3 | Multi-cancer early detection blood test | early detection | ok | high |
-| 2 | Astaxanthin · NAC/GlyNAC · NMN/NR · 17α-estradiol · colchicine · vitamin K1/K2 · methionine via food · cold water immersion | various | ok–monitor | trivial–moderate |
+| 2 | Astaxanthin · NAC/GlyNAC · NMN/NR · 17α-estradiol · colchicine · vitamin K1/K2 · methionine via food · cold water immersion · carnitine / ALCAR | various | ok–monitor | trivial–moderate |
 | 2 | rhGH-containing pro-growth block | anabolic | monitor | high |
 | 2 | Berberine | AMPK | **AVOID** | trivial |
-| 1 | Fisetin · resveratrol · taurine · D+Q · supplement bundle · disease-indication drugs · whole-body MRI | various | ok–monitor | trivial–high |
+| 1 | Fisetin · resveratrol · taurine · Ca-AKG · D+Q · supplement bundle · disease-indication drugs · whole-body MRI | various | ok–monitor | trivial–high |
 | 1 | Methionine restriction <1 g/day · methioninase · methylene blue · EDTA/HBOT/stem cells | various | **AVOID** | moderate–high |
 
 ---
