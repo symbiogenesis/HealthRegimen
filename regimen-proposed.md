@@ -16,7 +16,7 @@ Built on block-periodized growth cycling: alternating pro-growth and anti-growth
 | **Telmisartan** | 40–80 mg, only if the home cuff series stays over 120 | sysBP 105–115 |
 | **Tirzepatide** | to target, then a maintenance dose — not stopping | FMI 2.5–3.5 kg/m² (~12–15% fat) · ALMI ≥8.5 kg/m² · VAT <50 cm² |
 
-**Blood Pressure** — Cardio, sodium down, stay lean. That is the first move on the BP target. Telmisartan is what you add if the cuff stays high, not what you start with.
+**Blood Pressure** — Cardio, sodium down, stay lean; that is the first move. Telmisartan is what you add if the cuff stays high, not what you start with. Stop it through fasting cycles and any tirzepatide week with vomiting or poor intake, and restart with normal eating.
 
 **Drive under the tirzepatide numbers, don't stop at them** — as far below VAT <50 cm² as it goes. Cut the dose when ALMI falls or the fuel floor trips, never because the scale stalled. Off-drug regain runs about half the lost weight inside a year.
 
@@ -55,8 +55,6 @@ Nutritional adequacy, not anti-aging.
 
 Anti-growth lifting is about a third of the pro-growth sets. That keeps the muscle you built. Cut sets, not load — the heavy and impact work is what holds bone, and bone is what this block gives away silently.
 
-**On an ARB, hold it through the fasting cycles** and through any tirzepatide week with vomiting or poor intake. Restart with normal eating. Dizzy on standing during a fast means stop the fast, not push through.
-
 **No cold plunge in a pro-growth block**, and never after lifting — it blunts what the block is for. Anti-growth blocks only, if at all. Sauna is fine in either.
 
 **The vegan diet has already spent the methionine lever**, so the block runs on the fasting cycles or the SGLT2 inhibitor. Those are load-bearing; the source shift is not. Keep sulfur amino acids (methionine plus cysteine) near ~15 mg/kg/day — no lower. Don't order a plasma methionine; it won't move whatever you eat.
@@ -65,7 +63,7 @@ Anti-growth lifting is about a third of the pro-growth sets. That keeps the musc
 
 **Body fat is lowest at the end of an anti-growth block and rises through pro-growth.** Hit 12% at that low point, not all year. You can't stay in a calorie deficit and still grow.
 
-**Stopping rule:** lose more than 1 kg of muscle over a full anti-growth block while keeping protein up, and the block is too hard. Make it shorter or easier.
+**Stopping rule:** lose more than 1 kg of muscle over a full anti-growth block while keeping protein up, and the block is too hard. Make it shorter or easier. Dizzy on standing during a fast means stop the fast, not push through.
 
 **The fuel floor — if any one of these happens, eat more and cut the dose, whatever the DEXA says:** total testosterone under 500 ng/dL · morning erections or libido gone · broken sleep · lifts getting weaker on maintenance sets · resting heart rate dropping with cold hands. Getting lean stops helping long before it starts hurting. These show up first.
 
