@@ -255,13 +255,16 @@ Two practical consequences follow. Methionine work is **not** a substitute for t
 | **9** | 3×3 | Creatine monohydrate 5 g/day | phosphocreatine, cell hydration | ok | trivial |
 | **6** | 2×3 | **Block-periodized growth cycling** *(training-led, no rhGH)* | phase separation of mTORC1/IGF-1 | ok | moderate |
 | **4** | 4×1 | Testosterone (absent hypogonadism) | androgen receptor | monitor | moderate |
+| **4** | 2×2 | Myostatin/activin blockade (bimagrumab, apitegromab) | ActRII — myostatin, activin A | monitor | high |
 | **2** | 1×2 | rhGH-containing pro-growth block (TRIIM/TRIIM-X style) | thymus regeneration; GH/IGF-1 axis | monitor | high |
 
 This section is the counterweight to 2.4. Muscle and bone maintenance, tissue repair, immune reconstitution and wound healing all require anabolic signalling. A protocol that suppresses it continuously is buying protection from one set of failure modes by accepting exposure to another — sarcopenia, osteopenia, impaired repair, blunted immune reconstitution. That cost is real and it belongs in the ledger.
 
 Note the internal ranking. **The best pro-growth intervention here is resistance training at 15, and the second is protein at 12.** Both are free, both are better evidenced than anything else in the family, and both are already on your do-now list. Any pro-growth phase you construct should be built on those two; the pharmacology is optional garnish on top of a foundation that carries the actual evidence.
 
-Two items are worth reading in full in the detail file: [block-periodized growth cycling](therapeutics-by-mechanism.md#block-periodized-growth-cycling-training-led-no-rhgh) and [the rhGH block](therapeutics-by-mechanism.md#rhgh-containing-pro-growth-block-triim--triim-x-style). Both are argued out in Part 4.
+**The muscle-preserving antibodies are the family most likely to be mistaken for a fit.** ActRII blockade aims at precisely the metric this protocol is judged on — lean mass held through GLP-1 weight loss — which is the reason to watch the class and also the reason it cannot be added to the structure. It raises ALMI on its own and cannot be phased out of an anti-growth block, so it would take the DEXA series, which is the only instrument the cycle has, and make it unreadable. It scores 4 rather than lower because the effect is real and the trials are clean; 4 rather than higher because training, protein and creatine already cover the same axis for free, and the antibody only earns consideration where those have measurably failed.
+
+Three items are worth reading in full in the detail file: [block-periodized growth cycling](therapeutics-by-mechanism.md#block-periodized-growth-cycling-training-led-no-rhgh), [the rhGH block](therapeutics-by-mechanism.md#rhgh-containing-pro-growth-block-triim--triim-x-style) and [myostatin/activin blockade](therapeutics-by-mechanism.md#myostatin--activin-blockade-bimagrumab-apitegromab). The first two are argued out in Part 4.
 
 ### 2.6 Everything else, by family
 
@@ -339,6 +342,7 @@ Score-ordered, all families collapsed.
 | 4 | Metformin · TRF/FMD · sauna · blood donation · dental · homocysteine panel | various | ok–monitor | trivial–moderate |
 | 4 | Pendulum Glucose Control | incretin | ok | moderate |
 | 4 | Testosterone (absent hypogonadism) | anabolic | monitor | moderate |
+| 4 | Myostatin/activin blockade *(watch)* | anabolic | monitor | high |
 | 2 | Astaxanthin · NAC/GlyNAC · NMN/NR · 17α-estradiol · colchicine · vitamin K1/K2 · methionine via food | various | ok–monitor | trivial–moderate |
 | 2 | rhGH-containing pro-growth block | anabolic | monitor | high |
 | 2 | Berberine | AMPK | **AVOID** | trivial |
@@ -378,24 +382,29 @@ Cysteine supplementation reverses essentially the entire metabolic phenotype of 
 
 This one is listed as hard rather than phase-based deliberately. You could in principle alternate them, but there is no reason to: the cancellation is complete, neither has outcome evidence, and running both in alternation would be funding opposite sides of the same experiment on a schedule instead of simultaneously.
 
+**8. Myostatin/activin blockade + block cycling → the scheduling fix is unavailable, and the instrument breaks.**
+ActRII blockade is an anabolic drug given intravenously with a half-life in weeks. Every other pro-growth item in this document can be confined to a pro-growth block; this one cannot, so an anti-growth block run alongside it is anti-growth in diet and training and pro-growth in pharmacology. That is why it sits here rather than under phase conflicts — the conflict is real and the usual remedy does not reach it.
+
+The second half is measurement. ALMI is doing double duty as the stopping rule and as the evidence that the cycle works at all, and an agent that raises ALMI independently of training makes a healthy-looking number compatible with a block that is failing. Grip strength and the training log survive as unconfounded readouts, which is a weaker instrument than the DEXA series it would displace — and weaker in the specific way the class's history warns about, since bimagrumab's sarcopenia and inclusion-body-myositis trials added mass without moving function.
+
 ### Phase conflicts — real, but scheduling problems rather than exclusions
 
 None of these is a reason not to combine two interventions at all. What each says is *do not run these in the same window*.
 
-**8. Rapamycin + resistance training.**
+**9. Rapamycin + resistance training.**
 A single oral dose of rapamycin before resistance exercise **completely blocked** the contraction-induced rise in human muscle protein synthesis (~40% in controls), with S6K1 phosphorylation flat versus a 6-fold rise in controls. Notably, rapamycin did *not* affect post-absorptive protein metabolism — it specifically suppresses the *response to a stimulus*.
 
 The half-life is roughly 62 hours, so five half-lives is about 13 days. **Weekly dosing cannot separate from a 3×/week lifting schedule — but a block structure separates them completely.** The correct conclusion is not "don't use rapamycin," it is "weekly dosing is the wrong administration pattern if you also lift." If you run it, run it inside an anti-growth block with the last dose ≥2 weeks before training volume comes back up.
 
 Note the scores: resistance training 15, rapamycin 6, so on the merits training wins any contest for the same window. Cycling means you don't have to hold that contest.
 
-**9. Metformin + exercise training.**
+**10. Metformin + exercise training.**
 Same structure, easier fix. Metformin blunts VO₂max and mitochondrial adaptation, and the intervention with the evidence (cardiorespiratory training, 20) loses to accommodate the one without it (metformin, 4). Metformin's half-life is ~6 hours, making it the most cleanly phaseable item in the document. It still scores 4 — good schedulability is not evidence.
 
-**10. High-dose antioxidants + exercise training.**
+**11. High-dose antioxidants + exercise training.**
 NAC, high-dose vitamin C/E, MitoQ, astaxanthin. The ROS burst after training is signal, not damage; suppressing it suppresses the adaptation. This is a *window* problem at the scale of hours, not a block problem — keep antioxidants away from the post-training window, or drop them. Given that none of them have outcome evidence, dropping them is simpler.
 
-**11. IGF-1-raising agents + mTOR/IGF-1-lowering agents.**
+**12. IGF-1-raising agents + mTOR/IGF-1-lowering agents.**
 The general case, and the one your hypothesis is aimed at. rhGH raises IGF-1; rapamycin, methionine restriction and the CR mimetics exist to lower it and to lower mTOR signalling. Run simultaneously, you are paying two premium prices to push one dial in opposite directions, and then measuring the result with an epigenetic clock that cannot tell you which one won.
 
 Run in **alternating blocks**, that objection largely dissolves, and what remains is a real question about whether the alternation itself is beneficial. That question is Part 4.
