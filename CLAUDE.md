@@ -32,6 +32,21 @@ The test: a reader seeing the file for the first time should never learn that a 
 - The single date line under the title. One "as of" stamp is fine; a version number is not.
 - Discussion of the user's own proposed protocols (the methionine plan, the block-cycling hypothesis) and which objections they answer. That is analysis of a live idea, not a record of edits to this repo.
 
+## The second rule: regimen-proposed.md carries no reasoning
+
+[regimen-proposed.md](regimen-proposed.md) is the instruction sheet. It says what to do, at what dose, on what schedule, and how to tell whether it is working. The argument for *why* lives in the other two files, and the header link is what points there.
+
+Keep out of it:
+
+- Justification paragraphs — why a target is tighter than guideline, why one drug beat another, what a trial showed
+- Trial names, effect sizes, confidence intervals, mechanism
+- Cost comparisons beyond the price of the thing being recommended
+- Anything shaped like "**On the X:** …" — that construction is the reasoning docs' voice
+
+What earns its place: the item, the dose, the target number, the cadence, the stopping rule, the hard contraindication. A clause of context is fine where it changes what the reader *does* — "drop the FMD cycles if you take it — euglycemic ketoacidosis" is an instruction; a paragraph on the ketoacidosis mechanism is not. Where a bare number needs backing, the number and its magnitude can stay in one line; the derivation goes to [therapeutics-by-mechanism.md](therapeutics-by-mechanism.md).
+
+When cutting an explanation out, check it already exists in [anti-aging-inventory.md](anti-aging-inventory.md) or [therapeutics-by-mechanism.md](therapeutics-by-mechanism.md), and write it there first if it does not. Nothing should be lost in the move, only relocated.
+
 ## Housekeeping
 
 - Keep the two files cross-linked: [anti-aging-inventory.md](anti-aging-inventory.md) holds framework, grouped inventory, interactions and protocols; [therapeutics-by-mechanism.md](therapeutics-by-mechanism.md) holds row-level reasoning. Scores must agree across both — change a score in one, change it in the other and in the flat list at §2.7.

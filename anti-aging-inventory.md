@@ -1,7 +1,7 @@
 # Anti-Aging Therapeutic Inventory
 
 **Target:** healthy male, age 39, US, currently on tirzepatide
-**8 August 2026**
+**9 August 2026**
 **Source:** AgingBiotech.info "Available Therapeutics" survey table (128 rows)
 **Detail rows:** [therapeutics-by-mechanism.md](therapeutics-by-mechanism.md)
 
@@ -55,7 +55,7 @@ A 128-row inventory that includes Khavinson peptides and EDTA chelation but not 
 
 For a US male currently 39, lifetime cause-of-death is dominated by atherosclerotic cardiovascular disease (roughly a quarter), then cancer (roughly a fifth), then dementia, metabolic disease, and — in the next decade specifically — unintentional injury. Nothing on the geroscience list moves those numbers as much as the boring interventions do.
 
-The decisive asymmetry at your age is **exposure-time leverage**. Mendelian randomization on lifelong lower LDL-C gives roughly a 54% CHD risk reduction per 1 mmol/L, versus roughly 22% per 1 mmol/L for statins started in mid-life and followed for five years. Same molecule, same target — about **three times the effect** because the clock started earlier. Starting ApoB control at 39 rather than 55 is, on its own, plausibly worth more than every supplement in the source table combined.
+The decisive asymmetry at your age is **exposure-time leverage**. Ference's Mendelian randomization puts 40 years of 1 mmol/L lower LDL-C at a 54.5% lower CHD risk, against roughly 24% per 1 mmol/L for a statin started in mid-life and followed for five years. Same molecule, same target — about **three times the effect** because the clock started earlier. The lifespan version of the same analysis is blunter still: 1 SD higher genetically proxied LDL-C costs about 1.2 years of life, with an odds ratio of 0.72 for reaching the 90th versus the 60th percentile age. Starting ApoB control at 39 rather than 55 is, on its own, plausibly worth more than every supplement in the source table combined.
 
 The same logic runs the other way for the speculative agents: at 39 you have the *most* time for an unrecognized harm to compound. Risk tolerance should be lower now, not higher.
 
@@ -133,12 +133,14 @@ Why mechanism rather than verdict: grouping by verdict scatters the four PCSK9 i
 
 ### 2.1 ApoB and the lipoprotein pathway
 
-The highest-yield family on the list. Four molecular targets, one coherent ladder: **HMG-CoA reductase → NPC1L1 → PCSK9 → apo(a)**. ACL is a lateral move for statin intolerance, not a rung.
+The highest-yield family on the list. Four molecular targets, one coherent ladder: **HMG-CoA reductase → NPC1L1 → PCSK9 → apo(a)**. ACL is the same rung as the statin, reached from a different direction.
+
+It is also the only family here whose longevity claim rests on human data rather than mouse data. Mendelian randomisation against parental lifespan puts 1 SD higher genetically proxied LDL-C at 1.2 years shorter life (95% CI −1.55 to −0.87), with an odds ratio of 0.72 for reaching the 90th versus the 60th percentile age; target-by-target, the lipid-lowering alleles of *HMGCR*, *PCSK9*, *APOB* and *LPL* all associate with longer lifespan, and only about 23% of the *LDLR* effect is mediated through coronary disease, so most of it is something broader. Drug-target MR plus observational meta-analysis across ~1M people adds lower dementia risk for *HMGCR*, *NPC1L1* and *CETP*. And it works in people who are well: CTT's 27-trial individual-participant meta-analysis found ~11 fewer major vascular events per 1,000 over five years per mmol/L even at 5-year risk under 10%, with no cancer or non-vascular mortality signal, and a 2026 meta-analysis confined to primary prevention (14 trials, ~98,500 participants) puts the pooled effect at a 30% relative MACE reduction per mmol/L (RR 0.70, 0.67–0.74). No supplement in the source table has anything of this class behind it.
 
 | Score | E×B | Item | Target | Safety | Effort |
 |---:|:---:|---|---|:---:|:---:|
 | **25** | 5×5 | ApoB to <60 mg/dL *(the target)* | — | monitor | trivial |
-| **25** | 5×5 | Rosuvastatin / atorvastatin, generic | HMG-CoA reductase | monitor | trivial |
+| **25** | 5×5 | Rosuvastatin 10 mg, generic | HMG-CoA reductase | monitor | trivial |
 | **25** | 5×5 | Evolocumab / alirocumab | PCSK9 (mAb) | ok | high |
 | **20** | 4×5 | Inclisiran | PCSK9 (siRNA) | ok | high |
 | **20** | 4×5 | Enlicitide (Lipfendra), oral | PCSK9 (macrocyclic peptide) | ok | high |
@@ -152,11 +154,13 @@ The highest-yield family on the list. Four molecular targets, one coherent ladde
 
 | Agent | Modality | Dosing | E×B | Outcomes trial |
 |---|---|---|:---:|---|
-| Evolocumab / alirocumab | monoclonal antibody | SC q2wk–q4wk | **25** | **Reported** — FOURIER, ODYSSEY |
+| Evolocumab / alirocumab | monoclonal antibody | SC q2wk–q4wk | **25** | **Reported** — FOURIER, ODYSSEY, VESALIUS-CV |
 | Inclisiran | siRNA | SC q6mo after loading | **20** | Pending — ORION-4, VICTORION-2P |
 | Enlicitide | oral macrocyclic peptide | 20 mg daily | **20** | Pending — CORALreef Outcomes |
 
-Two grading points are worth stating explicitly, because grouping is what makes them visible.
+Three grading points are worth stating explicitly, because grouping is what makes them visible.
+
+**The monoclonals hold E5 on primary-prevention evidence, not borrowed evidence.** VESALIUS-CV randomised ~12,000 patients with no prior MI or stroke and found a 31% relative reduction in major cardiovascular events over a median 4.6 years on top of maximally tolerated statin, with nominal 32% and 24% reductions in cardiovascular and all-cause death. Read the entry criteria before reading that across, though: qualifying meant documented atherosclerosis or high-risk diabetes plus LDL-C ≥90 mg/dL. The drug is now proven further than it is *available* to you, and further than it is *needed* by you.
 
 **Inclisiran sits at E4, not E5.** "FOURIER and ODYSSEY established hard-outcome benefit" is a statement about the monoclonals, not about inclisiran. Inclisiran was approved on LDL-C lowering alone and its outcomes trials have not reported. It belongs in the same evidence position as enlicitide.
 
@@ -164,9 +168,17 @@ Two grading points are worth stating explicitly, because grouping is what makes 
 
 **On the effort tag:** the binding constraint for every member of this family is prior authorization and cash price, not administration. All four sit at `high` for that reason. But note the ranking that follows if you strip cost out: inclisiran is **two injections a year**, which is a lighter administration burden than a daily pill. The oral advantage over the monoclonals is real; the oral advantage over inclisiran is not.
 
-**Sequence:** ApoB + Lp(a) → generic statin → add ezetimibe → reassess ApoB at 8 weeks → escalate within the PCSK9 family only if off target or Lp(a) is high. Generic rosuvastatin plus generic ezetimibe costs under $25/month and gets most people to target. Reaching for a $6,000/year drug before trying a $300/year one is the definition of a poor bang-for-buck decision.
+**Why ACL is the same rung and not the next one.** The 2×2 factorial Mendelian randomization of *ACLY* against *HMGCR* found the two lower LDL-C by the same mechanism, with the same effect on cardiovascular risk per unit LDL-C — genetically, bempedoic acid is a statin with a different binding site two steps upstream in the same pathway. CORALreef AddOn then measured the prediction: on background statin, bempedoic acid reduced apoB by **5.4%**, against 20.2% for ezetimibe, 27.7% for the pair, and 54.6% for enlicitide. Adding it to a statin you tolerate buys almost nothing, because the lever is already pressed — which is also why no hard-outcome trial of the combination exists. CLEAR Outcomes deliberately enrolled the statin-intolerant, and it earned its E4 there: 13% MACE reduction overall, and in the 4,206-patient primary-prevention subgroup a 27% reduction in all-cause mortality (3.6% versus 5.2%, HR 0.73). That is the best mortality result in this family from a prevention population, and it is still a population of statin-intolerant 68-year-olds, two-thirds of them diabetic. Hence the condition attached to the row: **only if you cannot take a statin.**
 
-**Where Lp(a) changes it:** if Lp(a) comes back >125 nmol/L, and especially >200, the case strengthens considerably, because statins slightly *raise* Lp(a) while PCSK9 inhibitors lower it ~20–25%. Lp(a)HORIZON (pelacarsen, n=8,323) is the first CV outcomes trial for any Lp(a)-lowering therapy and is expected to report before the end of 2026. **Measuring Lp(a) now costs $30 and tells you whether to care.**
+**Which statin, and at what dose:** **rosuvastatin 10 mg.** Rosuvastatin is roughly 1.5× atorvastatin milligram-for-milligram (~44–46% LDL-C reduction at 10 mg against ~35–37% for atorvastatin 10 mg), so 10 mg sits around atorvastatin 20–40 mg and is the right opening dose from an untreated baseline. LODESTAR randomised 4,400 people head-to-head for three years and found no outcome difference (8.7% versus 8.2%, HR 1.06), but two signals against rosuvastatin: new-onset diabetes 7.2% versus 5.3% (HR 1.39) and cataract surgery 2.5% versus 1.5% (HR 1.66). The diabetes signal is the one you are already insured against — tirzepatide is moving glycaemia far harder in the protective direction than 10 mg of a statin can move it the other way. What has no offset is the interaction surface: atorvastatin runs through CYP3A4, rosuvastatin does not, and that is the axis the berberine AVOID flag turns on. Atorvastatin 20 mg is a fine substitute on price or stock.
+
+**Sequence:** ApoB + Lp(a) → **rosuvastatin 10 mg and ezetimibe 10 mg together** → reassess ApoB at 8 weeks → escalate within the PCSK9 family only if off target or Lp(a) is high. Both generics together cost under $25/month and get most people to target; reaching for a $6,000/year drug before trying a $300/year one is the definition of a poor bang-for-buck decision. Starting both at once rather than titrating the statin first is what RACING supports: moderate statin plus ezetimibe matched high-intensity statin monotherapy on outcomes while landing *lower* (LDL-C 57 versus 65 mg/dL) with half the intolerance-driven discontinuation (3.9% versus 8.0%) and no difference in new-onset diabetes. Two mechanisms at moderate doses beat one at a high dose on tolerability.
+
+**Why <60 is the commitment and <30 is only a row.** The two targets score differently because the second slice is taken from an already-reduced baseline and costs roughly 100× more per year to reach — it needs a PCSK9 inhibitor, and no insurer covers one without ASCVD or familial hypercholesterolaemia. The corollary runs the other way too: don't back off a lower number the generics hand you for free. Rosuvastatin 10 mg plus ezetimibe lands many people near 45, which is well under the commitment and well over the point where money starts buying the difference. Take it and stop there.
+
+**Where Lp(a) changes it:** if Lp(a) comes back >125 nmol/L — the 2026 guideline's risk-enhancer threshold, carrying ~1.4× risk, with ≥250 nmol/L carrying ~2× — the case strengthens considerably, because statins slightly *raise* Lp(a) while PCSK9 inhibitors lower it ~20–25%. It also puts a fixed floor under your achievable apoB, though a smaller one than the phrase suggests: apoB-100 has a conserved molecular weight of 512 kg/mol, so 1 nmol/L of Lp(a) is ~0.05 mg/dL of apoB — ~4 mg/dL at Lp(a) 75, ~13 mg/dL at 250. Particle counting agrees, with Lp(a) at ~3% of apoB particles on average and ~15% in the top decile. That is a floor worth knowing, not a wall. The reason to care is per-particle potency: Lp(a) is roughly 6-fold more atherogenic per apoB particle than LDL. Lp(a)HORIZON (pelacarsen, n≈8,325) is the first CV outcomes trial for any Lp(a)-lowering therapy; it is event-driven and has run past its guided mid-2026 window, with OCEAN(a) (olpasiran) targeting primary completion in December 2026. **Measuring Lp(a) now costs $30 and tells you whether to care** — and the 2026 guideline makes it a once-in-a-lifetime test for everyone, not a specialist add-on.
+
+**Where the 2026 ACC/AHA guideline puts a healthy 39-year-old.** Its frame is "lower sooner": PREVENT 10-year *and* 30-year risk, universal one-time Lp(a), CAC promoted to Class 1 for reclassification, and apoB used to intensify therapy when LDL-C is already at goal. Its apoB goals are <55, <70 or <90 mg/dL by risk tier, making <70 the primary-prevention number. The clause that applies at your age is explicit: in adults 30–59 with low 10-year risk, a moderate-intensity statin is reasonable when LDL-C is 160–189 mg/dL **or 30-year ASCVD risk is ≥10%**. The <60 target used throughout this document is deliberately tighter than guideline, and it is bought with cumulative exposure rather than 10-year risk — which is the same logic the guideline itself adopted when it added the 30-year horizon. Run PREVENT for both horizons; the 30-year number is the one that will argue your case.
 
 ### 2.2 Incretin and glucose handling
 
@@ -278,7 +290,7 @@ Score-ordered, all families collapsed.
 |---:|---|---|:---:|:---:|
 | 25 | ApoB *(measure)* | diagnostics | ok | trivial |
 | 25 | ApoB to <60 mg/dL | lipoprotein | monitor | trivial |
-| 25 | Rosuvastatin / atorvastatin | lipoprotein | monitor | trivial |
+| 25 | Rosuvastatin 10 mg | lipoprotein | monitor | trivial |
 | 25 | Evolocumab / alirocumab | lipoprotein (PCSK9) | ok | high |
 | 25 | Nicotine and tobacco: none | environmental | ok | trivial |
 | 20 | Blood pressure to 105–115 | vascular | monitor | trivial |
@@ -387,6 +399,7 @@ Run in **alternating blocks**, that objection largely dissolves, and what remain
 - NAC + glutathione + GlyNAC (NAC is the precursor; pick one)
 - NMN + NR + niacin (same pathway)
 - Statin + red yeast rice (same molecule)
+- **Statin + bempedoic acid** (same pathway, two steps apart — MR shows *ACLY* and *HMGCR* lowering LDL-C by the same mechanism with the same risk effect per unit, and on background statin bempedoic acid moves apoB only 5.4%). **Nexlizet** is this redundancy sold as a fixed-dose tablet with generic ezetimibe attached: ~$430–610/month against ~$10 for the half that is doing the work
 - MitoQ + astaxanthin + CoQ10 (three lipid-phase scavengers; the chemistry differs — MitoQ is not an ETC carrier and is not a CoQ10 substitute — but they fail together if oxidative damage isn't rate-limiting, and they share the exercise-timing problem above). CoQ10's real case is statin depletion or a cardiac diagnosis, not aging: change the trigger rather than stacking it.
 - Glucosamine + chondroitin (weak individually, not additive)
 - Multiple simultaneous senolytics
@@ -394,7 +407,7 @@ Run in **alternating blocks**, that objection largely dissolves, and what remain
 
 ### Synergies worth noting
 
-- **Statin + ezetimibe** — different mechanisms, additive ApoB reduction, both generic. Best value pairing in the document.
+- **Statin + ezetimibe** — different mechanisms, additive ApoB reduction, both generic. Best value pairing in the document, and worth starting together rather than in sequence: in RACING the moderate-dose pair landed lower than high-intensity statin alone (LDL-C 57 versus 65 mg/dL) with half the intolerance-driven discontinuation.
 - **Resistance training + adequate protein + creatine** — the only combination that reliably protects lean mass during GLP-1 weight loss, and the foundation of any pro-growth phase.
 - **PCSK9 inhibitor + statin** — statins slightly *raise* Lp(a); PCSK9 inhibitors lower it ~20–25%. Complementary if Lp(a) is elevated.
 - **Senolytic at the end of an anti-growth block, immediately before a regenerative phase** — clear, then rebuild, which is the sequence the underlying biology suggests. Sensible design; does not make either senolytic worth taking at 39.

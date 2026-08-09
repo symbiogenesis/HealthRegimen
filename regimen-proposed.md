@@ -1,6 +1,6 @@
 # Proposed Regimen
 
-**Male, 39, US, vegan, on tirzepatide** · 8 August 2026
+**Male, 39, US, vegan, on tirzepatide** · 9 August 2026
 
 Built on block-periodized growth cycling: alternating pro-growth and anti-growth phases instead of running either one continuously. Reasoning in [anti-aging-inventory.md](anti-aging-inventory.md) and [therapeutics-by-mechanism.md](therapeutics-by-mechanism.md). Not medical advice — prescription items go through whoever manages the tirzepatide.
 
@@ -10,7 +10,7 @@ Built on block-periodized growth cycling: alternating pro-growth and anti-growth
 
 ## Always on — both phases, no exceptions
 
-- **Statin ± ezetimibe**, ApoB <60
+- **Rosuvastatin 10 mg + ezetimibe 10 mg**, ApoB <60 — both from the start, not statin first
 - **Cardio, sodium down, stay lean**, target sysBP 105–115 · **telmisartan 40–80 mg** if the home cuff series stays over 120
 - **Tirzepatide**
 - **Protein ≥1.2 g/kg/day**, spread across meals — the floor never drops while on a GLP-1. Track it
@@ -53,9 +53,10 @@ Maintenance takes about a third of accumulation volume, so the anti-growth block
 
 1. **One lab draw:** ApoB, Lp(a), hsCRP, vitamin D, ALT, plus B12 and ferritin for the diet. ~$100.
 2. **$50 home BP cuff.** Office readings are noise.
-3. **Generic statin**, target ApoB <60. Recheck at 8 weeks, add generic ezetimibe if short. Under $25/month.
-4. **Baseline DEXA** — this is the instrument the whole cycle is judged on.
-5. **HPV vaccine, home sleep apnea test, $15 radon kit.**
+3. **Run PREVENT for 10-year *and* 30-year risk** before the appointment. Under the 2026 guideline, a 30-year risk ≥10% is the stated reason to start a statin at your age despite a low 10-year number — it is the argument that gets the prescription written.
+4. **Rosuvastatin 10 mg + generic ezetimibe 10 mg**, target ApoB <60. Recheck ApoB at 8 weeks. Under $25/month for both.
+5. **Baseline DEXA** — this is the instrument the whole cycle is judged on.
+6. **HPV vaccine, home sleep apnea test, $15 radon kit.**
 
 Starting ApoB control at 39 rather than 55 is worth ~3× the risk reduction. Highest-value line on this page.
 
@@ -109,6 +110,8 @@ No route to a measurable outcome at 39.
 
 ## Watch
 
-- **Lp(a)HORIZON** — reports by end of 2026; know your number first
+- **Lp(a)HORIZON** — event-driven and now past its guided mid-2026 window; OCEAN(a) completes December 2026. Know your number before either lands
 - **Pasteurized *A. muciniphila*** — act on it if you ever taper off tirzepatide
-- **Oral PCSK9 (enlicitide)** — only if statin + ezetimibe leaves you off target
+- **Oral PCSK9 (enlicitide, Lipfendra)** — approved July 2026; only if statin + ezetimibe leaves you off target. It is the next rung, not bempedoic acid: on background statin it cut apoB 54.6% against bempedoic acid's 5.4%
+- **VITAL-H** — the first phase 3 geroprotection trial in people who aren't sick: 726 healthy adults aged 60–65 on rapamycin, dapagliflozin or semaglutide against placebo. It is the readout that would move rapamycin off Skip and empagliflozin off Optional
+- **SURMOUNT-MMO** — tirzepatide hard outcomes in obesity without diabetes, all-cause death inside the primary composite, completing October 2027
