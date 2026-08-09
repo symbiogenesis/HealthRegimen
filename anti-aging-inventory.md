@@ -3,11 +3,11 @@
 **Target:** healthy male, age 39, US, currently on tirzepatide
 **9 August 2026**
 **Source:** AgingBiotech.info "Available Therapeutics" survey table (128 rows)
-**Detail rows:** [therapeutics-by-mechanism.md](therapeutics-by-mechanism.md)
+**Detail rows:** [therapeutics-by-mechanism.md](therapeutics-by-mechanism.md) · **Human genetics behind the targets:** [genetic-pathways.md](genetic-pathways.md)
 
 **How this document is arranged**
 
-1. **Two files.** This one holds the framework, the grouped inventory, the interaction analysis and the two protocol write-ups; the row-level reasoning behind every score lives in [therapeutics-by-mechanism.md](therapeutics-by-mechanism.md).
+1. **Three files.** This one holds the framework, the grouped inventory, the interaction analysis and the two protocol write-ups; the row-level reasoning behind every score lives in [therapeutics-by-mechanism.md](therapeutics-by-mechanism.md); the loss- and gain-of-function variants behind the drug targets, and the somatic editing programs that would install them, live in [genetic-pathways.md](genetic-pathways.md).
 2. **The inventory is grouped by mechanism, not by verdict.** Every way of hitting a given target sits side by side — all four PCSK9 modalities in one place, both SGLT2 inhibitors in one place, both AMPK activators in one place. A flat score-ordered list sits at the end of Part 2 for anyone who wants the whole thing in one column.
 3. **Scoring is two axes multiplied** — evidence × benefit — with safety as a veto flag and effort as a tag outside the score. Part 1 sets out the model.
 4. **Pro-growth and anti-growth are treated as a scheduling problem, not a permanent opposition.** Most of the conflict between the two arms is *simultaneity*, and separating them in time dissolves it. Part 3 distinguishes hard pharmacological conflicts from phase conflicts; Part 4 works through the block-cycling hypothesis directly, including what supports it, what it would cost, and how to run and measure it.
@@ -60,6 +60,26 @@ The decisive asymmetry at your age is **exposure-time leverage**. Ference's Mend
 The same logic runs the other way for the speculative agents: at 39 you have the *most* time for an unrecognized harm to compound. Risk tolerance should be lower now, not higher.
 
 **Exposure-time leverage also cuts a third way.** If risk is an integral of exposure over time, then *duty cycle* is a lever, not just dose. An intervention run six weeks a year carries roughly a quarter of the cumulative exposure of the same intervention run continuously — for benefit and for harm alike. That observation is what makes Part 4 worth taking seriously rather than dismissing.
+
+### Antagonistic pleiotropy and hyperfunction — why the list is age-staged
+
+Two theories do most of the conceptual work in this document, and neither is named in the source table. They are worth stating explicitly, because between them they explain the *shape* of the ranking — not just which items score well, but why so many rows carry a trigger age rather than a yes or a no.
+
+**Antagonistic pleiotropy** (Williams, 1957): selection optimises for reproductive success, so a pathway that pays early is retained even when it charges late. Selection pressure falls away roughly with the reproductive schedule, which puts you at 39 near the top of the fading curve. Three operating rules follow.
+
+*First, the sign of an intervention can flip with age, so "no" and "not yet" are different verdicts and have to be written differently.* Senolytics at 39 are not a bad idea, they are an idea aimed at a burden you have not accumulated — which is why every skip row in this document that is age-conditional carries the condition, and why the trigger belongs in the row rather than in your memory. Nothing on the skip list should require re-deriving from scratch at 50.
+
+*Second, where a trait has no early-life upside, antagonistic pleiotropy has nothing to say — and those are the rows at the top.* Lifetime apoB exposure, blood pressure, tobacco, unintentional injury and Lp(a) are not costs charged for a youth benefit; nothing is being traded away by lowering them at 39. That is a structural reason to be confident about the top of the list and cautious about the middle, independent of the evidence grades. The interventions that pull against a real evolutionary trade-off — everything in the growth arms — are exactly the ones where the trade needs pricing.
+
+*Third, the trade-off is the reason growth cycling exists rather than a permanent anti-growth setting.* Somatotropic signalling is the textbook antagonistically pleiotropic axis: high IGF-1 builds and repairs tissue when tissue is being built, and associates with cancer incidence and shorter life when it is not. At 39 you are near the crossover, which is precisely where a fixed setting in either direction is least defensible and a duty cycle is most.
+
+**Human genetics has run the extreme version of that experiment, and the result is why the anti-growth arm is a phase rather than a setting.** The Ecuadorian Laron cohort carries lifelong growth hormone receptor deficiency, and it has near-total protection from diabetes and near-zero cancer incidence across decades — and **did not live longer**, because other causes filled the gap. That is the single most useful data point in this document for calibrating how hard to push the anti-growth side: it is simultaneously the strongest human evidence that suppressing growth signalling protects against two major killers, and the strongest human evidence that doing so does not straightforwardly buy years. The [GHR/IGF1R row](genetic-pathways.md#24-growth-signalling-and-the-longevity-loci) works this through, and the same asymmetry is what keeps the rhGH block at MONITOR rather than AVOID in both directions.
+
+**Hyperfunction** (Blagosklonny): aging as quasi-programmed continuation of developmental growth programs that were never switched off, rather than accumulated molecular damage. It does not have to be right to be useful — it makes a prediction that is testable against this document's own evidence base, and the prediction has largely held. If aging is driven by excess signalling rather than by damage, then **suppressing the signal should outperform repairing the damage**, and that is what the trial record shows: mTOR and nutrient-sensing interventions carry the best animal lifespan data in the field, while the damage-repair programs — NAD+ repletion, antioxidants, senolytics at low senescent burden — repeatedly raise their biomarker and then fail to move anything downstream. NMN raises NAD+, MK-7 carboxylates matrix Gla protein, NAC raises glutathione, and none of them changes an endpoint. That pattern is the single most useful sorting heuristic on the supplement side of this inventory, and it is why the whole of §2.6's redox and NAD+ families collapse to skip.
+
+**What both theories agree on, and where this document parts company with them.** Both frame aging as something with a cause worth addressing at the root. Neither justifies acting past the evidence: the strongest hyperfunction-derived intervention available to you is rapamycin, and it scores 6, because PEARL missed its primary endpoint and no phase 3 has tested geroprotection in people who are not sick. VITAL-H is the trial that would change that, for rapamycin and the SGLT2 inhibitors simultaneously. The theories tell you where to look and what to discount; they do not substitute for the readout.
+
+**And the honest cost of taking them seriously.** An antagonistic-pleiotropy reading of this regimen finds three places where it is spending youth capital to buy late-life benefit, and they should be named rather than assumed away. Driving fat mass to the bottom of the reference band trades a small metabolic gain against gonadal and skeletal function, which is why the fuel floor in Part 4 is written as symptoms rather than a percentage. Suppressing mTORC1 and IGF-1 for most of the year trades repair capacity against anabolic error. And the GLP-1 that makes the leanness reachable costs lean mass and bone density in direct proportion to the weight it removes. Each of those is a defensible bet at 39 and none of them is free — the measurement plan exists to price them, and the stopping rules exist because the theories cannot say in advance which way any individual case runs.
 
 ### The scoring model
 
@@ -123,6 +143,7 @@ Why mechanism rather than verdict: grouping by verdict scatters the four PCSK9 i
 | **16** | 4×4 | Lp(a), once, lifetime | ok | trivial | each Lp(a) particle carries one apoB-100, so it sets a floor under achievable ApoB |
 | **16** | 4×4 | Home sleep apnea test | ok | low | diagnostic accuracy solid; CPAP RCTs neutral for MACE, positive for symptoms and BP |
 | **12** | 3×4 | VO₂max | ok | low | observational only — nobody randomises people to fitness |
+| **12** | 4×3 | DXA bone mineral density | ok | trivial | free on the body-composition scan; vegan diet, the GLP-1 and anti-growth blocks all withdraw from the same tissue |
 | **6** | 3×2 | Vitamin D (25-OH) | ok | trivial | VITAL largely null; correcting frank deficiency has better support |
 | **6** | 3×2 | hsCRP | ok | trivial | gates the residual-inflammation question |
 | **6** | 3×2 | Baseline audiogram | ok | trivial | a baseline to detect drift against |
@@ -272,7 +293,7 @@ Three items are worth reading in full in the detail file: [block-periodized grow
 
 **NAD+** — NMN / NR (2, ok, skip). Human trials raise NAD+ without downstream functional benefit. Three source rows for one pathway.
 
-**Redox and hormesis** — omega-3 (6, continue) · sauna (4, optional) · astaxanthin (2, skip — an ITP hit that failed to replicate) · NAC/GlyNAC/glutathione (2, skip). Organizing principle: the ROS burst after training is signal, not damage. Every item here is a timing question rather than a yes/no question — except NAC with methionine work, which is a genuine cancellation rather than a timing issue.
+**Redox and hormesis** — omega-3 (6, continue) · sauna (4, optional) · astaxanthin (2, skip — an ITP hit that failed to replicate) · NAC/GlyNAC/glutathione (2, skip) · cold water immersion (2, skip as a therapy — and if you do it for enjoyment, it belongs in anti-growth blocks, because post-training cold blunts hypertrophy and strength while leaving endurance adaptation intact). Organizing principle: the ROS burst after training is signal, not damage. Every item here is a timing question rather than a yes/no question — except NAC with methionine work, which is a genuine cancellation rather than a timing issue.
 
 **Hemodynamic and vascular** — blood pressure, aiming 105–115 systolic and adding a drug over 120 (20, monitor — the threshold is where the trials stopped, the aim is where the epidemiology and the unwesternised populations sit) · cardiorespiratory training (20, also listed under 2.3) · aspirin (5, **AVOID** — a high evidence score attached to a finding of no benefit; ASPREE showed net harm in healthy older adults) · vitamin K1/K2 (2, skip — the best mechanism of any supplement here, and the clearest illustration that a mechanism is not a result: MK-7 carboxylates matrix Gla protein exactly as predicted, and the calcification endpoint does not move).
 
@@ -280,15 +301,15 @@ Three items are worth reading in full in the detail file: [block-periodized grow
 
 **Immune and infectious** — Shingrix (12, **calendar item at 50**) · H. pylori test-and-treat (8) · hepatitis C one-time screening (8) · influenza vaccination (8) · HPV vaccination (8, **window shuts at 45**).
 
-**Neurological, sensory, mental health** — depression screening and access (16 — suicide is among the leading causes of death for US males 35–44, and its absence from every longevity list is the same blind spot that omits seatbelts) · sleep 7–9 h (15) · hearing protection (9) · social connection (9).
+**Neurological, sensory, mental health** — depression screening and access (16 — suicide is among the leading causes of death for US males 35–44, and its absence from every longevity list is the same blind spot that omits seatbelts) · sleep 7–9 h (15) · **sleep regularity, same bed and wake time seven days a week (12)** · hearing protection (9) · social connection (9). Regularity is a separate row from duration because in the only large study with objective exposure measurement it **outpredicted duration** — 60,977 UK Biobank participants, 20–48% lower all-cause mortality across the top four regularity quintiles. Once 7–9 hours is met, consistency is the remaining lever, and it is free.
 
-**Diet composition** — alcohol minimal or none (12 — MR has dismantled the J-curve) · fiber 35–40 g/day (9) · vegan adequacy items: B12, algal EPA+DHA, iodine, taurine, and ferritin/zinc monitoring (unscored — these prevent deficits the diet creates rather than extending anything, and the scoring model does not apply to them). **Vitamin K1 is conditional rather than automatic** — greens supply it, veganism does not, so a low-greens plant diet can sit under the AI without that constituting a deficiency.
+**Diet composition** — alcohol minimal or none (12 — MR has dismantled the J-curve) · fiber 35–40 g/day (9) · vegan adequacy items: B12, **calcium**, algal EPA+DHA, iodine, taurine, and ferritin/zinc/selenium monitoring (unscored — these prevent deficits the diet creates rather than extending anything, and the scoring model does not apply to them). **Calcium is the one with a hard endpoint behind it**: vegan hip fracture runs at HR 2.31 in EPIC-Oxford and the excess concentrates below ~525 mg/day, which puts the risk in the intake rather than in the diet. **Vitamin K1 is conditional rather than automatic** — greens supply it, veganism does not, so a low-greens plant diet can sit under the AI without that constituting a deficiency.
 
-**Environmental and external-cause** — nicotine and tobacco: none (25, confirm) · injury prevention (16) · radon test (12) · sun protection (8) · bedroom HEPA (6).
+**Environmental and external-cause** — nicotine and tobacco: none (25, confirm) · injury prevention (16) · radon test (12) · sun protection (8) · bedroom HEPA (6) · microplastic exposure reduction (4 — one prospective study with an HR of 4.53 and a contamination-control problem serious enough to cap it at E2; the actions are free, so the weak evidence does not have to carry much).
 
-**Early detection** — cancer screening on schedule (20).
+**Early detection** — cancer screening on schedule (20) · multi-cancer early detection blood tests (3, skip) · whole-body MRI (1, skip). The two consumer screening products fail for the same reason and it is not assay quality: at 39 the base rate is low enough that positive predictive value collapses regardless of specificity. NHS-Galleri is now a real RCT — 142,250 participants, four-fold higher detection, fewer stage IV diagnoses — and it **missed its primary endpoint**, which is the distinction between finding more cancer and preventing death from it.
 
-**No credible mechanism** — taurine (1, premise retracted by Fernandez 2025; it stays in the regimen on a vegan diet as nutritional repletion, which is an adequacy argument rather than a gerotherapeutic one) · resveratrol (1) · 17α-estradiol (2, watch, do not take) · blood donation (4, optional) · methylene blue (1, **AVOID** — MAO-A inhibitor) · disease-indication drugs with no aging indication (1, change trigger to diagnosis) · the ~35-row supplement bundle (1) · EDTA/HBOT/stem cells/gene therapy (1, **AVOID**).
+**No credible mechanism, or not yet reachable** — taurine (1, premise retracted by Fernandez 2025; it stays in the regimen on a vegan diet as nutritional repletion, which is an adequacy argument rather than a gerotherapeutic one) · resveratrol (1) · 17α-estradiol (2, watch, do not take) · blood donation (4, optional) · **partial epigenetic reprogramming (4, watch — the field's largest bet, mouse-only for systemic use, and the clinics selling it now are an AVOID)** · methylene blue (1, **AVOID** — MAO-A inhibitor) · disease-indication drugs with no aging indication (1, change trigger to diagnosis) · the ~35-row supplement bundle (1) · EDTA/HBOT/stem cells/gene therapy (1, **AVOID**).
 
 ### 2.7 Flat ranked list
 
@@ -323,6 +344,8 @@ Score-ordered, all families collapsed.
 | 12 | Radon test | environmental | ok | trivial |
 | 12 | Shingrix *(at 50)* | immune | ok | low |
 | 12 | VO₂max *(measure)* | diagnostics | ok | low |
+| 12 | DXA bone mineral density *(measure)* | diagnostics | ok | trivial |
+| 12 | Sleep regularity | neurological | ok | trivial |
 | 9 | Creatine 5 g/day | anabolic | ok | trivial |
 | 9 | Fiber 35–40 g/day | diet | ok | trivial |
 | 9 | Hearing protection | neurological | ok | trivial |
@@ -343,10 +366,13 @@ Score-ordered, all families collapsed.
 | 4 | Pendulum Glucose Control | incretin | ok | moderate |
 | 4 | Testosterone (absent hypogonadism) | anabolic | monitor | moderate |
 | 4 | Myostatin/activin blockade *(watch)* | anabolic | monitor | high |
-| 2 | Astaxanthin · NAC/GlyNAC · NMN/NR · 17α-estradiol · colchicine · vitamin K1/K2 · methionine via food | various | ok–monitor | trivial–moderate |
+| 4 | Microplastic exposure reduction | environmental | ok | trivial |
+| 4 | Partial epigenetic reprogramming *(watch)* | no credible mechanism yet | **AVOID clinics** | high |
+| 3 | Multi-cancer early detection blood test | early detection | ok | high |
+| 2 | Astaxanthin · NAC/GlyNAC · NMN/NR · 17α-estradiol · colchicine · vitamin K1/K2 · methionine via food · cold water immersion | various | ok–monitor | trivial–moderate |
 | 2 | rhGH-containing pro-growth block | anabolic | monitor | high |
 | 2 | Berberine | AMPK | **AVOID** | trivial |
-| 1 | Fisetin · resveratrol · taurine · D+Q · supplement bundle · disease-indication drugs | various | ok–monitor | trivial–moderate |
+| 1 | Fisetin · resveratrol · taurine · D+Q · supplement bundle · disease-indication drugs · whole-body MRI | various | ok–monitor | trivial–high |
 | 1 | Methionine restriction <1 g/day · methioninase · methylene blue · EDTA/HBOT/stem cells | various | **AVOID** | moderate–high |
 
 ---
@@ -377,6 +403,9 @@ Tirzepatide is an amplifier here, not the second party. It doesn't create the ri
 
 **6. GLP-1 agonist + procedures under anesthesia** → retained gastric contents and aspiration risk. Current anesthesia guidance calls for holding GLP-1s before elective procedures. Tell any surgeon, dentist or endoscopist.
 
+**6b. ARB + fasting cycles → hold the drug, not the fast.**
+This one is created by the regimen itself and is easy to miss because the SGLT2 discussion absorbs all the attention paid to fasting interactions. RAS blockade works by removing the angiotensin II-mediated efferent arteriolar tone that defends glomerular filtration when renal perfusion falls, which makes it the antihypertensive class whose harm profile depends directly on volume status. A five-day FMD cycle supplies low intake, low sodium and natriuresis on top of a systolic already being driven toward 105–115. Hold telmisartan through any FMD cycle and any tirzepatide week with vomiting or poor intake, and restart with normal eating — the fast is lowering the number by itself, so the held days need no substitute. Symptomatic orthostasis during a fast on an ARB is a reason to stop the fast rather than push through it. Unlike conflict 1, this is a hold rule and not an either/or: the ARB and the fasting cycles can coexist on the calendar, just not in the same week.
+
 **7. NAC or GlyNAC + methionine restriction → mutually cancelling.**
 Cysteine supplementation reverses essentially the entire metabolic phenotype of methionine restriction in rodents — adiposity, hepatic SCD1 expression, insulin, leptin, triglycerides, adiponectin all revert to control. Elshorbagy's conclusion was that the anti-obesity effects of MR are driven by **low cysteine**, not low methionine per se.
 
@@ -403,6 +432,9 @@ Same structure, easier fix. Metformin blunts VO₂max and mitochondrial adaptati
 
 **11. High-dose antioxidants + exercise training.**
 NAC, high-dose vitamin C/E, MitoQ, astaxanthin. The ROS burst after training is signal, not damage; suppressing it suppresses the adaptation. This is a *window* problem at the scale of hours, not a block problem — keep antioxidants away from the post-training window, or drop them. Given that none of them have outcome evidence, dropping them is simpler.
+
+**11b. Cold water immersion + resistance training.**
+The same mechanism arriving by temperature rather than by chemistry, and the one that most cleanly fits the calendar. Post-exercise cold blunts the satellite cell and p70S6K response acutely and reduces strength and hypertrophy gains over 12 weeks against active recovery, while leaving endurance adaptation intact or slightly improved. So the conflict is specific to the pro-growth block and to lifting days, not to cold exposure generally. Cold plunging belongs in anti-growth blocks, where cardio carries the emphasis and hypertrophy is not being pursued, and out of pro-growth blocks entirely. Sauna does not carry this problem and is the better-evidenced of the two, which makes it the better choice if only one is happening for enjoyment.
 
 **12. IGF-1-raising agents + mTOR/IGF-1-lowering agents.**
 The general case, and the one your hypothesis is aimed at. rhGH raises IGF-1; rapamycin, methionine restriction and the CR mimetics exist to lower it and to lower mTOR signalling. Run simultaneously, you are paying two premium prices to push one dial in opposite directions, and then measuring the result with an epigenetic clock that cannot tell you which one won.
@@ -434,7 +466,8 @@ Run in **alternating blocks**, that objection largely dissolves, and what remain
 |---|---|
 | Rapamycin | Lipids, fasting glucose, CBC, mouth ulcers, wound healing before any surgery |
 | Metformin | B12 annually |
-| GLP-1/GIP | **DEXA FMI, ALMI and VAT** against the 2.5–3.5 / ≥8.5 kg/m² / <50 cm² target; **the fuel floor** — total testosterone ≥500 ng/dL, libido, sleep, training output; gallbladder symptoms; hold before anesthesia |
+| GLP-1/GIP | **DEXA FMI, ALMI and VAT** against the 2.5–3.5 / ≥8.5 kg/m² / <50 cm² target; **BMD on the same scan**, Z-score above −1.0 and stable; **the fuel floor** — total testosterone ≥500 ng/dL, libido, sleep, training output; gallbladder symptoms; hold before anesthesia |
+| Telmisartan or any ARB | Potassium and creatinine after starting; **hold for FMD cycles and any week of poor intake**; note that creatine supplementation raises creatinine without changing filtration — cystatin C settles an unexpected result |
 | SGLT2i (if used) | Home β-hydroxybutyrate meter; genital mycotic infection; volume status. **Hold for any illness with poor oral intake, any fasting or FMD cycle, and 3 days pre-procedure** |
 | Statin | ALT at baseline and once; CK only if symptomatic |
 | rhGH (if ever) | IGF-1, fasting glucose and insulin, PSA, carpal tunnel symptoms, joint swelling |
@@ -512,9 +545,9 @@ Offered as a starting structure, not a protocol — nobody has tested this, and 
 
 | Weeks | Phase | Training | Diet | Pharmacology |
 |---|---|---|---|---|
-| 1–6 | **Pro-growth** | Resistance 3–4×/wk, progressive; cardio maintained at 2×/wk | Protein 1.6 g/kg/day distributed; adequate methionine; energy at or slightly above maintenance | Creatine 5 g/day. Nothing anti-growth. No antioxidant supplements near training. |
+| 1–6 | **Pro-growth** | Resistance 3–4×/wk, progressive; cardio maintained at 2×/wk | Protein 1.6 g/kg/day distributed; adequate methionine; energy at or slightly above maintenance | Creatine 5 g/day. Nothing anti-growth. No antioxidant supplements near training, and no cold immersion after lifting — both suppress the signal the block exists to generate. |
 | 7–8 | Transition down | Taper resistance volume to maintenance | Protein holds at 1.2–1.6 | IGF-1 normalizing; nothing new started |
-| 9–20 | **Anti-growth** | Resistance 1–2×/wk at maintenance volume; cardio 3×/wk | Protein holds ≥1.2 g/kg while on tirzepatide; **1–2 FMD cycles carry the block**; methionine *sources* shifted at the margin (pulses and legumes over seitan, oats, nuts and seeds) with methionine kept sufficient, never by cutting protein | Rapamycin only if you decide it's worth 6 points; last dose ≥2 wk before week 21. **An SGLT2 inhibitor and the FMD cycles are mutually exclusive — pick one for this block.** |
+| 9–20 | **Anti-growth** | Resistance 1–2×/wk at maintenance volume, **keeping the loaded and impact work rather than only the machines** — bone is the tissue this block is most likely to give away; cardio 3×/wk | Protein holds ≥1.2 g/kg while on tirzepatide; **1–2 FMD cycles carry the block**; methionine *sources* shifted at the margin (pulses and legumes over seitan, oats, nuts and seeds) with methionine kept sufficient, never by cutting protein | Rapamycin only if you decide it's worth 6 points; last dose ≥2 wk before week 21. **An SGLT2 inhibitor and the FMD cycles are mutually exclusive — pick one for this block.** Hold any ARB through the FMD days. Cold plunging, if it happens at all, happens here. |
 | 21–22 | Transition up | Volume ramps | Protein to 1.6 | Rapamycin fully cleared before resistance volume rises |
 | 23–28 | **Pro-growth** | repeat | repeat | repeat |
 
@@ -527,12 +560,13 @@ This is the part that separates a hypothesis from a belief, and it is worth more
 **Pre-specify these before starting:**
 
 - **DEXA at every phase boundary** — not the Withings BIA, which will not resolve the 1–2 kg changes at stake. The pro-growth block should show lean mass up; the anti-growth block should show it flat, not falling. Lean mass falling during anti-growth blocks means the structure is failing at its main job.
+- **Bone density from the same scan, annually.** Muscle is the tissue this structure is designed to protect and bone is the tissue most likely to be given away without anyone noticing, because it has no symptom and no weekly proxy — grip catches a muscle problem months before DEXA does, and nothing catches a bone problem early at all. An anti-growth block withdraws mechanical loading and anabolic signalling from a skeleton already carrying a vegan diet and a GLP-1, which is three withdrawals converging on one tissue. Z-score above −1.0 and stable across a cycle is the pass condition; a fall is a reason to keep impact and axial loading in the anti-growth block rather than letting it go with the hypertrophy volume.
 - **Grip strength weekly** — cheapest early warning, and it moves before DEXA does.
 - **IGF-1 and fasting insulin at each phase midpoint** — this is the readout that tells you the phases are actually different. If IGF-1 doesn't separate between blocks, you are not running two phases, you are running one phase with a varying training schedule.
 - **ApoB every 8 weeks through the first cycle** — rapamycin raises lipids and a pro-growth block changes intake; the item scoring 25 should not drift while you experiment with items scoring 6.
 - **A stopping rule.** If lean mass falls >1 kg across a full anti-growth block despite maintained protein and maintenance-volume training, the anti-growth phase is too aggressive. Shorten it or lighten it.
 
-**And the honest caveat about clocks:** if you evaluate this with an epigenetic age test, you will get a number, and it will not mean what you want it to mean. The clocks are not validated mortality surrogates, they drift with assay batch and cell composition, and the effect sizes you are looking for are inside their noise. DEXA, grip, IGF-1 and ApoB are boring and they will actually tell you something.
+**And the honest caveat about clocks:** if you evaluate this with an epigenetic age test, you will get a number, and it will not mean what you want it to mean. The clocks are not validated mortality surrogates, they drift with assay batch and cell composition, and the effect sizes you are looking for are inside their noise. The organ-specific proteomic clocks are the interesting successor — plasma proteomics resolving a brain age, a heart age and a kidney age separately, with organ-specific deviation predicting organ-specific disease better than a single composite does — and they inherit the same problem for this purpose. They are trained to predict, not validated to respond, so nobody has shown that an intervention moving one of them moves the outcome it predicts, and the within-person test-retest variability against a 22-week block is unestablished. Watch the field; do not buy the test to grade this experiment. DEXA, grip, IGF-1 and ApoB are boring and they will actually tell you something.
 
 **Score for the structure: evidence 2 × benefit 3 = 6, safety OK, effort moderate.** Scored at 6 rather than higher because it is a scheduling structure rather than a therapy — most of its value is already counted in the rows it schedules. Scored at 6 rather than lower because it converts three phase conflicts from exclusions into calendar entries, and because it recovers muscle, bone and repair capacity that a continuously anti-growth protocol gives away for free.
 

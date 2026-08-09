@@ -16,19 +16,22 @@ Built on block-periodized growth cycling: alternating pro-growth and anti-growth
 - **Protein ≥1.2 g/kg/day**, spread across meals — the floor never drops while on a GLP-1. Track it
 - Creatine 5 g
 - Fiber 35–40 g
-- Sleep 7–9 h
+- **Sleep 7–9 h, and the same bed and wake time ±30 min seven days a week** — the timing matters as much as the hours. No weekend catch-up
 - No nicotine, no alcohol, sunscreen, hearing protection, seatbelt
 - Cancer screening on schedule
+- Don't microwave or dishwasher food in plastic; glass or steel for hot and fatty food; filtered tap over bottled
 
 ## Vegan — also always on
 
 Nutritional adequacy, not anti-aging.
 
 - B12 2000 µg/week, or 50–100 µg/day
+- **Calcium to 1,000 mg/day** — fortified soy milk, calcium-set tofu (calcium sulfate, not nigari), kale, bok choy, broccoli, tahini. Supplement the gap in doses of 500 mg or less, with food. Don't exceed 1,000–1,200 mg/day from supplements. Spinach, chard and beet greens don't count — oxalate binds it
 - Taurine 500 mg–1 g/day
 - Algal EPA+DHA ~500 mg/day
 - Iodine 150 µg/day
 - Vitamin D, lichen-derived D3, to the lab value
+- One Brazil nut most days — selenium
 - Greens 2–3×/week, cooked and with fat in the meal — K1, potassium, nitrate, folate. Raw and undressed absorbs at a fraction of it
 
 ## The cycle — 22 weeks, roughly twice a year
@@ -37,10 +40,14 @@ Nutritional adequacy, not anti-aging.
 |---|---|---|---|
 | 1–6 | **Pro-growth** | Lift 3–4×, progressive · cardio 2× | Protein 1.6 g/kg · maintenance calories or slightly above |
 | 7–8 | Transition down | Taper to maintenance volume | Protein 1.2–1.6 |
-| 9–20 | **Anti-growth** | Lift 1–2× at maintenance volume · cardio 3× | Protein ≥1.2 · 1–2 fasting-mimicking cycles, *or* an SGLT2 inhibitor, not both · methionine-lower sources at the margin (legumes and pulses over seitan, oats, nuts and seeds) |
+| 9–20 | **Anti-growth** | Lift 1–2× at maintenance volume, keeping loaded and impact work · cardio 3× | Protein ≥1.2 · 1–2 fasting-mimicking cycles, *or* an SGLT2 inhibitor, not both · methionine-lower sources at the margin (legumes and pulses over seitan, oats, nuts and seeds) |
 | 21–22 | Transition up | Volume ramps back | Protein to 1.6 |
 
-Anti-growth lifting is about a third of the pro-growth sets. That keeps the muscle you built.
+Anti-growth lifting is about a third of the pro-growth sets. That keeps the muscle you built. Cut sets, not load — the heavy and impact work is what holds bone, and bone is what this block gives away silently.
+
+**On an ARB, hold it through the fasting cycles** and through any tirzepatide week with vomiting or poor intake. Restart with normal eating. Dizzy on standing during a fast means stop the fast, not push through.
+
+**No cold plunge in a pro-growth block**, and never after lifting — it blunts what the block is for. Anti-growth blocks only, if at all. Sauna is fine in either.
 
 **The vegan diet has already spent the methionine lever**, so the block runs on the fasting cycles or the SGLT2 inhibitor. Those are load-bearing; the source shift is not. Keep sulfur amino acids (methionine plus cysteine) near ~15 mg/kg/day — no lower. Don't order a plasma methionine; it won't move whatever you eat.
 
@@ -60,7 +67,7 @@ Anti-growth lifting is about a third of the pro-growth sets. That keeps the musc
 2. **$50 home BP cuff.** Office readings are noise.
 3. **Run PREVENT for 10-year *and* 30-year risk** before the appointment. Under the 2026 guideline, a 30-year risk ≥10% is the stated reason to start a statin at your age despite a low 10-year number — it is the argument that gets the prescription written.
 4. **Rosuvastatin 10 mg + generic ezetimibe 10 mg**, target ApoB <60. Recheck ApoB at 8 weeks. Under $25/month for both.
-5. **Baseline DEXA** — this is the instrument the whole cycle is judged on.
+5. **Baseline DEXA — ask for bone density on the same scan.** Body composition is the instrument the whole cycle is judged on; the bone readout is free and nothing else in the plan would catch a problem there.
 6. **HPV vaccine, home sleep apnea test, $15 radon kit.**
 
 Starting ApoB control at 39 rather than 55 is worth ~3× the risk reduction. Highest-value line on this page.
@@ -78,11 +85,13 @@ Starting ApoB control at 39 rather than 55 is worth ~3× the risk reduction. Hig
 |---|---|
 | **Every phase boundary** | DEXA — FMI, ALMI, VAT, same scanner every time · IGF-1 · fasting insulin · total testosterone — if IGF-1 doesn't separate between blocks, you're running one phase, not two |
 | **Weekly** | Grip strength · home BP |
-| **Annual** | ApoB · hsCRP · VO₂max · PHQ-9 · skin exam · flu shot · dental 2× · B12, ferritin, zinc |
+| **Annual** | ApoB · hsCRP · VO₂max · PHQ-9 · skin exam · flu shot · dental 2× · B12, ferritin, zinc · **DXA bone density — Z-score, want above −1.0 and stable** |
 | **Once, ever** | Lp(a) · hepatitis C · H. pylori · radon · audiogram |
 | **By age** | HPV before 45 · colonoscopy 45 · coronary calcium 45–50 · Shingrix 50 |
 
-Not an epigenetic clock. It will hand you a number that doesn't mean what you want it to mean.
+If bone density is falling: keep the heavy and impact lifting through anti-growth blocks, check calcium and vitamin D are actually being hit, and cut the tirzepatide dose. Not a drug.
+
+Not an epigenetic clock, and not an organ-age proteomic panel either. Both will hand you a number that doesn't mean what you want it to mean.
 
 ---
 
@@ -95,7 +104,7 @@ Not an epigenetic clock. It will hand you a number that doesn't mean what you wa
 - **Methioninase** — two human case reports, no safety data
 - **NAC/GlyNAC** — cysteine cancels the methionine effect outright
 - **Aspirin** — well studied; no benefit at 39
-- **Chelation, HBOT, stem cell and gene therapy clinics**
+- **Chelation, HBOT, stem cell, gene therapy and "epigenetic reprogramming" clinics**
 
 ## Skip
 
@@ -112,6 +121,9 @@ No route to a measurable outcome at 39.
 - Colchicine
 - Pendulum Glucose Control
 - Vitamin K2, MK-7 or MK-4 — moves the calcification biomarker, not the calcification. If greens are light, the answer is K1 from food, not this
+- **Galleri and other multi-cancer blood tests** — the randomised trial missed its primary endpoint, and it enrolled from 50. Revisit when the mortality readout lands *and* you're in the age band
+- **Whole-body MRI** — ~$2,500 to find something ambiguous you then have to chase
+- Cold plunge as a therapy — see the cycle rules if you do it for enjoyment
 - The whole ~35-item supplement shelf
 
 ## Watch
