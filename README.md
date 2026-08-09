@@ -139,7 +139,7 @@ No route to a measurable outcome at 39.
 
 - **Lp(a)HORIZON** — event-driven and now past its guided mid-2026 window; OCEAN(a) completes December 2026. Know your number before either lands
 - **Pasteurized *A. muciniphila*** — act on it if you ever taper off tirzepatide
-- **Oral PCSK9 (enlicitide, Lipfendra)** — approved July 2026; only if statin + ezetimibe leaves you off target. It is the next rung, not bempedoic acid: on background statin it cut apoB 54.6% against bempedoic acid's 5.4%
+- **Oral PCSK9 (enlicitide, Lipfendra)** — approved July 2026; only if statin + ezetimibe leaves you off target. It is the next rung, not bempedoic acid: on background statin it cut apoB 54.6% against bempedoic acid's 5.4%. ~$315/month list, and expect to pay cash — coverage requires documented failure of statin + ezetimibe
 - **VITAL-H** — the first phase 3 geroprotection trial in people who aren't sick: 726 healthy adults aged 60–65 on rapamycin, dapagliflozin or semaglutide against placebo. It is the readout that would move rapamycin off Skip and empagliflozin off Optional
 - **SURMOUNT-MMO** — tirzepatide hard outcomes in obesity without diabetes, all-cause death inside the primary composite, completing October 2027
 - **Retatrutide** — no FDA decision before late 2027; its outcomes trial completes February 2029. Not a tirzepatide swap on weight loss alone. The readout to wait for is the TRIUMPH-1 body-composition split — switch only if ALMI retention beats tirzepatide's
