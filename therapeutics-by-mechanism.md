@@ -323,10 +323,12 @@ The counterweight to §5. Muscle and bone maintenance, tissue repair, immune rec
 **Cautions:** conflicts with the proposed methionine restriction protocol as originally specified
 **Why:** E3 — RCTs are consistent but measure lean mass and strength, not mortality. B4 — on a GLP-1 this is the difference between losing fat and losing muscle. Distribution across meals beats bolus loading, and muscle protein synthesis has a per-meal ceiling and refractory period, so a week's intake cannot be banked into a weekend.
 
+**Hitting the floor is the hard part on a vegan diet, and it is the most likely point of failure in the whole regimen.** Appetite suppression from tirzepatide meets lower protein density and lower leucine per gram, and the two compound. Soy, seitan and pea isolate are the dense options; whole-food legumes carry a lot of volume per gram of protein, which is exactly the wrong property under a GLP-1. Treat the number as tracked rather than assumed — this is the line that the DEXA stopping rule is really testing.
+
 #### Creatine monohydrate 5 g/day
 **3 × 3 = 9** · OK · trivial · OTC, ~$30/yr
 **Target:** phosphocreatine, cell hydration · **Measure:** DEXA; grip; strength log · **Cautions:** none
-**Why:** E3 — hundreds of RCTs, but on strength and lean mass rather than hard outcomes. B3 — modest alone, more valuable here because it directly counteracts GLP-1 lean-mass loss. The most conspicuous omission from the 128-row source list. Unflavored monohydrate only.
+**Why:** E3 — hundreds of RCTs, but on strength and lean mass rather than hard outcomes. B3 — modest alone, more valuable here because it directly counteracts GLP-1 lean-mass loss. The most conspicuous omission from the 128-row source list. Unflavored monohydrate only. Larger effect on a vegan diet than the score implies: dietary creatine is essentially all animal-derived, muscle stores start well below omnivore levels, and the response in vegetarians and vegans is consistently the biggest in the trial literature.
 
 #### Block-periodized growth cycling (training-led, no rhGH)
 **2 × 3 = 6** · OK · moderate · free
@@ -404,7 +406,7 @@ The methionine interaction is a genuine cancellation rather than a timing issue:
 **3 × 2 = 6** · OK · trivial · OTC · **CONTINUE**
 **Target:** membrane, inflammation, triglycerides · **Measure:** omega-3 index
 **Cautions:** additive bleeding with aspirin or nattokinase; AF signal at high dose
-**Why:** E3 — VITAL, REDUCE-IT and STRENGTH give a mixed and dose-dependent picture. B2 — small. Already in your stack, no reason to stop, no reason to escalate the dose.
+**Why:** E3 — VITAL, REDUCE-IT and STRENGTH give a mixed and dose-dependent picture. B2 — small. Already in your stack, no reason to stop, no reason to escalate the dose. On a vegan diet the source is algal oil rather than fish oil, and the item moves from optional-continue toward baseline adequacy: ALA-to-EPA conversion runs at a few percent and DHA conversion lower still, so flax, chia and walnuts do not substitute. Dose to an omega-3 index in the 4–8% band.
 
 #### Sauna 3–4×/week
 **2 × 2 = 4** · OK · moderate · varies · **OPTIONAL**
@@ -515,6 +517,21 @@ Note that this is the item the pharmacological AMPK activators (§4) are competi
 **Target:** carcinogen exposure, sleep, BP · **Measure:** intake log; GGT · **Cautions:** none
 **Why:** E4 — Mendelian randomisation has essentially dismantled the J-curve; the apparent benefit of moderate drinking was confounding. B3 — real but diffuse: cancer, sleep quality, blood pressure. Absent from the source document entirely.
 
+#### Vegan adequacy set — B12, algal EPA+DHA, iodine, D3, taurine
+*Unscored* · OK · trivial · OTC, ~$100/yr
+**Target:** nutrients the diet removes · **Measure:** B12, ferritin, zinc annually; omega-3 index; 25-OH-D
+**Cautions:** none at these doses
+
+These are not geroprotectors and the `E × B` model does not apply to them — nothing here extends anything. They close gaps the diet opens, and they belong in the regimen for the same reason a seatbelt does: cheap, certain, and the downside of skipping them is the whole point.
+
+- **B12, 2000 µg/week or 50–100 µg/day.** The one nutrient with no plant source at all. Deficiency is a demyelinating neuropathy that can outrun the hematologic signs, so the megaloblastic anemia is not a reliable early warning. Non-negotiable, and the only item in this set with a disabling failure mode.
+- **Algal EPA+DHA, ~500 mg/day.** ALA-to-EPA conversion runs a few percent and DHA lower still, so flax, chia and walnuts do not substitute. Same evidence base as the omega-3 row in [§11](#11-redox-and-hormesis) — the change is the source, not the case.
+- **Iodine, 150 µg/day** from iodized salt or a supplement. Sea vegetables carry it but dose across two orders of magnitude between species and batches, which makes them a poor delivery vehicle in either direction.
+- **Vitamin D as lichen-derived D3.** Standard D3 is lanolin-extracted; D2 raises 25-OH-D less efficiently and less durably.
+- **Taurine, 500 mg–1 g/day** — full reasoning at the row in [§17](#17-no-credible-mechanism-or-unregulated-administration), where it sits because the *aging* claim is dead. The nutritional claim is independent and holds.
+
+Iron and zinc are monitored rather than supplemented: non-heme iron absorbs at a fraction of heme iron and phytate binds zinc, so both run lower on a plant diet without necessarily running short. Ferritin also gates the blood donation row in §17. Creatine and protein are handled in [§6](#6-gh--igf-1-and-anabolism--the-pro-growth-arm), where both carry vegan-specific notes.
+
 *Protein and methionine source selection appear under [§5](#5-mtor-and-nutrient-sensing--the-anti-growth-arm) and [§6](#6-gh--igf-1-and-anabolism--the-pro-growth-arm).*
 
 ---
@@ -560,8 +577,13 @@ Note that this is the item the pharmacological AMPK activators (§4) are competi
 ## 17. No credible mechanism, or unregulated administration
 
 #### Taurine
-**1 × 1 = 1** · OK · trivial · OTC · **SKIP**
-**Why:** E1 — **premise retracted.** Fernandez et al., *Science* 2025: longitudinal data across three human cohorts, rhesus monkeys and mice show taurine **rises or holds steady** with age, with interindividual variation exceeding any age effect. B1 — the rationale for supplementing it has been removed.
+**1 × 1 = 1** · OK · trivial · OTC · **SKIP as a geroprotector; take 500 mg–1 g/day as nutritional repletion on a vegan diet**
+**Target:** none as an aging intervention; taurine status on a plant diet · **Measure:** none needed at this dose · **Cautions:** none
+**Why:** E1 — **premise retracted.** Fernandez et al., *Science* 2025: longitudinal data across three human cohorts, rhesus monkeys and mice show taurine **rises or holds steady** with age, with interindividual variation exceeding any age effect. B1 — the rationale for supplementing it *for aging* has been removed, and the score reflects that claim alone.
+
+The nutritional case is separate and does not depend on the aging literature. Taurine occurs almost exclusively in animal tissue — shellfish, fish, meat, and dairy in smaller amounts — with plant foods carrying trace quantities, so vegan intake is near zero against roughly 40–400 mg/day for an omnivore. Vegans measure lower plasma taurine and much lower urinary excretion than omnivores. Endogenous synthesis from cysteine via CDO and CSAD covers the gap in adults, but human CSAD activity is low, and a plant diet is simultaneously low in the sulfur amino acid substrate. No deficiency syndrome has been demonstrated in adult vegans — the cat cardiomyopathy and retinal degeneration model does not transfer, since cats cannot synthesize taurine at all — so this is repletion toward the omnivore range at trivial cost, with no outcome to expect from it.
+
+**It does not conflict with methionine work.** Taurine is the terminal product of cysteine catabolism and is not converted back to cysteine, so it carries none of the cancellation problem that removes NAC and GlyNAC from the list.
 
 #### Resveratrol
 **1 × 1 = 1** · OK · trivial · OTC · **SKIP**
@@ -573,8 +595,9 @@ Note that this is the item the pharmacological AMPK activators (§4) are competi
 
 #### Blood donation 2–3×/yr
 **2 × 2 = 4** · OK · low · free · **OPTIONAL**
-**Target:** iron, hemodilution · **Measure:** ferritin; hematocrit · **Cautions:** none
-**Why:** E2 — observational only. B2 — weak in isolation. Jumps sharply in value if you ever start TRT, where it is the standard erythrocytosis management tool.
+**Target:** iron, hemodilution · **Measure:** ferritin; hematocrit
+**Cautions:** ferritin first on a plant diet — non-heme iron absorbs at a fraction of heme iron and stores refill slowly
+**Why:** E2 — observational only. B2 — weak in isolation. Jumps sharply in value if you ever start TRT, where it is the standard erythrocytosis management tool. The vegan case cuts the other way: the mechanism claimed for donation is iron depletion, and a diet that already lowers iron stores is being asked to pay for the same effect twice.
 
 #### Methylene blue
 **1 × 1 = 1** · **AVOID** · trivial · Rx

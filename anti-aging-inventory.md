@@ -262,13 +262,13 @@ Two items are worth reading in full in the detail file: [block-periodized growth
 
 **Neurological, sensory, mental health** — depression screening and access (16 — suicide is among the leading causes of death for US males 35–44, and its absence from every longevity list is the same blind spot that omits seatbelts) · sleep 7–9 h (15) · hearing protection (9) · social connection (9).
 
-**Diet composition** — alcohol minimal or none (12 — MR has dismantled the J-curve) · fiber 35–40 g/day (9).
+**Diet composition** — alcohol minimal or none (12 — MR has dismantled the J-curve) · fiber 35–40 g/day (9) · vegan adequacy items: B12, algal EPA+DHA, iodine, taurine, and ferritin/zinc monitoring (unscored — these prevent deficits the diet creates rather than extending anything, and the scoring model does not apply to them).
 
 **Environmental and external-cause** — nicotine and tobacco: none (25, confirm) · injury prevention (16) · radon test (12) · sun protection (8) · bedroom HEPA (6).
 
 **Early detection** — cancer screening on schedule (20).
 
-**No credible mechanism** — taurine (1, premise retracted by Fernandez 2025) · resveratrol (1) · 17α-estradiol (2, watch, do not take) · blood donation (4, optional) · methylene blue (1, **AVOID** — MAO-A inhibitor) · disease-indication drugs with no aging indication (1, change trigger to diagnosis) · the ~35-row supplement bundle (1) · EDTA/HBOT/stem cells/gene therapy (1, **AVOID**).
+**No credible mechanism** — taurine (1, premise retracted by Fernandez 2025; it stays in the regimen on a vegan diet as nutritional repletion, which is an adequacy argument rather than a gerotherapeutic one) · resveratrol (1) · 17α-estradiol (2, watch, do not take) · blood donation (4, optional) · methylene blue (1, **AVOID** — MAO-A inhibitor) · disease-indication drugs with no aging indication (1, change trigger to diagnosis) · the ~35-row supplement bundle (1) · EDTA/HBOT/stem cells/gene therapy (1, **AVOID**).
 
 ### 2.7 Flat ranked list
 
@@ -486,7 +486,7 @@ Offered as a starting structure, not a protocol — nobody has tested this, and 
 |---|---|---|---|---|
 | 1–6 | **Pro-growth** | Resistance 3–4×/wk, progressive; cardio maintained at 2×/wk | Protein 1.6 g/kg/day distributed; adequate methionine; energy at or slightly above maintenance | Creatine 5 g/day. Nothing anti-growth. No antioxidant supplements near training. |
 | 7–8 | Transition down | Taper resistance volume to maintenance | Protein holds at 1.2–1.6 | IGF-1 normalizing; nothing new started |
-| 9–20 | **Anti-growth** | Resistance 1–2×/wk at maintenance volume; cardio 3×/wk | Protein holds ≥1.2 g/kg while on tirzepatide; shift methionine *sources* (legumes, soy, dairy) with methionine kept sufficient, rather than cutting protein; 1–2 FMD cycles | Rapamycin only if you decide it's worth 6 points; last dose ≥2 wk before week 21. **An SGLT2 inhibitor and the FMD cycles are mutually exclusive — pick one for this block.** |
+| 9–20 | **Anti-growth** | Resistance 1–2×/wk at maintenance volume; cardio 3×/wk | Protein holds ≥1.2 g/kg while on tirzepatide; shift methionine *sources* (pulses and legumes over seitan, oats, nuts and seeds) with methionine kept sufficient, rather than cutting protein; 1–2 FMD cycles | Rapamycin only if you decide it's worth 6 points; last dose ≥2 wk before week 21. **An SGLT2 inhibitor and the FMD cycles are mutually exclusive — pick one for this block.** |
 | 21–22 | Transition up | Volume ramps | Protein to 1.6 | Rapamycin fully cleared before resistance volume rises |
 | 23–28 | **Pro-growth** | repeat | repeat | repeat |
 
@@ -579,7 +579,7 @@ Adult requirement for total sulfur amino acids (methionine + cysteine) is roughl
 ### The version I'd actually run
 
 1. **Hold total protein at 1.2–1.6 g/kg/day, distributed across meals, in both phases.** Non-negotiable while on tirzepatide.
-2. **Shift protein *sources*, don't cut protein *amount*.** Legumes, soy, and dairy carry substantially less methionine per gram of protein than beef, eggs, poultry, and especially fish. That drops methionine 25–40% while total protein stays flat. This is the LDMM pattern — largely plant-based, some fish.
+2. **Shift protein *sources*, don't cut protein *amount*.** Legumes, soy, and dairy carry substantially less methionine per gram of protein than beef, eggs, poultry, and especially fish — the 25–40% drop that defines the LDMM pattern comes from moving in that direction while total protein stays flat. **A vegan diet has already banked most of that drop**, so the remaining lever is only the spread within plant proteins: pulses and legumes at the low end, seitan, oats, nuts and seeds at the high end. It is real but small, which puts the weight of the anti-growth block on item 3. It also inverts the direction of risk — with methionine, cysteine and taurine all low at baseline, the live failure mode is inadequacy rather than excess, so hold total sulfur amino acids near the requirement in the section above and do not chase further restriction.
 3. **Get the FGF21 signal from time-restricted feeding or periodic fasting-mimicking cycles** — a few 5-day cycles a year — which have human trial data behind them rather than a chronic deficiency state. These slot naturally into the anti-growth blocks in Part 4.
 4. **Drop methioninase.**
 5. **Drop NAC/GlyNAC if you're pursuing methionine work at all** — pick one.
