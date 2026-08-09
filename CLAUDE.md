@@ -32,9 +32,9 @@ The test: a reader seeing the file for the first time should never learn that a 
 - The single date line under the title. One "as of" stamp is fine; a version number is not.
 - Discussion of the user's own proposed protocols (the methionine plan, the block-cycling hypothesis) and which objections they answer. That is analysis of a live idea, not a record of edits to this repo.
 
-## The second rule: regimen-proposed.md carries no reasoning
+## The second rule: README.md carries no reasoning
 
-[regimen-proposed.md](regimen-proposed.md) is the instruction sheet. It says what to do, at what dose, on what schedule, and how to tell whether it is working. The argument for *why* lives in the other two files, and the header link is what points there.
+[README.md](README.md) is the instruction sheet. It says what to do, at what dose, on what schedule, and how to tell whether it is working. The argument for *why* lives in the other two files, and the header link is what points there.
 
 Keep out of it:
 

@@ -161,7 +161,7 @@ Follistatin, myostatin and activin E all converge on activin type II receptor si
 #### INHBE (activin E) knockout
 **1 × 2 = 2** · MONITOR · high · preclinical/early · **WATCH**
 **The natural experiment — good, and pointed in a more useful direction than the other two.** *INHBE* protein-truncating variants associate with lower waist-to-hip ratio adjusted for BMI — that is, favorable *fat distribution* rather than added mass — along with a better metabolic profile and lower coronary risk. It is liver-expressed and secreted, which puts it in the editable column.
-**Why:** E1 for the edit. B2 — visceral adiposity is a target this regimen already attacks hard, with [VAT <50 cm²](regimen-proposed.md) as an explicit DEXA endpoint under tirzepatide. **This is the one row in the family whose genetics favor it**, and it is the one with no product. Worth watching precisely because it is the opposite of follistatin: a real human signal, a plausible delivery route, and no clinic selling it.
+**Why:** E1 for the edit. B2 — visceral adiposity is a target this regimen already attacks hard, with [VAT <50 cm²](README.md) as an explicit DEXA endpoint under tirzepatide. **This is the one row in the family whose genetics favor it**, and it is the one with no product. Worth watching precisely because it is the opposite of follistatin: a real human signal, a plausible delivery route, and no clinic selling it.
 
 ### 2.4 Growth signalling and the longevity loci
 
