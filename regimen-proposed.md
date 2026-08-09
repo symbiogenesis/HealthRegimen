@@ -10,29 +10,39 @@ Built on block-periodized growth cycling: alternating pro-growth and anti-growth
 
 ## Always on — both phases, no exceptions
 
-- **Rosuvastatin 10 mg + ezetimibe 10 mg**, ApoB <60 — both from the start, not statin first
-- **Cardio, sodium down, stay lean**, target sysBP 105–115 · **telmisartan 40–80 mg** if the home cuff series stays over 120
-- **Tirzepatide** — to **FMI 2.5–3.5 kg/m²** (~12–15% fat), **ALMI ≥8.5 kg/m²**, **VAT <50 cm²**, driven as low as it goes. At target, hold a maintenance dose rather than stopping — off-drug regain runs about half the lost weight inside a year. Cut the dose when ALMI falls or the fuel floor trips, never because the scale stalled
-- **Protein ≥1.2 g/kg/day**, spread across meals — the floor never drops while on a GLP-1. Track it
-- Creatine 5 g
-- Fiber 35–40 g
-- **Sleep 7–9 h, and the same bed and wake time ±30 min seven days a week** — the timing matters as much as the hours. No weekend catch-up
-- No nicotine, no alcohol, sunscreen, hearing protection, seatbelt
-- Cancer screening on schedule
-- Don't microwave or dishwasher food in plastic; glass or steel for hot and fatty food; filtered tap over bottled
+| | Dose | Target |
+|---|---|---|
+| **Rosuvastatin + ezetimibe** | 10 mg + 10 mg — both from the start, not statin first | ApoB <60 |
+| **Telmisartan** | 40–80 mg, only if the home cuff series stays over 120 | sysBP 105–115 |
+| **Tirzepatide** | to target, then a maintenance dose — not stopping | FMI 2.5–3.5 kg/m² (~12–15% fat) · ALMI ≥8.5 kg/m² · VAT <50 cm² |
+
+**Blood Pressure** — Cardio, sodium down, stay lean. That is the first move on the BP target. Telmisartan is what you add if the cuff stays high, not what you start with.
+
+**Drive under the tirzepatide numbers, don't stop at them** — as far below VAT <50 cm² as it goes. Cut the dose when ALMI falls or the fuel floor trips, never because the scale stalled. Off-drug regain runs about half the lost weight inside a year.
+
+Daily, with no number to titrate against:
+
+- **Protein** ≥1.2 g/kg/day, spread across meals — the floor never drops while on a GLP-1. Track it
+- **Creatine** 5 g/day
+- **Fiber** 35–40 g/day
+- **Sleep** 7–9 h, same bed and wake time ±30 min, seven days a week — the timing matters as much as the hours. No weekend catch-up
+- **No nicotine, no alcohol**
+- **Sunscreen, hearing protection, wear seatbelts**
+- **Plastics** — nothing microwaved or dishwashed in plastic; glass or steel for hot and fatty food; filtered tap over bottled
+- **Cancer screening** on schedule
 
 ## Vegan — also always on
 
 Nutritional adequacy, not anti-aging.
 
-- B12 2000 µg/week, or 50–100 µg/day
-- **Calcium to 1,000 mg/day** — fortified soy milk, calcium-set tofu (calcium sulfate, not nigari), kale, bok choy, broccoli, tahini. Supplement the gap in doses of 500 mg or less, with food. Don't exceed 1,000–1,200 mg/day from supplements. Spinach, chard and beet greens don't count — oxalate binds it
-- Taurine 500 mg–1 g/day
-- Algal EPA+DHA ~500 mg/day
-- Iodine 150 µg/day
-- Vitamin D, lichen-derived D3, to the lab value
-- One Brazil nut most days — selenium
-- Greens 2–3×/week, cooked and with fat in the meal — K1, potassium, nitrate, folate. Raw and undressed absorbs at a fraction of it
+- **B12** 2,000 µg/week, or 50–100 µg/day
+- **Calcium** 1,000 mg/day — fortified soy milk, calcium-set tofu (calcium sulfate, not nigari), kale, bok choy, broccoli, tahini. Supplement the gap in doses of 500 mg or less, with food. Don't exceed 1,000–1,200 mg/day from supplements. Spinach, chard and beet greens don't count — oxalate binds it
+- **Taurine** 500 mg–1 g/day
+- **Algal EPA+DHA** ~500 mg/day
+- **Iodine** 150 µg/day
+- **Vitamin D** — lichen-derived D3, to the lab value
+- **Selenium** — one Brazil nut most days
+- **Greens** 2–3×/week — cooked and with fat in the meal, for K1, potassium, nitrate and folate. Raw and undressed absorbs at a fraction of it
 
 ## The cycle — 22 weeks, roughly twice a year
 
