@@ -185,9 +185,12 @@ Three grading points are worth stating explicitly, because grouping is what make
 | Score | E×B | Item | Target | Safety | Effort |
 |---:|:---:|---|---|:---:|:---:|
 | **16** | 4×4 | Tirzepatide *(continue)* | GLP-1 / GIP receptor | monitor | moderate |
+| **6** | 3×2 | Retatrutide *(watch)* | GLP-1 / GIP / glucagon receptor | monitor | moderate |
 | **9** | 3×3 | Pasteurized *A. muciniphila* (MucT) *(watch)* | Amuc_1100 / gut barrier | ok | moderate |
 | **4** | 2×2 | Pendulum Glucose Control (WBF-011) | live multi-strain / SCFA → endogenous GLP-1 | ok | moderate |
 | **6** | 3×2 | Empagliflozin / canagliflozin | SGLT2 | monitor | low |
+
+**The two incretin agents, side by side.** Retatrutide adds glucagon receptor agonism to tirzepatide's GLP-1/GIP, and it wins decisively on the one endpoint you are not taking an incretin for: 28.3% mean weight loss at 80 weeks in TRIUMPH-1, against roughly 20–22% for tirzepatide in SURMOUNT-1. What separates the scores is everything else. Tirzepatide holds E4 because SELECT established MACE and all-cause mortality benefit for the class in non-diabetic adults; retatrutide's own outcomes trial does not complete until February 2029, and the glucagon arm is exactly the reason that class inference does not transfer cleanly in the meantime. So the newer drug is an evidence step *down* bought with an endpoint that this regimen spends a protein floor, a lifting schedule and a DEXA stopping rule defending against. The number that would decide a switch is the body-composition split, and it is not published.
 
 **The SGLT2 subfamily, in one place.** The source table ranked this #1 on a 12/12 gerotherapeutics score with the note "top scoring candidate for TAME-like trial." That note is doing more work than it appears: **the score means "most deserving of a trial," which entails that the human aging evidence does not yet exist.**
 
@@ -327,6 +330,7 @@ Score-ordered, all families collapsed.
 | 6 | Rapamycin | mTOR | monitor | low |
 | 6 | **Block-periodized growth cycling** | anabolic | ok | moderate |
 | 6 | SGLT2 inhibitors | incretin | monitor *(not with fasting cycles)* | low |
+| 6 | Retatrutide *(watch)* | incretin | monitor | moderate |
 | 6 | Red yeast rice | lipoprotein | **AVOID** | trivial |
 | 5 | Coronary artery calcium *(defer)* | diagnostics | ok | low |
 | 5 | Aspirin | vascular | **AVOID** | trivial |
@@ -419,7 +423,7 @@ Run in **alternating blocks**, that objection largely dissolves, and what remain
 |---|---|
 | Rapamycin | Lipids, fasting glucose, CBC, mouth ulcers, wound healing before any surgery |
 | Metformin | B12 annually |
-| GLP-1/GIP | **Lean mass by DEXA**, gallbladder symptoms, hold before anesthesia |
+| GLP-1/GIP | **DEXA FMI, ALMI and VAT** against the 2.5–3.5 / ≥8.5 kg/m² / <50 cm² target; **the fuel floor** — total testosterone ≥500 ng/dL, libido, sleep, training output; gallbladder symptoms; hold before anesthesia |
 | SGLT2i (if used) | Home β-hydroxybutyrate meter; genital mycotic infection; volume status. **Hold for any illness with poor oral intake, any fasting or FMD cycle, and 3 days pre-procedure** |
 | Statin | ALT at baseline and once; CK only if symptomatic |
 | rhGH (if ever) | IGF-1, fasting glucose and insulin, PSA, carpal tunnel symptoms, joint swelling |

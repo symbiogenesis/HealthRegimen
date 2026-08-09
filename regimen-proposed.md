@@ -1,8 +1,8 @@
 # Proposed Regimen
 
-**Male, 39, US, vegan, on tirzepatide** · 9 August 2026
+**Male, 39, US, vegan** · 9 August 2026
 
-Built on block-periodized growth cycling: alternating pro-growth and anti-growth phases instead of running either one continuously. Reasoning in [anti-aging-inventory.md](anti-aging-inventory.md) and [therapeutics-by-mechanism.md](therapeutics-by-mechanism.md). Not medical advice — prescription items go through whoever manages the tirzepatide.
+Built on block-periodized growth cycling: alternating pro-growth and anti-growth phases instead of running either one continuously. Reasoning in [anti-aging-inventory.md](anti-aging-inventory.md) and [therapeutics-by-mechanism.md](therapeutics-by-mechanism.md). Not medical advice — prescription items go through medical professionals.
 
 **In one line:** get ApoB under 60 and systolic into the 105–115 band, then cycle training and food between building and pruning. That's nearly all of it.
 
@@ -12,7 +12,7 @@ Built on block-periodized growth cycling: alternating pro-growth and anti-growth
 
 - **Rosuvastatin 10 mg + ezetimibe 10 mg**, ApoB <60 — both from the start, not statin first
 - **Cardio, sodium down, stay lean**, target sysBP 105–115 · **telmisartan 40–80 mg** if the home cuff series stays over 120
-- **Tirzepatide**
+- **Tirzepatide** — to **FMI 2.5–3.5 kg/m²** (~12–15% fat), **ALMI ≥8.5 kg/m²**, **VAT <50 cm²**, driven as low as it goes. At target, hold a maintenance dose rather than stopping — off-drug regain runs about half the lost weight inside a year. Cut the dose when ALMI falls or the fuel floor trips, never because the scale stalled
 - **Protein ≥1.2 g/kg/day**, spread across meals — the floor never drops while on a GLP-1. Track it
 - Creatine 5 g
 - Fiber 35–40 g
@@ -40,13 +40,17 @@ Nutritional adequacy, not anti-aging.
 | 9–20 | **Anti-growth** | Lift 1–2× at maintenance volume · cardio 3× | Protein ≥1.2 · methionine-lower sources (legumes and pulses over seitan, oats, nuts and seeds) · 1–2 fasting-mimicking cycles, *or* an SGLT2 inhibitor, not both |
 | 21–22 | Transition up | Volume ramps back | Protein to 1.6 |
 
-Maintenance takes about a third of accumulation volume, so the anti-growth block holds what you built — it isn't detraining.
+Anti-growth lifting is about a third of the pro-growth sets. That keeps the muscle you built.
 
-**Most of the methionine drop is already banked by the diet**, so the block leans on the FMD cycles or the SGLT2 inhibitor. Keep total sulfur amino acids near ~15 mg/kg/day; don't cut further.
+**The vegan diet already cuts most of the methionine**, so the block leans on the fasting cycles or the SGLT2 inhibitor. Keep sulfur amino acids (methionine plus cysteine) near ~15 mg/kg/day — no lower.
 
-**Build the pro-growth blocks from training, protein, creatine and sleep. Leave rhGH out** — adding an unevidenced drug to an unevidenced schedule makes the result uninterpretable.
+**Pro-growth blocks are lifting, protein, creatine and sleep. No growth hormone** — untested drug, untested schedule, and you won't know what did what.
 
-**Stopping rule:** >1 kg lean mass lost across a full anti-growth block despite maintained protein means the block is too aggressive. Shorten or lighten it.
+**Body fat is lowest at the end of an anti-growth block and rises through pro-growth.** Hit 12% at that low point, not all year. You can't stay in a calorie deficit and still grow.
+
+**Stopping rule:** lose more than 1 kg of muscle over a full anti-growth block while keeping protein up, and the block is too hard. Make it shorter or easier.
+
+**The fuel floor — if any one of these happens, eat more and cut the dose, whatever the DEXA says:** total testosterone under 500 ng/dL · morning erections or libido gone · broken sleep · lifts getting weaker on maintenance sets · resting heart rate dropping with cold hands. Getting lean stops helping long before it starts hurting. These show up first.
 
 ---
 
@@ -66,13 +70,13 @@ Starting ApoB control at 39 rather than 55 is worth ~3× the risk reduction. Hig
 - Sauna 3–4×/week
 - Bedroom HEPA filter
 - Blood donation 2–3×/year — ferritin first; the diet argues against this one
-- **Empagliflozin** — scores 6, the best-evidenced item you aren't taking: the largest male lifespan effect in ITP history, and the human trials keep working in their non-diabetic arms. It is optional rather than default because every one of those trials is in people who already have heart failure, CKD or diabetes, and you have none of them. **If you take it, drop the FMD cycles** — an SGLT2 inhibitor plus a fasting cycle is the euglycemic ketoacidosis setup. Home ketone meter; hold it for any illness with poor intake and 3 days before any procedure.
+- **Empagliflozin** — scores 6. Optional rather than default: every human trial is in people who already have heart failure, kidney disease or diabetes, and you have none of them. **If you take it, drop the fasting cycles** — the two together cause ketoacidosis at normal blood sugar. Keep a home ketone meter. Stop the drug for any illness where you aren't eating, and 3 days before any procedure.
 
 ## Measure
 
 | | |
 |---|---|
-| **Every phase boundary** | DEXA · IGF-1 · fasting insulin — if IGF-1 doesn't separate between blocks, you're running one phase, not two |
+| **Every phase boundary** | DEXA — FMI, ALMI, VAT, same scanner every time · IGF-1 · fasting insulin · total testosterone — if IGF-1 doesn't separate between blocks, you're running one phase, not two |
 | **Weekly** | Grip strength · home BP |
 | **Annual** | ApoB · hsCRP · VO₂max · PHQ-9 · skin exam · flu shot · dental 2× · B12, ferritin, zinc |
 | **Once, ever** | Lp(a) · hepatitis C · H. pylori · radon · audiogram |
@@ -84,7 +88,7 @@ Not an epigenetic clock. It will hand you a number that doesn't mean what you wa
 
 ## Never
 
-- **SGLT2 inhibitor during a fasting or FMD cycle** — euglycemic ketoacidosis; glucose reads normal so it gets missed
+- **SGLT2 inhibitor during a fasting cycle** — euglycemic ketoacidosis; glucose reads normal so it gets missed
 - **Methylene blue** — serotonin syndrome
 - **Berberine** — wrecks statin and rapamycin levels
 - **Red yeast rice** — an unlabeled statin at an unknown dose
@@ -117,3 +121,4 @@ No route to a measurable outcome at 39.
 - **Oral PCSK9 (enlicitide, Lipfendra)** — approved July 2026; only if statin + ezetimibe leaves you off target. It is the next rung, not bempedoic acid: on background statin it cut apoB 54.6% against bempedoic acid's 5.4%
 - **VITAL-H** — the first phase 3 geroprotection trial in people who aren't sick: 726 healthy adults aged 60–65 on rapamycin, dapagliflozin or semaglutide against placebo. It is the readout that would move rapamycin off Skip and empagliflozin off Optional
 - **SURMOUNT-MMO** — tirzepatide hard outcomes in obesity without diabetes, all-cause death inside the primary composite, completing October 2027
+- **Retatrutide** — no FDA decision before late 2027; its outcomes trial completes February 2029. Not a tirzepatide swap on weight loss alone. The readout to wait for is the TRIUMPH-1 body-composition split — switch only if ALMI retention beats tirzepatide's
