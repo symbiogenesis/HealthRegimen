@@ -45,7 +45,7 @@ These are not therapies. They gate which therapies are even rankable for you, wh
 
 ### DEXA body composition
 **4 × 4 = 16** · OK · trivial · ~$75
-**Target:** lean mass · **Cadence:** 2×/yr while on a GLP-1 · **Cautions:** none
+**Target:** lean mass · **Cadence:** at each block boundary — about 4×/yr on a 22-week cycle · **Cautions:** same scanner every time, or the series is noise
 **Why:** E4 — the reference method for lean mass. B4 — the only way to catch GLP-1-driven lean-mass loss early. Segmental BIA (Withings Body Comp) drifts with hydration and will not resolve the 1–2 kg changes that matter. This is also the primary instrument for evaluating a growth-cycling protocol (§6).
 
 ### DXA bone mineral density (same scan, same appointment)
@@ -55,7 +55,7 @@ These are not therapies. They gate which therapies are even rankable for you, wh
 
 **The three-way convergence is the whole argument for the row.** A vegan diet carries the largest fracture signal of any dietary pattern studied: EPIC-Oxford put vegan hip fracture at HR 2.31 against meat-eaters after adjustment for BMI and lifestyle, with total fracture also elevated, and the UK Biobank replication attributes only about 28% of the excess to lower BMI — the residual tracks calcium and protein intake rather than the diet label. Incretin-driven weight loss subtracts bone in proportion to the weight: a 52-week semaglutide RCT lost 2.6% at the hip and 2.1% at the lumbar spine against placebo, the SURMOUNT program shows the same pattern at somewhat larger magnitude because the weight loss is larger, and 2026 analyses find the BMD decline concentrated in participants **without** diabetes — which is you. And an anti-growth block is a period of reduced mechanical loading and reduced anabolic signalling, which is the third withdrawal stacked on the first two.
 
-None of those three is individually alarming. Together they are the clearest example in this regimen of a cost that compounds silently, on a tissue with no symptom until it fractures, measured by an instrument you are already paying for twice a year. Add the bone readout to the body-composition scan and it costs nothing.
+None of those three is individually alarming. Together they are the clearest example in this regimen of a cost that compounds silently, on a tissue with no symptom until it fractures, measured by an instrument the cycle already books four times a year. Add the bone readout to one of those scans annually and it costs nothing.
 
 **What the number means at 38, and what to do about it.** Z-score, not T-score — T compares you to a young adult, which you nearly are, and is the wrong comparator until later. A Z-score above −1.0 and stable across a cycle is the pass condition. **The action if it falls is not a drug.** Bisphosphonates score 1 for an aging indication (§17) and there is no primary-prevention case for them in a 38-year-old man. The levers are the three exposures themselves: calcium and vitamin D to adequacy (§14), protein held at the floor that is already non-negotiable, impact and axial loading kept in the anti-growth block rather than dropped with the hypertrophy volume, and the tirzepatide dose cut. That is the same list the fuel floor already produces, which is the point — bone is one more readout on failure modes the regimen is already watching for, not a new front.
 
@@ -92,7 +92,7 @@ None of those three is individually alarming. Together they are the clearest exa
 
 ### Grip dynamometer
 **3 × 2 = 6** · OK · trivial · ~$30 once
-**Target:** whole-body strength proxy · **Cadence:** monthly · **Cautions:** none
+**Target:** whole-body strength proxy · **Cadence:** weekly · **Cautions:** none
 **Why:** E3 — observational. B2 — it will not change your outcome by itself, but it is the cheapest early-warning signal for the lean-mass problem GLP-1s create, and the cheapest weekly readout during an anti-growth block.
 
 ### APOE genotype / CAD polygenic risk score
