@@ -173,7 +173,7 @@ This section is the genetic version of [Part 4](anti-aging-inventory.md#part-4--
 **1 × 1 = 1** · OK · high · no program
 **The natural experiment — the second-best-replicated longevity locus in humans, and it does not do what the name implies.** *FOXO3* rs2802292 has been associated with exceptional longevity across Japanese-American, German, Italian, Chinese and Ashkenazi cohorts — with *APOE*, one of only two loci that replicate reliably for human lifespan. Homozygous carriers show meaningfully raised odds of reaching 95+.
 **Why it is not editable, and why that barely matters:** the variant is intronic and acts on *FOXO3* expression under stress conditions, in every tissue. There is no construct to deliver and no target cell population to deliver it to. But the parenthetical in the request is the important part — **AMPK phosphorylates and activates FOXO3, and the inventory has already worked out what that implies.** [§2.3](anti-aging-inventory.md#23-ampk-and-energy-sensing) puts the best-evidenced AMPK activator on the list at 20, and it is [cardiorespiratory training](therapeutics-by-mechanism.md#4-ampk-and-energy-sensing), which is free. Metformin scores 4 and berberine is an AVOID.
-**Why:** E1 · B1 — **the actionable form of "FOXO3 gain of function" is already in the regimen, and it is exercise.** That is not a consolation prize; it is the one intervention on this page with a score above 15.
+**Why:** E1 · B1 — **the actionable form of "FOXO3 gain of function" is already in the regimen, and it is exercise.** That is not a consolation prize. Nothing on this page scores above 8; the pathway's actionable form scores 20 in the inventory, and it is free.
 
 #### GHR / IGF1R loss of function
 **1 × 1 = 1** · **AVOID** · high · no program

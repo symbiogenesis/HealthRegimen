@@ -8,7 +8,9 @@ Built on block-periodized growth cycling: alternating pro-growth and anti-growth
 
 ---
 
-## Always on — both phases, no exceptions
+## Always on — both phases
+
+Two of these have hold rules; they are on the line that names them.
 
 | | Dose | Target |
 |---|---|---|
@@ -19,6 +21,8 @@ Built on block-periodized growth cycling: alternating pro-growth and anti-growth
 **Blood Pressure** — Cardio, sodium down, stay lean; that is the first move. Telmisartan is what you add if the cuff stays high, not what you start with. Stop it through fasting cycles and any tirzepatide week with vomiting or poor intake, and restart with normal eating.
 
 **Drive under the tirzepatide numbers, don't stop at them** — as far below VAT <50 cm² as it goes. Cut the dose when ALMI falls or the fuel floor trips, never because the scale stalled. Off-drug regain runs about half the lost weight inside a year.
+
+**Tell the surgeon, dentist and endoscopist you are on tirzepatide, every time** — retained stomach contents, aspiration risk. Not an automatic hold: current guidance stratifies. Expect either a clear-liquid diet for 24 h beforehand or a one-week hold, decided by them; weekly dosing, a recent dose increase, and any active nausea or vomiting all push toward holding. This applies to the colonoscopy at 45.
 
 Daily, with no number to titrate against:
 
@@ -57,7 +61,7 @@ Anti-growth lifting is about a third of the pro-growth sets. That keeps the musc
 
 **No cold plunge in a pro-growth block**, and never after lifting — it blunts what the block is for. Anti-growth blocks only, if at all. Sauna is fine in either.
 
-**The vegan diet has already spent the methionine lever**, so the block runs on the fasting cycles or the SGLT2 inhibitor. Those are load-bearing; the source shift is not. Keep sulfur amino acids (methionine plus cysteine) near ~15 mg/kg/day — no lower. Don't order a plasma methionine; it won't move whatever you eat.
+**The vegan diet has already spent the methionine lever**, so the fasting cycles carry the block and the source shift does not. An SGLT2 inhibitor is the alternative only in the sense that it can't share the calendar with them — it holds the block down continuously rather than cycling it, so taking it leaves the year with no transitions in it. Never take sulfur amino acids (methionine plus cysteine) below ~15 mg/kg/day; hitting the protein floor puts you near twice that, which is where you want to be. Don't order a plasma methionine; it won't move whatever you eat.
 
 **A fasting cycle is judged on the refeed, not the fast.** Protein back to 1.6 g/kg/day within 48 hours of ending one, tracked. Miss that and the next cycle doesn't run — the fast without the refeed costs muscle and buys nothing.
 
@@ -76,7 +80,7 @@ Anti-growth lifting is about a third of the pro-growth sets. That keeps the musc
 1. **One lab draw:** ApoB, Lp(a), hsCRP, vitamin D, ALT, plus B12 and ferritin for the diet. ~$100.
 2. **$50 home BP cuff.** Office readings are noise.
 3. **Run PREVENT for 10-year *and* 30-year risk** before the appointment. Under the 2026 guideline, a 30-year risk ≥10% is the stated reason to start a statin at your age despite a low 10-year number — it is the argument that gets the prescription written.
-4. **Rosuvastatin 10 mg + generic ezetimibe 10 mg**, target ApoB <60. Recheck ApoB at 8 weeks. Under $25/month for both.
+4. **Rosuvastatin 10 mg + generic ezetimibe 10 mg**, target ApoB <60. Recheck ApoB at 8 weeks. Under $25/month for both. If muscle symptoms make the statin untenable, retry a lower dose or atorvastatin 20 mg first; bempedoic acid is the substitute only after two statins have genuinely failed, and it is ~$430–610/month.
 5. **Baseline DEXA — ask for bone density on the same scan.** Body composition is the instrument the whole cycle is judged on; the bone readout is free and nothing else in the plan would catch a problem there.
 6. **HPV vaccine, home sleep apnea test, $15 radon kit.**
 
@@ -113,7 +117,6 @@ Not an epigenetic clock, and not an organ-age proteomic panel either. Both will 
 - **Berberine** — wrecks statin and rapamycin levels
 - **Red yeast rice** — an unlabeled statin at an unknown dose
 - **Methioninase** — two human case reports, no safety data
-- **NAC/GlyNAC** — cysteine cancels the methionine effect outright
 - **Aspirin** — well studied; no benefit at age 38
 - **Chelation, HBOT, stem cell, gene therapy and "epigenetic reprogramming" clinics**
 
@@ -125,6 +128,7 @@ No route to a measurable outcome at age 38
 - Rapamycin
 - Testosterone
 - Fisetin
+- NAC, GlyNAC, glutathione
 - Dasatinib + quercetin
 - NMN / NR
 - Resveratrol
