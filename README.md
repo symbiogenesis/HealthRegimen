@@ -1,6 +1,6 @@
 # Proposed Regimen
 
-**Male, 38, US, vegan** · 9 August 2026
+**Male, 38, US, vegan** · 10 August 2026
 
 Built on block-periodized growth cycling: alternating pro-growth and anti-growth phases instead of running either one continuously. Reasoning in [anti-aging-inventory.md](anti-aging-inventory.md), [therapeutics-by-mechanism.md](therapeutics-by-mechanism.md) and [genetic-pathways.md](genetic-pathways.md). Not medical advice — prescription items go through medical professionals.
 
@@ -21,6 +21,8 @@ Two of these have hold rules; they are on the line that names them.
 **Blood Pressure** — Cardio, sodium down, stay lean; that is the first move. Telmisartan is what you add if the cuff stays high, not what you start with. Stop it through fasting cycles and any tirzepatide week with vomiting or poor intake, and restart with normal eating.
 
 **Drive under the tirzepatide numbers, don't stop at them** — as far below VAT <50 cm² as it goes. Cut the dose when ALMI falls or the fuel floor trips, never because the scale stalled. Off-drug regain runs about half the lost weight inside a year.
+
+**If the plan denies tirzepatide, appeal it before paying cash.** Documented BMI and comorbidity is what the prior auth wants. Covered, the manufacturer savings card puts it near $25/month; self-pay through the manufacturer's own vial channel is $299–449/month depending on dose, and requires a refill within 45 days to hold that price. No discount card touches this drug.
 
 **Tell the surgeon, dentist and endoscopist you are on tirzepatide, every time** — retained stomach contents, aspiration risk. Not an automatic hold: current guidance stratifies. Expect either a clear-liquid diet for 24 h beforehand or a one-week hold, decided by them; weekly dosing, a recent dose increase, and any active nausea or vomiting all push toward holding. This applies to the colonoscopy at 45.
 
@@ -77,10 +79,10 @@ Anti-growth lifting is about a third of the pro-growth sets. That keeps the musc
 
 ## Start now
 
-1. **One lab draw:** ApoB, Lp(a), hsCRP, vitamin D, ALT, plus B12 and ferritin for the diet. ~$100.
+1. **One lab draw:** ApoB, Lp(a), hsCRP, vitamin D, ALT, plus B12 and ferritin for the diet. Order it through the visit — most of it bills to insurance that way; ~$100 if you self-pay a direct-to-consumer panel instead.
 2. **$50 home BP cuff.** Office readings are noise.
 3. **Run PREVENT for 10-year *and* 30-year risk** before the appointment. Under the 2026 guideline, a 30-year risk ≥10% is the stated reason to start a statin at your age despite a low 10-year number — it is the argument that gets the prescription written.
-4. **Rosuvastatin 10 mg + generic ezetimibe 10 mg**, target ApoB <60. Recheck ApoB at 8 weeks. Under $25/month for both. If muscle symptoms make the statin untenable, retry a lower dose or atorvastatin 20 mg first; bempedoic acid is the substitute only after two statins have genuinely failed, and it is ~$430–610/month.
+4. **Rosuvastatin 10 mg + generic ezetimibe 10 mg**, target ApoB <60. Recheck ApoB at 8 weeks. Two separate tablets, not the fixed-dose combination — the combination is three to four times the price. $12–15/month for both on a discount card, often less on a tier-1 copay; check both ways. If muscle symptoms make the statin untenable, retry a lower dose or atorvastatin 20 mg first; bempedoic acid is the substitute only after two statins have genuinely failed — ~$231/month on a coupon, or ~$10 a fill once the intolerance is documented and insurance covers it.
 5. **Baseline DEXA — ask for bone density on the same scan.** Body composition is the instrument the whole cycle is judged on; the bone readout is free and nothing else in the plan would catch a problem there.
 6. **HPV vaccine, home sleep apnea test, $15 radon kit.**
 
@@ -91,8 +93,8 @@ Starting ApoB control at age 38 rather than 55 is worth ~3× the risk reduction.
 - Sauna 3–4×/week
 - Bedroom HEPA filter
 - Blood donation 2–3×/year — ferritin first; the diet argues against this one
-- **Tadalafil 5 mg daily** — scores 4. $10–15/month. Optional rather than default: no randomised trial has shown a hard outcome. **Never with nitrates** — put it on your medication list so an emergency department sees it before reaching for one. Lowers systolic ~3 mmHg, so count it against the 105–115 target, not on top. Hold it through any fasting cycle or poor-intake week if you're lightheaded standing up. Runs in either block.
-- **Empagliflozin** — scores 6. Optional rather than default: every human trial is in people who already have heart failure, kidney disease or diabetes. **If you take it, drop the fasting cycles** — the two together cause ketoacidosis at normal blood sugar. The anti-growth blocks then run with no fasting cycle in them. Keep a home ketone meter. Stop it for any illness where you aren't eating, and 3 days before any procedure.
+- **Tadalafil 5 mg daily** — scores 4. ~$12/month on a discount card; not covered at this indication, so don't bother filing it. Optional rather than default: no randomised trial has shown a hard outcome. **Never with nitrates** — put it on your medication list so an emergency department sees it before reaching for one. Lowers systolic ~3 mmHg, so count it against the 105–115 target, not on top. Hold it through any fasting cycle or poor-intake week if you're lightheaded standing up. Runs in either block.
+- **Dapagliflozin 10 mg** — scores 6. $5–20/month generic on a discount card; nothing here is covered without diabetes, kidney disease or heart failure, so don't wait on a prior auth. Not empagliflozin or canagliflozin: same target, no generic, 15–50× the price. Optional rather than default: every human trial is in people who already have heart failure, kidney disease or diabetes. **If you take it, drop the fasting cycles** — the two together cause ketoacidosis at normal blood sugar. The anti-growth blocks then run with no fasting cycle in them. Keep a home ketone meter. Stop it for any illness where you aren't eating, and 3 days before any procedure.
 
 ## Measure
 
@@ -147,8 +149,8 @@ No route to a measurable outcome at age 38
 
 - **Lp(a)HORIZON** — event-driven and now past its guided mid-2026 window; OCEAN(a) completes December 2026. Know your number before either lands
 - **Pasteurized *A. muciniphila*** — act on it if you ever taper off tirzepatide
-- **Oral PCSK9 (enlicitide, Lipfendra)** — approved July 2026; only if statin + ezetimibe leaves you off target. It is the next rung, not bempedoic acid: on background statin it cut apoB 54.6% against bempedoic acid's 5.4%. ~$315/month list, and expect to pay cash — coverage requires documented failure of statin + ezetimibe
-- **VITAL-H** — the first phase 3 geroprotection trial in people who aren't sick: 726 healthy adults aged 60–65 on rapamycin, dapagliflozin or semaglutide against placebo. It is the readout that would move rapamycin off Skip and empagliflozin off Optional
+- **Oral PCSK9 (enlicitide, Lipfendra)** — approved July 2026; only if statin + ezetimibe leaves you off target. It is the next rung, not bempedoic acid: on background statin it cut apoB 54.6% against bempedoic acid's 5.4%. $315/month, and expect to pay it in cash — coverage requires documented failure of statin + ezetimibe, and neither the coupon nor the savings card works without that coverage
+- **VITAL-H** — the first phase 3 geroprotection trial in people who aren't sick: 726 healthy adults aged 60–65 on rapamycin, dapagliflozin or semaglutide against placebo. It is the readout that would move rapamycin off Skip and dapagliflozin off Optional
 - **SURMOUNT-MMO** — tirzepatide hard outcomes in obesity without diabetes, all-cause death inside the primary composite, completing October 2027
 - **Retatrutide** — no FDA decision before late 2027; its outcomes trial completes February 2029. Not a tirzepatide swap on weight loss alone. The readout to wait for is the TRIUMPH-1 body-composition split — switch only if ALMI retention beats tirzepatide's
 - **Myostatin/activin blockade (bimagrumab, apitegromab)** — the trigger is ALMI under 8.5 with protein tracked at ≥1.2 g/kg, maintenance lifting held and the tirzepatide dose already cut. Not an addition to a cycle that is working: it raises ALMI by itself and can't be phased out of an anti-growth block, so the DEXA series stops telling you anything. Phase 2 only, IV, and Lilly ended the tirzepatide combination trial
