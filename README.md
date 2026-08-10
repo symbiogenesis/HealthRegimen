@@ -111,12 +111,12 @@ Not an epigenetic clock, and not an organ-age proteomic panel either. Both will 
 - **Red yeast rice** — an unlabeled statin at an unknown dose
 - **Methioninase** — two human case reports, no safety data
 - **NAC/GlyNAC** — cysteine cancels the methionine effect outright
-- **Aspirin** — well studied; no benefit at 39
+- **Aspirin** — well studied; no benefit at age 38
 - **Chelation, HBOT, stem cell, gene therapy and "epigenetic reprogramming" clinics**
 
 ## Skip
 
-No route to a measurable outcome at 39.
+No route to a measurable outcome at age 38
 
 - Metformin
 - Rapamycin
