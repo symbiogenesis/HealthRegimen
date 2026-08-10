@@ -67,6 +67,8 @@ The whole regimen is built on the premise that **duty cycle is a lever**: six-we
 
 An edit is the maximum-duty-cycle intervention. It has no dose, no hold, and no washout. That is precisely what you want for ApoB, where the direction of benefit is monotone, certain, and wanted forever — and it is precisely wrong for everything else on the list.
 
+Put in the terms [Part 4](anti-aging-inventory.md#part-4--growth-cycling) uses, an edit is a permanent *state* and can never be a *transition*. Where the benefit being sought is the change rather than the setting — the regenerative half of a fasting cycle, the alternation the whole calendar is built to produce — an edit cannot deliver it in principle, not merely in practice. That is a sharper objection than the delivery problem, because delivery improves with the technology and this does not.
+
 Two rows make the point concretely rather than abstractly. An edited *SLC5A2* is a permanent SGLT2 inhibitor, and the entire management of euglycemic ketoacidosis in this regimen is *stop the drug* — an edit deletes the only mitigation there is. An enhanced GLP1R has no dose to cut when total testosterone drops below 500 ng/dL or ALMI falls. Both are hard conflicts in the [Part 3 sense](anti-aging-inventory.md#part-3--interactions): the usual remedy is scheduling, and scheduling is the thing being removed.
 
 ---

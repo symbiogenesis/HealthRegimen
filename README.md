@@ -22,7 +22,7 @@ Built on block-periodized growth cycling: alternating pro-growth and anti-growth
 
 Daily, with no number to titrate against:
 
-- **Protein** ≥1.2 g/kg/day, spread across meals — the floor never drops while on a GLP-1. Track it
+- **Protein** ≥1.2 g/kg/day, spread across meals, averaged across the block with fasting days counted in rather than exempted — the floor never drops while on a GLP-1. Track it
 - **Creatine** 5 g/day
 - **Fiber** 35–40 g/day
 - **Sleep** 7–9 h, same bed and wake time ±30 min, seven days a week — the timing matters as much as the hours. No weekend catch-up
@@ -50,14 +50,16 @@ Nutritional adequacy, not anti-aging.
 |---|---|---|---|
 | 1–6 | **Pro-growth** | Lift 3–4×, progressive · cardio 2× | Protein 1.6 g/kg · maintenance calories or slightly above |
 | 7–8 | Transition down | Taper to maintenance volume | Protein 1.2–1.6 |
-| 9–20 | **Anti-growth** | Lift 1–2× at maintenance volume, keeping loaded and impact work · cardio 3× | Protein ≥1.2 · 1–2 fasting-mimicking cycles, *or* an SGLT2 inhibitor, not both · methionine-lower sources at the margin (legumes and pulses over seitan, oats, nuts and seeds) |
-| 21–22 | Transition up | Volume ramps back | Protein to 1.6 |
+| 9–20 | **Anti-growth** | Lift 1–2× at maintenance volume, keeping loaded and impact work · cardio 3× | Protein ≥1.2 · the load-bearing fasting-mimicking cycle at weeks 19–20, plus an optional earlier one mid-block; each cycle only runs if the last refeed was hit · *or* an SGLT2 inhibitor, never both · methionine-lower sources at the margin (legumes and pulses over seitan, oats, nuts and seeds) |
+| 21–22 | Transition up | Volume ramps back | Protein to 1.6 — this is where the fast's refeed lands |
 
 Anti-growth lifting is about a third of the pro-growth sets. That keeps the muscle you built. Cut sets, not load — the heavy and impact work is what holds bone, and bone is what this block gives away silently.
 
 **No cold plunge in a pro-growth block**, and never after lifting — it blunts what the block is for. Anti-growth blocks only, if at all. Sauna is fine in either.
 
 **The vegan diet has already spent the methionine lever**, so the block runs on the fasting cycles or the SGLT2 inhibitor. Those are load-bearing; the source shift is not. Keep sulfur amino acids (methionine plus cysteine) near ~15 mg/kg/day — no lower. Don't order a plasma methionine; it won't move whatever you eat.
+
+**A fasting cycle is judged on the refeed, not the fast.** Protein back to 1.6 g/kg/day within 48 hours of ending one, tracked. Miss that and the next cycle doesn't run — the fast without the refeed costs muscle and buys nothing.
 
 **Pro-growth blocks are lifting, protein, creatine and sleep. No growth hormone** — untested drug, untested schedule, and you won't know what did what.
 
@@ -85,13 +87,14 @@ Starting ApoB control at age 38 rather than 55 is worth ~3× the risk reduction.
 - Sauna 3–4×/week
 - Bedroom HEPA filter
 - Blood donation 2–3×/year — ferritin first; the diet argues against this one
-- **Empagliflozin** — scores 6. Optional rather than default: every human trial is in people who already have heart failure, kidney disease or diabetes, and you have none of them. **If you take it, drop the fasting cycles** — the two together cause ketoacidosis at normal blood sugar. Keep a home ketone meter. Stop the drug for any illness where you aren't eating, and 3 days before any procedure.
+- **Empagliflozin** — scores 6. Optional rather than default: every human trial is in people who already have heart failure, kidney disease or diabetes, and you have none of them. **If you take it, drop the fasting cycles** — the two together cause ketoacidosis at normal blood sugar, and the anti-growth blocks then run with no fasting cycle in them at all. Keep a home ketone meter. Stop the drug for any illness where you aren't eating, and 3 days before any procedure.
 
 ## Measure
 
 | | |
 |---|---|
-| **Every phase boundary** | DEXA — FMI, ALMI, VAT, same scanner every time · IGF-1 · fasting insulin · total testosterone — if IGF-1 doesn't separate between blocks, you're running one phase, not two |
+| **Every phase boundary** | DEXA — FMI, ALMI, VAT, same scanner every time |
+| **Every phase midpoint** | IGF-1 · fasting insulin · total testosterone — midpoint to midpoint is the size of the swing; if IGF-1 doesn't separate between blocks, you're running one phase, not two |
 | **Weekly** | Grip strength · home BP |
 | **Annual** | ApoB · hsCRP · VO₂max · PHQ-9 · skin exam · flu shot · dental 2× · B12, ferritin, zinc · **DXA bone density — Z-score, want above −1.0 and stable** |
 | **Once, ever** | Lp(a) · hepatitis C · H. pylori · radon · audiogram |
