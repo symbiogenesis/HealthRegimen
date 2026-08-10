@@ -91,6 +91,7 @@ Starting ApoB control at age 38 rather than 55 is worth ~3× the risk reduction.
 - Sauna 3–4×/week
 - Bedroom HEPA filter
 - Blood donation 2–3×/year — ferritin first; the diet argues against this one
+- **Tadalafil 5 mg daily** — scores 4. $10–15/month. Optional rather than default: no randomised trial has shown a hard outcome. **Never with nitrates** — put it on your medication list so an emergency department sees it before reaching for one. Lowers systolic ~3 mmHg, so count it against the 105–115 target, not on top. Hold it through any fasting cycle or poor-intake week if you're lightheaded standing up. Runs in either block.
 - **Empagliflozin** — scores 6. Optional rather than default: every human trial is in people who already have heart failure, kidney disease or diabetes, and you have none of them. **If you take it, drop the fasting cycles** — the two together cause ketoacidosis at normal blood sugar, and the anti-growth blocks then run with no fasting cycle in them at all. Keep a home ketone meter. Stop the drug for any illness where you aren't eating, and 3 days before any procedure.
 
 ## Measure

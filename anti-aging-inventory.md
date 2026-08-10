@@ -299,7 +299,7 @@ Three items are worth reading in full in the detail file: [block-periodized grow
 
 **Redox and hormesis** — omega-3 (6, continue) · sauna (4, optional) · astaxanthin (2, skip — an ITP hit that failed to replicate) · NAC/GlyNAC/glutathione (2, skip) · cold water immersion (2, skip as a therapy — and if you do it for enjoyment, it belongs in anti-growth blocks, because post-training cold blunts hypertrophy and strength while leaving endurance adaptation intact). Organizing principle: the ROS burst after training is signal, not damage. Every item here is a timing question rather than a yes/no question — except NAC with methionine work, which is a genuine cancellation rather than a timing issue.
 
-**Hemodynamic and vascular** — blood pressure, aiming 105–115 systolic and adding a drug over 120 (20, monitor — the threshold is where the trials stopped, the aim is where the epidemiology and the unwesternised populations sit) · cardiorespiratory training (20, also listed under 2.3) · aspirin (5, **AVOID** — a high evidence score attached to a finding of no benefit; ASPREE showed net harm in healthy older adults) · vitamin K1/K2 (2, skip — the best mechanism of any supplement here, and the clearest illustration that a mechanism is not a result: MK-7 carboxylates matrix Gla protein exactly as predicted, and the calcification endpoint does not move).
+**Hemodynamic and vascular** — blood pressure, aiming 105–115 systolic and adding a drug over 120 (20, monitor — the threshold is where the trials stopped, the aim is where the epidemiology and the unwesternised populations sit) · cardiorespiratory training (20, also listed under 2.3) · aspirin (5, **AVOID** — a high evidence score attached to a finding of no benefit; ASPREE showed net harm in healthy older adults) · [low-dose daily tadalafil](therapeutics-by-mechanism.md#tadalafil-low-dose-daily) (4, optional — cheap, safe, phase-neutral, and the 30% mortality reduction in the cohorts falls to 12% against an active comparator with the same indication) · vitamin K1/K2 (2, skip — the best mechanism of any supplement here, and the clearest illustration that a mechanism is not a result: MK-7 carboxylates matrix Gla protein exactly as predicted, and the calcification endpoint does not move).
 
 **Inflammation** — low-dose colchicine (2, skip — CLEAR SYNERGY/OASIS-9 was neutral at n=7,062) · dental/periodontal care (4, do anyway).
 
@@ -368,6 +368,7 @@ Score-ordered, all families collapsed.
 | 6 | Red yeast rice | lipoprotein | **AVOID** | trivial |
 | 5 | Coronary artery calcium *(defer)* | diagnostics | ok | low |
 | 5 | Aspirin | vascular | **AVOID** | trivial |
+| 4 | Low-dose daily tadalafil | vascular | ok | trivial |
 | 4 | Metformin · TRF/FMD · sauna · blood donation · dental · homocysteine panel | various | ok–monitor | trivial–moderate |
 | 4 | Pendulum Glucose Control | incretin | ok | moderate |
 | 4 | Testosterone (absent hypogonadism) | anabolic | monitor | moderate |
@@ -403,7 +404,7 @@ Tirzepatide is an amplifier here, not the second party. It doesn't create the ri
 
 **2. Methylene blue + any serotonergic agent** (SSRI, SNRI, triptan, MAOI) → serotonin syndrome. Methylene blue is a potent MAO-A inhibitor. Hospitalization-grade, not a caution.
 
-**3. Berberine + rapamycin / statins / tadalafil** → berberine inhibits CYP3A4 and P-glycoprotein, raising exposure to all three unpredictably.
+**3. Berberine + rapamycin / statins / [tadalafil](therapeutics-by-mechanism.md#tadalafil-low-dose-daily)** → berberine inhibits CYP3A4 and P-glycoprotein, raising exposure to all three unpredictably.
 
 **4. Quercetin + dasatinib** → quercetin is itself a CYP3A4 inhibitor and raises dasatinib exposure. The senolytic protocol pairs them deliberately; the interaction is real regardless.
 
@@ -477,6 +478,7 @@ Run in **alternating blocks**, that objection largely dissolves, and what remain
 | GLP-1/GIP | **DEXA FMI, ALMI and VAT** against the 2.5–3.5 / ≥8.5 kg/m² / <50 cm² target; **BMD on the same scan**, Z-score above −1.0 and stable; **the fuel floor** — total testosterone ≥500 ng/dL, libido, sleep, training output; gallbladder symptoms; declare it before any procedure under sedation, where the hold is risk-stratified rather than automatic |
 | Telmisartan or any ARB | Potassium and creatinine after starting; **hold for FMD cycles and any week of poor intake**; note that creatine supplementation raises creatinine without changing filtration — cystatin C settles an unexpected result |
 | SGLT2i (if used) | Home β-hydroxybutyrate meter; genital mycotic infection; volume status. **Hold for any illness with poor oral intake, any fasting or FMD cycle, and 3 days pre-procedure** |
+| Tadalafil (if used) | Home BP series — it is a weak antihypertensive, and the millimetres it takes count against the 105–115 target rather than adding to it. Symptomatic orthostasis during an FMD cycle or a poor-intake week means hold it. **Nitrates are absolute and permanent — carry it on the medication list so an emergency department knows before it reaches for one** |
 | Statin | ALT at baseline and once; CK only if symptomatic |
 | rhGH (if ever) | IGF-1, fasting glucose and insulin, PSA, carpal tunnel symptoms, joint swelling |
 | Any growth-cycling protocol | DEXA at every phase boundary; grip weekly; IGF-1 and fasting insulin at phase midpoints, where the block-to-block difference is the amplitude of the swing rather than a reading taken mid-transition |
