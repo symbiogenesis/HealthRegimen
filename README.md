@@ -78,7 +78,7 @@ Anti-growth lifting is about a third of the pro-growth sets. That keeps the musc
 5. **Baseline DEXA — ask for bone density on the same scan.** Body composition is the instrument the whole cycle is judged on; the bone readout is free and nothing else in the plan would catch a problem there.
 6. **HPV vaccine, home sleep apnea test, $15 radon kit.**
 
-Starting ApoB control at 39 rather than 55 is worth ~3× the risk reduction. Highest-value line on this page.
+Starting ApoB control at age 38 rather than 55 is worth ~3× the risk reduction. Highest-value line on this page.
 
 ## Optional
 
