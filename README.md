@@ -1,6 +1,6 @@
 # Proposed Regimen
 
-**Male, 39, US, vegan** · 9 August 2026
+**Male, 38, US, vegan** · 9 August 2026
 
 Built on block-periodized growth cycling: alternating pro-growth and anti-growth phases instead of running either one continuously. Reasoning in [anti-aging-inventory.md](anti-aging-inventory.md), [therapeutics-by-mechanism.md](therapeutics-by-mechanism.md) and [genetic-pathways.md](genetic-pathways.md). Not medical advice — prescription items go through medical professionals.
 
