@@ -1,6 +1,6 @@
 # Anti-Aging Therapeutic Inventory
 
-**Target:** healthy male, age 39, US, currently on tirzepatide
+**Target:** healthy male, age 38, US, currently on tirzepatide
 **9 August 2026**
 **Source:** AgingBiotech.info "Available Therapeutics" survey table (128 rows)
 **Detail rows:** [therapeutics-by-mechanism.md](therapeutics-by-mechanism.md) · **Human genetics behind the targets:** [genetic-pathways.md](genetic-pathways.md)
@@ -53,11 +53,11 @@ A 128-row inventory that includes Khavinson peptides and EDTA chelation but not 
 
 ### Rank by competing-risk arithmetic, not by hallmark coverage
 
-For a US male currently 39, lifetime cause-of-death is dominated by atherosclerotic cardiovascular disease (roughly a quarter), then cancer (roughly a fifth), then dementia, metabolic disease, and — in the next decade specifically — unintentional injury. Nothing on the geroscience list moves those numbers as much as the boring interventions do.
+For a US male currently 38, lifetime cause-of-death is dominated by atherosclerotic cardiovascular disease (roughly a quarter), then cancer (roughly a fifth), then dementia, metabolic disease, and — in the next decade specifically — unintentional injury. Nothing on the geroscience list moves those numbers as much as the boring interventions do.
 
-The decisive asymmetry at your age is **exposure-time leverage**. Ference's Mendelian randomization puts 40 years of 1 mmol/L lower LDL-C at a 54.5% lower CHD risk, against roughly 24% per 1 mmol/L for a statin started in mid-life and followed for five years. Same molecule, same target — about **three times the effect** because the clock started earlier. The lifespan version of the same analysis is blunter still: 1 SD higher genetically proxied LDL-C costs about 1.2 years of life, with an odds ratio of 0.72 for reaching the 90th versus the 60th percentile age. Starting ApoB control at 39 rather than 55 is, on its own, plausibly worth more than every supplement in the source table combined.
+The decisive asymmetry at your age is **exposure-time leverage**. Ference's Mendelian randomization puts 40 years of 1 mmol/L lower LDL-C at a 54.5% lower CHD risk, against roughly 24% per 1 mmol/L for a statin started in mid-life and followed for five years. Same molecule, same target — about **three times the effect** because the clock started earlier. The lifespan version of the same analysis is blunter still: 1 SD higher genetically proxied LDL-C costs about 1.2 years of life, with an odds ratio of 0.72 for reaching the 90th versus the 60th percentile age. Starting ApoB control at 38 rather than 55 is, on its own, plausibly worth more than every supplement in the source table combined.
 
-The same logic runs the other way for the speculative agents: at 39 you have the *most* time for an unrecognized harm to compound. Risk tolerance should be lower now, not higher.
+The same logic runs the other way for the speculative agents: at 38 you have the *most* time for an unrecognized harm to compound. Risk tolerance should be lower now, not higher.
 
 **Exposure-time leverage also cuts a third way.** If risk is an integral of exposure over time, then *duty cycle* is a lever, not just dose. An intervention run six weeks a year carries roughly a quarter of the cumulative exposure of the same intervention run continuously — for benefit and for harm alike. That observation is what makes Part 4 worth taking seriously rather than dismissing.
 
@@ -65,13 +65,13 @@ The same logic runs the other way for the speculative agents: at 39 you have the
 
 Two theories do most of the conceptual work in this document, and neither is named in the source table. They are worth stating explicitly, because between them they explain the *shape* of the ranking — not just which items score well, but why so many rows carry a trigger age rather than a yes or a no.
 
-**Antagonistic pleiotropy** (Williams, 1957): selection optimises for reproductive success, so a pathway that pays early is retained even when it charges late. Selection pressure falls away roughly with the reproductive schedule, which puts you at 39 near the top of the fading curve. Three operating rules follow.
+**Antagonistic pleiotropy** (Williams, 1957): selection optimises for reproductive success, so a pathway that pays early is retained even when it charges late. Selection pressure falls away roughly with the reproductive schedule, which puts you at 38 near the top of the fading curve. Three operating rules follow.
 
-*First, the sign of an intervention can flip with age, so "no" and "not yet" are different verdicts and have to be written differently.* Senolytics at 39 are not a bad idea, they are an idea aimed at a burden you have not accumulated — which is why every skip row in this document that is age-conditional carries the condition, and why the trigger belongs in the row rather than in your memory. Nothing on the skip list should require re-deriving from scratch at 50.
+*First, the sign of an intervention can flip with age, so "no" and "not yet" are different verdicts and have to be written differently.* Senolytics at 38 are not a bad idea, they are an idea aimed at a burden you have not accumulated — which is why every skip row in this document that is age-conditional carries the condition, and why the trigger belongs in the row rather than in your memory. Nothing on the skip list should require re-deriving from scratch at 50.
 
-*Second, where a trait has no early-life upside, antagonistic pleiotropy has nothing to say — and those are the rows at the top.* Lifetime apoB exposure, blood pressure, tobacco, unintentional injury and Lp(a) are not costs charged for a youth benefit; nothing is being traded away by lowering them at 39. That is a structural reason to be confident about the top of the list and cautious about the middle, independent of the evidence grades. The interventions that pull against a real evolutionary trade-off — everything in the growth arms — are exactly the ones where the trade needs pricing.
+*Second, where a trait has no early-life upside, antagonistic pleiotropy has nothing to say — and those are the rows at the top.* Lifetime apoB exposure, blood pressure, tobacco, unintentional injury and Lp(a) are not costs charged for a youth benefit; nothing is being traded away by lowering them at 38. That is a structural reason to be confident about the top of the list and cautious about the middle, independent of the evidence grades. The interventions that pull against a real evolutionary trade-off — everything in the growth arms — are exactly the ones where the trade needs pricing.
 
-*Third, the trade-off is the reason growth cycling exists rather than a permanent anti-growth setting.* Somatotropic signalling is the textbook antagonistically pleiotropic axis: high IGF-1 builds and repairs tissue when tissue is being built, and associates with cancer incidence and shorter life when it is not. At 39 you are near the crossover, which is precisely where a fixed setting in either direction is least defensible and a duty cycle is most.
+*Third, the trade-off is the reason growth cycling exists rather than a permanent anti-growth setting.* Somatotropic signalling is the textbook antagonistically pleiotropic axis: high IGF-1 builds and repairs tissue when tissue is being built, and associates with cancer incidence and shorter life when it is not. At 38 you are near the crossover, which is precisely where a fixed setting in either direction is least defensible and a duty cycle is most.
 
 **Human genetics has run the extreme version of that experiment, and the result is why the anti-growth arm is a phase rather than a setting.** The Ecuadorian Laron cohort carries lifelong growth hormone receptor deficiency, and it has near-total protection from diabetes and near-zero cancer incidence across decades — and **did not live longer**, because other causes filled the gap. That is the single most useful data point in this document for calibrating how hard to push the anti-growth side: it is simultaneously the strongest human evidence that suppressing growth signalling protects against two major killers, and the strongest human evidence that doing so does not straightforwardly buy years. The [GHR/IGF1R row](genetic-pathways.md#24-growth-signalling-and-the-longevity-loci) works this through, and the same asymmetry is what keeps the rhGH block at MONITOR rather than AVOID in both directions.
 
@@ -79,7 +79,7 @@ Two theories do most of the conceptual work in this document, and neither is nam
 
 **What both theories agree on, and where this document parts company with them.** Both frame aging as something with a cause worth addressing at the root. Neither justifies acting past the evidence: the strongest hyperfunction-derived intervention available to you is rapamycin, and it scores 6, because PEARL missed its primary endpoint and no phase 3 has tested geroprotection in people who are not sick. VITAL-H is the trial that would change that, for rapamycin and the SGLT2 inhibitors simultaneously. The theories tell you where to look and what to discount; they do not substitute for the readout.
 
-**And the honest cost of taking them seriously.** An antagonistic-pleiotropy reading of this regimen finds three places where it is spending youth capital to buy late-life benefit, and they should be named rather than assumed away. Driving fat mass to the bottom of the reference band trades a small metabolic gain against gonadal and skeletal function, which is why the fuel floor in Part 4 is written as symptoms rather than a percentage. Suppressing mTORC1 and IGF-1 for most of the year trades repair capacity against anabolic error. And the GLP-1 that makes the leanness reachable costs lean mass and bone density in direct proportion to the weight it removes. Each of those is a defensible bet at 39 and none of them is free — the measurement plan exists to price them, and the stopping rules exist because the theories cannot say in advance which way any individual case runs.
+**And the honest cost of taking them seriously.** An antagonistic-pleiotropy reading of this regimen finds three places where it is spending youth capital to buy late-life benefit, and they should be named rather than assumed away. Driving fat mass to the bottom of the reference band trades a small metabolic gain against gonadal and skeletal function, which is why the fuel floor in Part 4 is written as symptoms rather than a percentage. Suppressing mTORC1 and IGF-1 for most of the year trades repair capacity against anabolic error. And the GLP-1 that makes the leanness reachable costs lean mass and bone density in direct proportion to the weight it removes. Each of those is a defensible bet at 38 and none of them is free — the measurement plan exists to price them, and the stopping rules exist because the theories cannot say in advance which way any individual case runs.
 
 ### The scoring model
 
@@ -95,7 +95,7 @@ Two questions, multiplied. Everything else is a flag, not a number.
 | **2** | Replicated animal lifespan data (ITP); or human observational only; or mechanism plus indirect human trial support |
 | **1** | Mechanism, single-arm studies, case reports, unreplicated animal data |
 
-**BENEFIT (1–5) — if the evidence is right, how much does it change *your* outcome at 39?**
+**BENEFIT (1–5) — if the evidence is right, how much does it change *your* outcome at 38?**
 
 | | |
 |---|---|
@@ -103,7 +103,7 @@ Two questions, multiplied. Everything else is a flag, not a number.
 | **4** | Moves a top-five cause of death, or a large effect on a moderate one |
 | **3** | Meaningful healthspan or function effect |
 | **2** | Small or narrow effect |
-| **1** | No plausible route to changing your outcomes at 39 |
+| **1** | No plausible route to changing your outcomes at 38 |
 
 **SCORE = EVIDENCE × BENEFIT**, integers 1–25.
 
@@ -150,7 +150,7 @@ Why mechanism rather than verdict: grouping by verdict scatters the four PCSK9 i
 | **6** | 3×2 | Grip dynamometer | ok | trivial | cheapest weekly readout during any restriction phase |
 | **6** | 3×2 | APOE genotype / CAD PRS | ok | low | **GINA covers health insurance but NOT life, disability or LTC** — insure first |
 | **4** | 2×2 | Homocysteine, B12, folate | ok | trivial | only the correct readout if you pursue methionine work |
-| **5** | 5×1 | Coronary artery calcium | ok | low | *defer to 45–50* — most 39-year-olds score zero and zero doesn't exclude soft plaque |
+| **5** | 5×1 | Coronary artery calcium | ok | low | *defer to 45–50* — most 38-year-olds score zero and zero doesn't exclude soft plaque |
 
 ### 2.1 ApoB and the lipoprotein pathway
 
@@ -201,7 +201,7 @@ Note what is *not* in that reasoning. The relative benefit does not fade at the 
 
 **Where Lp(a) changes it:** if Lp(a) comes back >125 nmol/L — the 2026 guideline's risk-enhancer threshold, carrying ~1.4× risk, with ≥250 nmol/L carrying ~2× — the case strengthens considerably, because statins slightly *raise* Lp(a) while PCSK9 inhibitors lower it ~20–25%. It also puts a fixed floor under your achievable apoB, though a smaller one than the phrase suggests: apoB-100 has a conserved molecular weight of 512 kg/mol, so 1 nmol/L of Lp(a) is ~0.05 mg/dL of apoB — ~4 mg/dL at Lp(a) 75, ~13 mg/dL at 250. Particle counting agrees, with Lp(a) at ~3% of apoB particles on average and ~15% in the top decile. That is a floor worth knowing, not a wall. The reason to care is per-particle potency: Lp(a) is roughly 6-fold more atherogenic per apoB particle than LDL. Lp(a)HORIZON (pelacarsen, n≈8,325) is the first CV outcomes trial for any Lp(a)-lowering therapy; it is event-driven and has run past its guided mid-2026 window, with OCEAN(a) (olpasiran) targeting primary completion in December 2026. **Measuring Lp(a) now costs $30 and tells you whether to care** — and the 2026 guideline makes it a once-in-a-lifetime test for everyone, not a specialist add-on.
 
-**Where the 2026 ACC/AHA guideline puts a healthy 39-year-old.** Its frame is "lower sooner": PREVENT 10-year *and* 30-year risk, universal one-time Lp(a), CAC promoted to Class 1 for reclassification, and apoB used to intensify therapy when LDL-C is already at goal. Its apoB goals are <55, <70 or <90 mg/dL by risk tier, making <70 the primary-prevention number. The clause that applies at your age is explicit: in adults 30–59 with low 10-year risk, a moderate-intensity statin is reasonable when LDL-C is 160–189 mg/dL **or 30-year ASCVD risk is ≥10%**. The <60 target used throughout this document is deliberately tighter than guideline, and it is bought with cumulative exposure rather than 10-year risk — which is the same logic the guideline itself adopted when it added the 30-year horizon. Run PREVENT for both horizons; the 30-year number is the one that will argue your case.
+**Where the 2026 ACC/AHA guideline puts a healthy 38-year-old.** Its frame is "lower sooner": PREVENT 10-year *and* 30-year risk, universal one-time Lp(a), CAC promoted to Class 1 for reclassification, and apoB used to intensify therapy when LDL-C is already at goal. Its apoB goals are <55, <70 or <90 mg/dL by risk tier, making <70 the primary-prevention number. The clause that applies at your age is explicit: in adults 30–59 with low 10-year risk, a moderate-intensity statin is reasonable when LDL-C is 160–189 mg/dL **or 30-year ASCVD risk is ≥10%**. The <60 target used throughout this document is deliberately tighter than guideline, and it is bought with cumulative exposure rather than 10-year risk — which is the same logic the guideline itself adopted when it added the 30-year horizon. Run PREVENT for both horizons; the 30-year number is the one that will argue your case.
 
 ### 2.2 Incretin and glucose handling
 
@@ -291,7 +291,7 @@ Three items are worth reading in full in the detail file: [block-periodized grow
 
 ### 2.6 Everything else, by family
 
-**Senescence** — D+Q (1, monitor, skip) · fisetin (1, ok, skip). Senescent-cell burden at 39 is low; there is little to clear. Right idea, wrong decade. Note that senolytics are *already* designed as intermittent hit-and-run agents, and if you ever run growth cycling they belong at the end of an anti-growth block, immediately before the regenerative phase.
+**Senescence** — D+Q (1, monitor, skip) · fisetin (1, ok, skip). Senescent-cell burden at 38 is low; there is little to clear. Right idea, wrong decade. Note that senolytics are *already* designed as intermittent hit-and-run agents, and if you ever run growth cycling they belong at the end of an anti-growth block, immediately before the regenerative phase.
 
 **NAD+** — NMN / NR (2, ok, skip). Human trials raise NAD+ without downstream functional benefit. Three source rows for one pathway.
 
@@ -309,7 +309,7 @@ Three items are worth reading in full in the detail file: [block-periodized grow
 
 **Environmental and external-cause** — nicotine and tobacco: none (25, confirm) · injury prevention (16) · radon test (12) · sun protection (8) · bedroom HEPA (6) · microplastic exposure reduction (4 — one prospective study with an HR of 4.53 and a contamination-control problem serious enough to cap it at E2; the actions are free, so the weak evidence does not have to carry much).
 
-**Early detection** — cancer screening on schedule (20) · multi-cancer early detection blood tests (3, skip) · whole-body MRI (1, skip). The two consumer screening products fail for the same reason and it is not assay quality: at 39 the base rate is low enough that positive predictive value collapses regardless of specificity. NHS-Galleri is now a real RCT — 142,250 participants, four-fold higher detection, fewer stage IV diagnoses — and it **missed its primary endpoint**, which is the distinction between finding more cancer and preventing death from it.
+**Early detection** — cancer screening on schedule (20) · multi-cancer early detection blood tests (3, skip) · whole-body MRI (1, skip). The two consumer screening products fail for the same reason and it is not assay quality: at 38 the base rate is low enough that positive predictive value collapses regardless of specificity. NHS-Galleri is now a real RCT — 142,250 participants, four-fold higher detection, fewer stage IV diagnoses — and it **missed its primary endpoint**, which is the distinction between finding more cancer and preventing death from it.
 
 **No credible mechanism, or not yet reachable** — **carnitine in every ester, including acetyl-L-carnitine (2, monitor, skip — and the one item here that fails the vegan-adequacy test taurine passes)** · taurine (1, premise retracted by Fernandez 2025; it stays in the regimen on a vegan diet as nutritional repletion, which is an adequacy argument rather than a gerotherapeutic one) · resveratrol (1) · **Ca-AKG (1, skip — the single positive mouse study was female-only in one inbred strain, and the ITP nulled it in both sexes at two starting ages; the human data is a 42-person single-arm survey of buyers of a multi-ingredient product)** · 17α-estradiol (2, watch, do not take) · blood donation (4, optional) · **partial epigenetic reprogramming (4, watch — the field's largest bet, mouse-only for systemic use, and the clinics selling it now are an AVOID)** · methylene blue (1, **AVOID** — MAO-A inhibitor) · disease-indication drugs with no aging indication (1, change trigger to diagnosis) · the ~35-row supplement bundle (1) · EDTA/HBOT/stem cells/gene therapy (1, **AVOID**).
 
@@ -461,7 +461,7 @@ Run in **alternating blocks**, that objection largely dissolves, and what remain
 - **Statin + ezetimibe** — different mechanisms, additive ApoB reduction, both generic. Best value pairing in the document, and worth starting together rather than in sequence: in RACING the moderate-dose pair landed lower than high-intensity statin alone (LDL-C 57 versus 65 mg/dL) with half the intolerance-driven discontinuation.
 - **Resistance training + adequate protein + creatine** — the only combination that reliably protects lean mass during GLP-1 weight loss, and the foundation of any pro-growth phase.
 - **PCSK9 inhibitor + statin** — statins slightly *raise* Lp(a); PCSK9 inhibitors lower it ~20–25%. Complementary if Lp(a) is elevated.
-- **Senolytic at the end of an anti-growth block, immediately before a regenerative phase** — clear, then rebuild, which is the sequence the underlying biology suggests. Sensible design; does not make either senolytic worth taking at 39.
+- **Senolytic at the end of an anti-growth block, immediately before a regenerative phase** — clear, then rebuild, which is the sequence the underlying biology suggests. Sensible design; does not make either senolytic worth taking at 38.
 - **TRT + blood donation** (if TRT ever applies) — donation is the standard management for TRT-induced erythrocytosis.
 
 ### Monitoring requirements
@@ -539,7 +539,7 @@ Scored separately at **1 × 2 = 2, MONITOR, high effort**.
 
 Third, a smaller point that the protocol makes about itself: metformin is in the cocktail specifically to offset GH-induced insulin resistance that the protocol creates. When a therapy needs a second drug to counteract its own primary side effect, that is information about the risk-benefit ratio.
 
-**Eligibility.** NCT04375657 is ages 40–80. You are 39, so it is unavailable this year and available next year. If you want it, the honest reason to enroll at 40 is contributing data to a study that badly needs participants — not receiving a treatment whose effect size is unknown.
+**Eligibility.** NCT04375657 is ages 40–80. You are 38, so it is two years out of reach. If you want it, the honest reason to enroll at 40 is contributing data to a study that badly needs participants — not receiving a treatment whose effect size is unknown.
 
 **The recommendation that follows.** Run the cycling structure. Build the pro-growth blocks out of training, protein, creatine and sleep, which is where the evidence is. Leave rhGH out of the first several cycles, because adding an unevidenced drug to an unevidenced schedule makes the result uninterpretable — if something improves, you will not know which change did it. If you still want the rhGH arm after two or three clean cycles, you will at least have a personal baseline to compare against, which is more than TRIIM-X itself has.
 
